@@ -41,8 +41,8 @@ int main(int argc, char **argv)
     }
 #endif
 
-    QApplication::setOrganizationDomain("AOSCproject.org");
-    QApplication::setOrganizationName("AOSCproject.org");
+    QApplication::setOrganizationDomain("aosc.io");
+    QApplication::setOrganizationName("AOSC");
     QApplication::setApplicationName("MediaWriter");
 
     QApplication app(argc, argv);
