@@ -1,6 +1,7 @@
 name: release
 
 on:
+  workflow_dispatch: {}
   release:
     types: [ created ]
 
@@ -33,12 +34,12 @@ jobs:
 
       - name: Bundle
         run: |
-          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/AOSCMediaWriter.app -qmldir=src/app/qml -executable=build/src/app/AOSCMediaWriter.app/Contents/MacOS/helper -appstore-compliant
+          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/'AOSC Media Writer.app' -qmldir=src/app/qml -executable='build/src/app/AOSC Media Writer.app/Contents/MacOS/helper' -appstore-compliant
           # No idea why but macdeployqt deploys debug libs too, just remove them, maybe fix this sometimes
-          for i in `find build/src/app/AOSCMediaWriter.app/ -name '*.dSYM'`; do rm -fr "$i"; done
+          for i in `find build/src/app/'AOSC Media Writer.app'/ -name '*.dSYM'`; do rm -fr "$i"; done
           cd build/src/app/
-          "$QT_ROOT_DIR"/bin/macdeployqt AOSCMediaWriter.app -dmg -always-overwrite -appstore-compliant
-          mv AOSCMediaWriter.dmg ../../../AOSCMediaWriter-osx-${{ env.TAG_NAME }}.dmg
+          "$QT_ROOT_DIR"/bin/macdeployqt 'AOSC Media Writer.app' -dmg -always-overwrite -appstore-compliant
+          mv 'AOSC Media Writer.dmg' ../../../AOSCMediaWriter-osx-${{ env.TAG_NAME }}.dmg
 
       - name: Upload to GitHub (release)
         run: |
@@ -69,12 +70,12 @@ jobs:
 
       - name: Bundle
         run: |
-          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/AOSCMediaWriter.app -qmldir=src/app/qml -executable=build/src/app/AOSCMediaWriter.app/Contents/MacOS/helper -appstore-compliant
+          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/'AOSC Media Writer.app' -qmldir=src/app/qml -executable='build/src/app/AOSC Media Writer.app/Contents/MacOS/helper' -appstore-compliant
           # No idea why but macdeployqt deploys debug libs too, just remove them, maybe fix this sometimes
-          for i in `find build/src/app/AOSCMediaWriter.app/ -name '*.dSYM'`; do rm -fr "$i"; done
+          for i in `find build/src/app/'AOSC Media Writer.app'/ -name '*.dSYM'`; do rm -fr "$i"; done
           cd build/src/app/
-          "$QT_ROOT_DIR"/bin/macdeployqt AOSCMediaWriter.app -dmg -always-overwrite -appstore-compliant
-          mv AOSCMediaWriter.dmg ../../../AOSCMediaWriter-osx-arm64-${{ env.TAG_NAME }}.dmg
+          "$QT_ROOT_DIR"/bin/macdeployqt 'AOSC Media Writer.app' -dmg -always-overwrite -appstore-compliant
+          mv 'AOSC Media Writer.dmg' ../../../AOSCMediaWriter-osx-arm64-${{ env.TAG_NAME }}.dmg
 
       - name: Upload to GitHub (release)
         run: |
@@ -176,10 +177,3 @@ jobs:
       - name: Upload to GitHub (release)
         run: |
           bash dist/upload-to-github.sh github_api_token=${{ secrets.GITHUB_TOKEN }} tag="${{ env.TAG_NAME }}" filename="AOSCMediaWriter-win64-${{ env.TAG_NAME }}.exe"
-
-      - name: Publish to WinGet
-        uses: vedantmgoyal9/winget-releaser@main
-        with:
-          identifier: AOSC.AOSCMediaWriter
-          version: ${{ env.TAG_NAME }}
-          token: ${{ secrets.WINGET_TOKEN }}
