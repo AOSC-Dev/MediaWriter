@@ -39,12 +39,17 @@ jobs:
           for i in `find build/src/app/AOSC\ Media\ Writer.app/ -name '*.dSYM'`; do rm -fr "$i"; done
           cd build/src/app/
           "$Qt6_DIR"/bin/macdeployqt AOSC\ Media\ Writer.app -dmg -always-overwrite -appstore-compliant
-          mv AOSC\ Media\ Writer.dmg ../../../AOSC\ Media\ Writer-osx-${{ env.TAG_NAME }}.dmg
+          mv AOSC\ Media\ Writer.dmg ../../../AOSCMediaWriter-osx-${{ env.TAG_NAME }}.dmg
 
       - name: Upload to GitHub (release)
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        run: |
-          bash dist/upload-to-github.sh github_api_token=${{ secrets.GITHUB_TOKEN }} tag="${{ env.TAG_NAME }}" filename="AOSC Media Writer-osx-${{ env.TAG_NAME }}.dmg"
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: AOSCMediaWriter-osx-${{ env.TAG_NAME }}.dmg
+          file_glob: true
+          tag: ${{ github.ref }}
+          overwrite: true
 
   macOS-arm64:
     runs-on: macos-12
@@ -76,12 +81,17 @@ jobs:
           for i in `find build/src/app/AOSC\ Media\ Writer.app/ -name '*.dSYM'`; do rm -fr "$i"; done
           cd build/src/app/
           "$Qt6_DIR"/bin/macdeployqt AOSC\ Media\ Writer.app -dmg -always-overwrite -appstore-compliant
-          mv AOSC\ Media\ Writer.dmg ../../../AOSC\ Media\ Writer-osx-arm64-${{ env.TAG_NAME }}.dmg
+          mv AOSC\ Media\ Writer.dmg ../../../AOSCMediaWriter-osx-arm64-${{ env.TAG_NAME }}.dmg
 
       - name: Upload to GitHub (release)
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        run: |
-          bash dist/upload-to-github.sh github_api_token=${{ secrets.GITHUB_TOKEN }} tag="${{ env.TAG_NAME }}" filename="AOSC Media Writer-osx-arm64-${{ env.TAG_NAME }}.dmg"
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: AOSCMediaWriter-osx-arm64-${{ env.TAG_NAME }}.dmg
+          file_glob: true
+          tag: ${{ github.ref }}
+          overwrite: true
 
   Windows-MSVC:
     runs-on: windows-2019
@@ -175,7 +185,7 @@ jobs:
           makensis -DCERTPATH="" -DCERTPASS="" dist/win/mediawriter_native.tmp.nsi
           mv dist/win/FMW-setup.exe ./"FedoraMediaWriter-win64-${{ env.TAG_NAME }}.exe"
 
-      - name: pload to GitHub (release)
+      - name: Upload to GitHub (release)
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
         uses: svenstaro/upload-release-action@v2
         with:
