@@ -49,18 +49,8 @@ Page {
     }
     textLevel: 4
 
-    property double leftSize: releases.variant.progress.to - releases.variant.progress.value
-    property string rightStr: leftSize <= 0 ? "" :
-                                                (leftSize < 1024) ? qsTr(" B left)") :
-                                                                    (leftSize < (1024 * 1024)) ? qsTr(" KB left)") :
-                                                                                                (leftSize < (1024 * 1024 * 1024)) ? qsTr(" MB left)") :
-                                                                                                                                    qsTr(" GB left)")
+    property string progressStr: releases.variant.progress.formatSize
 
-    property string leftStr: leftSize <= 0 ? "" :
-                                                (leftSize < 1024) ? qsTr(" (%1").arg(leftSize) :
-                                                                    (leftSize < (1024 * 1024)) ? qsTr(" (%1").arg((leftSize / 1024).toFixed(1)) :
-                                                                                                (leftSize < (1024 * 1024 * 1024)) ? qsTr(" (%1").arg((leftSize / 1024 / 1024).toFixed(1)) :
-                                                                                                                                    qsTr(" (%1").arg((leftSize / 1024 / 1024 / 1024).toFixed(1))
     RowLayout {
         Layout.alignment: Qt.AlignHCenter
         spacing: 0
@@ -79,12 +69,7 @@ Page {
 
         QQC2.Label {
             visible: currentStatus == Units.DownloadStatus.Downloading
-            text: downloadPage.leftStr
-        }
-
-        QQC2.Label {
-            visible: currentStatus == Units.DownloadStatus.Downloading
-            text: downloadPage.rightStr
+            text: downloadPage.progressStr
         }
     }
 

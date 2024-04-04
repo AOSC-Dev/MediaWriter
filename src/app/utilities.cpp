@@ -98,6 +98,25 @@ void Progress::reset()
     update(from());
 }
 
+QString Progress::formatSize() const
+{
+    constexpr const char *suffixes[] = {"B", "KB", "MB", "GB", "TB"};
+    constexpr const size_t elems = sizeof(suffixes) / sizeof(suffixes[0]);
+    qreal leftSize = to() - value();
+    size_t i = 0;
+
+    if (leftSize <= 0.0)
+        return QString();
+
+    for (; i < elems; i++) {
+        if (leftSize < 1024.0) {
+            break;
+        }
+        leftSize /= 1024.0;
+    }
+    return tr(" (%1 %2 left)").arg(QString::number(leftSize, 'f', 2)).arg(suffixes[i]);
+}
+
 // this is slowly getting out of hand
 // when adding an another option, please consider using a real argv parser
 
