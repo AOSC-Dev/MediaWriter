@@ -94,7 +94,7 @@ QString DownloadManager::downloadFile(DownloadReceiver *receiver, const QString 
         m_current->deleteLater();
     }
 
-    m_current = std::unique_ptr<Download>(new Download(this, receiver, downloadPath, progress));
+    m_current = std::unique_ptr<Download, decltype(&QUniquePointerFree)>(new Download(this, receiver, downloadPath, progress), &QUniquePointerFree);
 
     if (QFile::exists(downloadPath + ".part")) {
         mInfo() << this->metaObject()->className() << "The file already exists on" << downloadPath + ".part";

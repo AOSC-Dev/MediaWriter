@@ -140,6 +140,10 @@ private:
     QCryptographicHash m_hash{QCryptographicHash::Sha256};
 };
 
+inline void QUniquePointerFree(QObject *obj) {
+    obj->deleteLater();
+}
+
 /**
  * @brief The DownloadManager class
  *
@@ -174,7 +178,7 @@ private:
     DownloadManager();
     static DownloadManager *_self;
 
-    std::unique_ptr<Download> m_current{};
+    std::unique_ptr<Download, decltype(&QUniquePointerFree)> m_current{nullptr, QUniquePointerFree};
     QStringList m_mirrorCache{};
 
     QNetworkAccessManager m_manager;
