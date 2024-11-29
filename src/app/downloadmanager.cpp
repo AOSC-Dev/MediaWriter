@@ -85,8 +85,8 @@ QString DownloadManager::downloadFile(DownloadReceiver *receiver, const QUrl &ur
     if (m_current)
         m_current->deleteLater();
 
-    m_current = new Download(this, receiver, bareFileName, progress);
-    connect(m_current, &QObject::destroyed, [&]() {
+    m_current = std::unique_ptr<Download, decltype(&QUniquePointerFree)>(new Download(this, receiver, bareFileName, progress), &QUniquePointerFree);
+    connect(m_current.get(), &QObject::destroyed, [&]() {
         m_current = nullptr;
     });
     onStringDownloaded(url.toString());
