@@ -95,14 +95,14 @@ ApplicationWindow {
                 }
             },
             State {
-                name: "versionPage"
-                when: selectedPage == Units.Page.VersionPage
+                name: "versionLoadPage"
+                when: selectedPage == Units.Page.VersionLoadPage
                 PropertyChanges { target: mainWindow; title: qsTr("Select Fedora Version") }
                 StateChangeScript {
                     script: {
                         //state was pushing same page when returing from drivePage
                         if (stackView.depth <= 1)  
-                            stackView.push("VersionPage.qml")
+                            stackView.push("VersionLoadPage.qml")
                     }
                 }
             },

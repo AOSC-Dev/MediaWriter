@@ -10,7 +10,7 @@
         <file>qml/Page.qml</file>
         <file>qml/RestorePage.qml</file>
         <file>qml/Units.qml</file>
-        <file>qml/VersionPage.qml</file>
+        <file>qml/VersionLoadPage.qml</file>
         <file>qml/main.qml</file>
     </qresource>
 </RCC>

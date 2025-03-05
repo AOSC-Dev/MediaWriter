@@ -83,6 +83,6 @@ Page {
         } else if (selectedOption == Units.MainSelect.Restore)
             selectedPage = Units.Page.RestorePage
         else
-            selectedPage = Units.Page.VersionPage
+            selectedPage = Units.Page.VersionLoadPage
     }
 }

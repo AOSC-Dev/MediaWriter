@@ -38,7 +38,7 @@ QtObject {
     
     enum Page {
         MainPage,
-        VersionPage,
+        VersionLoadPage,
         DrivePage,
         DownloadPage,
         RestorePage
