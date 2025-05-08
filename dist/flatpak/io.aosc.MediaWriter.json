@@ -26,7 +26,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/FedoraQt/MediaWriter.git",
+                    "url": "https://github.com/AOSC-Dev/MediaWriter.git",
                     "branch": "main"
                 }
             ]

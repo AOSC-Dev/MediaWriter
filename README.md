@@ -16,7 +16,7 @@ Please don't forget to attach the `FedoraMediaWriter.log` file that will appear 
 
 ## Building
 
-You can build FMW using the default Qt `cmake` build system. The gist for all three platforms is written below. For a more thorough look into how the releases are composed, you can read our [GitHub Actions configuration](https://github.com/FedoraQt/MediaWriter/blob/master/.github/workflows/ccpp.yml).
+You can build FMW using the default Qt `cmake` build system. The gist for all three platforms is written below. For a more thorough look into how the releases are composed, you can read our [GitHub Actions configuration](https://github.com/AOSC-Dev/MediaWriter/blob/master/.github/workflows/ccpp.yml).
 
 ### Linux
 

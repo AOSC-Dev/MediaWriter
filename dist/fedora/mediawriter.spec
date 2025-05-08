@@ -4,8 +4,8 @@ Release:        1%{?dist}
 Summary:        Fedora Media Writer
 
 License:        GPLv2+
-URL:            https://github.com/FedoraQt/MediaWriter
-Source0:        https://github.com/FedoraQt/MediaWriter/archive/MediaWriter-%{version}.tar.gz
+URL:            https://github.com/AOSC-Dev/MediaWriter
+Source0:        https://github.com/AOSC-Dev/MediaWriter/archive/MediaWriter-%{version}.tar.gz
 
 Provides:       liveusb-creator = %{version}-%{release}
 Obsoletes:      liveusb-creator <= 3.95.4-2
