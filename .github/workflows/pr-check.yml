@@ -70,17 +70,17 @@ jobs:
 
       - name: Bundle
         run: |
-          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/FedoraMediaWriter.app -qmldir=src/app/qml -executable=build/src/app/FedoraMediaWriter.app/Contents/MacOS/helper -appstore-compliant
+          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/AOSCMediaWriter.app -qmldir=src/app/qml -executable=build/src/app/AOSCMediaWriter.app/Contents/MacOS/helper -appstore-compliant
           # No idea why but macdeployqt deploys debug libs too, just remove them, maybe fix this sometimes
-          for i in `find build/src/app/FedoraMediaWriter.app/ -name '*.dSYM'`; do rm -fr "$i"; done
+          for i in `find build/src/app/AOSCMediaWriter.app/ -name '*.dSYM'`; do rm -fr "$i"; done
           cd build/src/app/
-          "$QT_ROOT_DIR"/bin/macdeployqt FedoraMediaWriter.app -dmg -always-overwrite -appstore-compliant
-          mv FedoraMediaWriter.dmg ../../../FedoraMediaWriter-osx.dmg
+          "$QT_ROOT_DIR"/bin/macdeployqt AOSCMediaWriter.app -dmg -always-overwrite -appstore-compliant
+          mv AOSCMediaWriter.dmg ../../../AOSCMediaWriter-osx.dmg
 
       - uses: actions/upload-artifact@v4
         with:
-          name: FedoraMediaWriter-osx.dmg
-          path: FedoraMediaWriter-osx.dmg
+          name: AOSCMediaWriter-osx.dmg
+          path: AOSCMediaWriter-osx.dmg
 
   macOS-arm64:
     runs-on: macos-15
@@ -104,17 +104,17 @@ jobs:
 
       - name: Bundle
         run: |
-          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/FedoraMediaWriter.app -qmldir=src/app/qml -executable=build/src/app/FedoraMediaWriter.app/Contents/MacOS/helper -appstore-compliant
+          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/AOSCMediaWriter.app -qmldir=src/app/qml -executable=build/src/app/AOSCMediaWriter.app/Contents/MacOS/helper -appstore-compliant
           # No idea why but macdeployqt deploys debug libs too, just remove them, maybe fix this sometimes
-          for i in `find build/src/app/FedoraMediaWriter.app/ -name '*.dSYM'`; do rm -fr "$i"; done
+          for i in `find build/src/app/AOSCMediaWriter.app/ -name '*.dSYM'`; do rm -fr "$i"; done
           cd build/src/app/
-          "$QT_ROOT_DIR"/bin/macdeployqt FedoraMediaWriter.app -dmg -always-overwrite -appstore-compliant
-          mv FedoraMediaWriter.dmg ../../../FedoraMediaWriter-osx-arm64.dmg
+          "$QT_ROOT_DIR"/bin/macdeployqt AOSCMediaWriter.app -dmg -always-overwrite -appstore-compliant
+          mv AOSCMediaWriter.dmg ../../../AOSCMediaWriter-osx-arm64.dmg
 
       - uses: actions/upload-artifact@v4
         with:
-          name: FedoraMediaWriter-osx-arm64.dmg
-          path: FedoraMediaWriter-osx-arm64.dmg
+          name: AOSCMediaWriter-osx-arm64.dmg
+          path: AOSCMediaWriter-osx-arm64.dmg
 
   Windows-MSVC:
     runs-on: windows-2022
@@ -204,9 +204,9 @@ jobs:
           echo "LICENSE.LGPL-2.txt" >> build/app/release/uninstall.log
 
           makensis -DCERTPATH="" -DCERTPASS="" dist/win/mediawriter_native.tmp.nsi
-          mv dist/win/FMW-setup.exe ./"FedoraMediaWriter-win64.exe"
+          mv dist/win/FMW-setup.exe ./"AOSCMediaWriter-win64.exe"
 
       - uses: actions/upload-artifact@v4
         with:
-          name: FedoraMediaWriter-win64.exe
-          path: FedoraMediaWriter-win64.exe
+          name: AOSCMediaWriter-win64.exe
+          path: AOSCMediaWriter-win64.exe

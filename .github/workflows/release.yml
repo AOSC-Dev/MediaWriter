@@ -33,16 +33,16 @@ jobs:
 
       - name: Bundle
         run: |
-          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/FedoraMediaWriter.app -qmldir=src/app/qml -executable=build/src/app/FedoraMediaWriter.app/Contents/MacOS/helper -appstore-compliant
+          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/AOSCMediaWriter.app -qmldir=src/app/qml -executable=build/src/app/AOSCMediaWriter.app/Contents/MacOS/helper -appstore-compliant
           # No idea why but macdeployqt deploys debug libs too, just remove them, maybe fix this sometimes
-          for i in `find build/src/app/FedoraMediaWriter.app/ -name '*.dSYM'`; do rm -fr "$i"; done
+          for i in `find build/src/app/AOSCMediaWriter.app/ -name '*.dSYM'`; do rm -fr "$i"; done
           cd build/src/app/
-          "$QT_ROOT_DIR"/bin/macdeployqt FedoraMediaWriter.app -dmg -always-overwrite -appstore-compliant
-          mv FedoraMediaWriter.dmg ../../../FedoraMediaWriter-osx-${{ env.TAG_NAME }}.dmg
+          "$QT_ROOT_DIR"/bin/macdeployqt AOSCMediaWriter.app -dmg -always-overwrite -appstore-compliant
+          mv AOSCMediaWriter.dmg ../../../AOSCMediaWriter-osx-${{ env.TAG_NAME }}.dmg
 
       - name: Upload to GitHub (release)
         run: |
-          bash dist/upload-to-github.sh github_api_token=${{ secrets.GITHUB_TOKEN }} tag="${{ env.TAG_NAME }}" filename="FedoraMediaWriter-osx-${{ env.TAG_NAME }}.dmg"
+          bash dist/upload-to-github.sh github_api_token=${{ secrets.GITHUB_TOKEN }} tag="${{ env.TAG_NAME }}" filename="AOSCMediaWriter-osx-${{ env.TAG_NAME }}.dmg"
 
   macOS-arm64:
     runs-on: macos-15
@@ -69,16 +69,16 @@ jobs:
 
       - name: Bundle
         run: |
-          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/FedoraMediaWriter.app -qmldir=src/app/qml -executable=build/src/app/FedoraMediaWriter.app/Contents/MacOS/helper -appstore-compliant
+          "$QT_ROOT_DIR"/bin/macdeployqt build/src/app/AOSCMediaWriter.app -qmldir=src/app/qml -executable=build/src/app/AOSCMediaWriter.app/Contents/MacOS/helper -appstore-compliant
           # No idea why but macdeployqt deploys debug libs too, just remove them, maybe fix this sometimes
-          for i in `find build/src/app/FedoraMediaWriter.app/ -name '*.dSYM'`; do rm -fr "$i"; done
+          for i in `find build/src/app/AOSCMediaWriter.app/ -name '*.dSYM'`; do rm -fr "$i"; done
           cd build/src/app/
-          "$QT_ROOT_DIR"/bin/macdeployqt FedoraMediaWriter.app -dmg -always-overwrite -appstore-compliant
-          mv FedoraMediaWriter.dmg ../../../FedoraMediaWriter-osx-arm64-${{ env.TAG_NAME }}.dmg
+          "$QT_ROOT_DIR"/bin/macdeployqt AOSCMediaWriter.app -dmg -always-overwrite -appstore-compliant
+          mv AOSCMediaWriter.dmg ../../../AOSCMediaWriter-osx-arm64-${{ env.TAG_NAME }}.dmg
 
       - name: Upload to GitHub (release)
         run: |
-          bash dist/upload-to-github.sh github_api_token=${{ secrets.GITHUB_TOKEN }} tag="${{ env.TAG_NAME }}" filename="FedoraMediaWriter-osx-arm64-${{ env.TAG_NAME }}.dmg"
+          bash dist/upload-to-github.sh github_api_token=${{ secrets.GITHUB_TOKEN }} tag="${{ env.TAG_NAME }}" filename="AOSCMediaWriter-osx-arm64-${{ env.TAG_NAME }}.dmg"
 
   Windows-MSVC:
     runs-on: windows-2022
@@ -171,15 +171,15 @@ jobs:
           echo "LICENSE.LGPL-2.txt" >> build/app/release/uninstall.log
 
           makensis -DCERTPATH="" -DCERTPASS="" dist/win/mediawriter_native.tmp.nsi
-          mv dist/win/FMW-setup.exe ./"FedoraMediaWriter-win64-${{ env.TAG_NAME }}.exe"
+          mv dist/win/FMW-setup.exe ./"AOSCMediaWriter-win64-${{ env.TAG_NAME }}.exe"
 
       - name: Upload to GitHub (release)
         run: |
-          bash dist/upload-to-github.sh github_api_token=${{ secrets.GITHUB_TOKEN }} tag="${{ env.TAG_NAME }}" filename="FedoraMediaWriter-win64-${{ env.TAG_NAME }}.exe"
+          bash dist/upload-to-github.sh github_api_token=${{ secrets.GITHUB_TOKEN }} tag="${{ env.TAG_NAME }}" filename="AOSCMediaWriter-win64-${{ env.TAG_NAME }}.exe"
 
       - name: Publish to WinGet
         uses: vedantmgoyal9/winget-releaser@main
         with:
-          identifier: Fedora.FedoraMediaWriter
+          identifier: AOSC.AOSCMediaWriter
           version: ${{ env.TAG_NAME }}
           token: ${{ secrets.WINGET_TOKEN }}

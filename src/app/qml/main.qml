@@ -1,5 +1,5 @@
 /*
- * Fedora Media Writer
+ * AOSC Media Writer
  * Copyright (C) 2021-2022 Evžen Gasta <evzen.ml@seznam.cz>
  *
  * This program is free software; you can redistribute it and/or
@@ -78,7 +78,7 @@ ApplicationWindow {
                 when: selectedPage == Units.Page.MainPage
                 PropertyChanges { 
                     target: mainWindow
-                    title: qsTr("Fedora Media Writer") 
+                    title: qsTr("AOSC Media Writer") 
                 }
 
                 StateChangeScript {
@@ -97,7 +97,7 @@ ApplicationWindow {
             State {
                 name: "versionLoadPage"
                 when: selectedPage == Units.Page.VersionLoadPage
-                PropertyChanges { target: mainWindow; title: qsTr("Select Fedora Version") }
+                PropertyChanges { target: mainWindow; title: qsTr("Select AOSC Version") }
                 StateChangeScript {
                     script: {
                         //state was pushing same page when returing from drivePage

@@ -1,5 +1,5 @@
 /*
- * Fedora Media Writer
+ * AOSC Media Writer
  * Copyright (C) 2021-2022 Evžen Gasta <evzen.ml@seznam.cz>
  *
  * This program is free software; you can redistribute it and/or
@@ -46,7 +46,7 @@ ApplicationWindow {
             
             Heading {
                 Layout.alignment: Qt.AlignHCenter
-                text: qsTr("About Fedora Media Writer")
+                text: qsTr("About AOSC Media Writer")
                 level: 3
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                 width: mainColumn.width - units.gridUnit * 2
@@ -62,7 +62,7 @@ ApplicationWindow {
                 width: mainColumn.width - units.gridUnit * 2
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                 visible: releases.beingUpdated
-                text: qsTr("Fedora Media Writer is now checking for new releases")
+                text: qsTr("AOSC Media Writer is now checking for new releases")
             }
             
             Label {

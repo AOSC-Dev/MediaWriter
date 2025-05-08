@@ -1,5 +1,5 @@
 /*
- * Fedora Media Writer
+ * AOSC Media Writer
  * Copyright (C) 2024 Jan Grulich <jgrulich@redhat.com>
  * Copyright (C) 2021-2022 Evžen Gasta <evzen.ml@seznam.cz>
  *
@@ -50,7 +50,7 @@ Page {
             Layout.fillWidth: true
             horizontalAlignment: QQC2.Label.AlignHCenter
             wrapMode: QQC2.Label.Wrap
-            text: qsTr("<p align=\"justify\">Please wait while Fedora Media Writer restores your portable drive.</p>")
+            text: qsTr("<p align=\"justify\">Please wait while AOSC Media Writer restores your portable drive.</p>")
         }
 
         QQC2.ProgressBar {

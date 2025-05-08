@@ -1,5 +1,5 @@
 /*
- * Fedora Media Writer
+ * AOSC Media Writer
  * Copyright (C) 2024 Jan Grulich <jgrulichredhat.com>
  * Copyright (C) 2016 Martin Bříza <mbriza@redhat.com>
  *
@@ -41,8 +41,8 @@ int main(int argc, char **argv)
     }
 #endif
 
-    QApplication::setOrganizationDomain("fedoraproject.org");
-    QApplication::setOrganizationName("fedoraproject.org");
+    QApplication::setOrganizationDomain("AOSCproject.org");
+    QApplication::setOrganizationName("AOSCproject.org");
     QApplication::setApplicationName("MediaWriter");
 
     QApplication app(argc, argv);

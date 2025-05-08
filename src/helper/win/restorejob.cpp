@@ -1,5 +1,5 @@
 /*
- * Fedora Media Writer
+ * AOSC Media Writer
  * Copyright (C) 2024 Jan Grulich <jgrulich@redhat.com>
  * Copyright (C) 2016 Martin Bříza <mbriza@redhat.com>
  *

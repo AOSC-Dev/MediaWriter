@@ -11,8 +11,8 @@ msgstr ""
 "POT-Creation-Date: 2024-03-12 21:31+0100\n"
 "PO-Revision-Date: 2024-10-13 13:47+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
-"Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
-"fedora-media-writer/mediawriter/ro/>\n"
+"Language-Team: Romanian <https://translate.AOSCproject.org/projects/"
+"AOSC-media-writer/mediawriter/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../src/app/qml/AboutDialog.qml:50
 msgctxt "AboutDialog|"
-msgid "About Fedora Media Writer"
-msgstr "Despre Fedora Media Writer"
+msgid "About AOSC Media Writer"
+msgstr "Despre AOSC Media Writer"
 
 #: ../src/app/qml/AboutDialog.qml:59
 #, qt-format
@@ -34,8 +34,8 @@ msgstr "Versiunea %1"
 
 #: ../src/app/qml/AboutDialog.qml:66
 msgctxt "AboutDialog|"
-msgid "Fedora Media Writer is now checking for new releases"
-msgstr "Fedora Media Writer verifică dacă există versiuni noi"
+msgid "AOSC Media Writer is now checking for new releases"
+msgstr "AOSC Media Writer verifică dacă există versiuni noi"
 
 #: ../src/app/qml/AboutDialog.qml:72
 #, qt-format
@@ -219,11 +219,11 @@ msgstr "Introduceți o unitate USB."
 msgctxt "DownloadPage|"
 msgid ""
 "Your drive will be resized to a smaller capacity. You may resize it back to "
-"normal by using Fedora Media Writer. This will remove installation media "
+"normal by using AOSC Media Writer. This will remove installation media "
 "from your drive."
 msgstr ""
 "Unitatea dvs. va fi redimensionată la o capacitate mai mică. O puteți "
-"redimensiona înapoi la normal utilizând Fedora Media Writer. Acest lucru va "
+"redimensiona înapoi la normal utilizând AOSC Media Writer. Acest lucru va "
 "elimina suportul de instalare din unitate."
 
 #: ../src/app/qml/DownloadPage.qml:167
@@ -240,13 +240,13 @@ msgstr "Niciunul"
 #, qt-format
 msgctxt "DownloadPage|"
 msgid ""
-"Your board or device is not supported by Fedora Media Writer yet. Please "
+"Your board or device is not supported by AOSC Media Writer yet. Please "
 "check <a href=%1>this page</a> for more information about its compatibility "
-"with Fedora and how to create bootable media for it."
+"with AOSC and how to create bootable media for it."
 msgstr ""
-"Placa sau dispozitivul dvs. nu este încă acceptat de Fedora Media Writer. "
+"Placa sau dispozitivul dvs. nu este încă acceptat de AOSC Media Writer. "
 "Consultați <a href=%1>această pagină</a> pentru mai multe informații despre "
-"compatibilitatea sa cu Fedora și despre cum să creați medii de pornire "
+"compatibilitatea sa cu AOSC și despre cum să creați medii de pornire "
 "pentru aceasta."
 
 #: ../src/app/qml/DownloadPage.qml:184
@@ -454,18 +454,18 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:428
 msgctxt "Release|"
-msgid "Fedora Spins"
-msgstr "Fedora Spins"
+msgid "AOSC Spins"
+msgstr "AOSC Spins"
 
 #: ../src/app/releasemanager.cpp:430
 msgctxt "Release|"
-msgid "Fedora Labs"
-msgstr "Fedora Labs"
+msgid "AOSC Labs"
+msgstr "AOSC Labs"
 
 #: ../src/app/releasemanager.cpp:432
 msgctxt "Release|"
-msgid "Fedora Atomic Desktops"
-msgstr "Fedora Atomic Desktops"
+msgid "AOSC Atomic Desktops"
+msgstr "AOSC Atomic Desktops"
 
 #: ../src/app/releasemanager.cpp:434
 msgctxt "Release|"
@@ -640,10 +640,10 @@ msgstr ""
 #: ../src/app/qml/RestorePage.qml:67
 msgctxt "RestorePage|"
 msgid ""
-"<p align=\"justify\">Please wait while Fedora Media Writer restores your "
+"<p align=\"justify\">Please wait while AOSC Media Writer restores your "
 "portable drive.</p>"
 msgstr ""
-"<p align=\"justify\">Vă rugăm să așteptați în timp ce Fedora Media Writer vă "
+"<p align=\"justify\">Vă rugăm să așteptați în timp ce AOSC Media Writer vă "
 "restaurează unitatea amovibilă.</p>"
 
 #: ../src/app/qml/RestorePage.qml:84
@@ -667,8 +667,8 @@ msgstr "Restaurare finalizată"
 
 #: ../src/app/qml/VersionPage.qml:35
 msgctxt "VersionPage|"
-msgid "Select Fedora Release"
-msgstr "Selectați versiunea Fedora"
+msgid "Select AOSC Release"
+msgstr "Selectați versiunea AOSC"
 
 #: ../src/app/qml/VersionPage.qml:48
 msgctxt "VersionPage|"
@@ -800,13 +800,13 @@ msgstr "Nu s-a putut debloca unitatea"
 
 #: ../src/app/qml/main.qml:116
 msgctxt "main|"
-msgid "Fedora Media Writer"
-msgstr "Fedora Media Writer"
+msgid "AOSC Media Writer"
+msgstr "AOSC Media Writer"
 
 #: ../src/app/qml/main.qml:154
 msgctxt "main|"
-msgid "Select Fedora Version"
-msgstr "Selectați versiunea Fedora"
+msgid "Select AOSC Version"
+msgstr "Selectați versiunea AOSC"
 
 #: ../src/app/qml/main.qml:170
 msgctxt "main|"
@@ -867,45 +867,45 @@ msgstr "Înapoi"
 #. (itstool) path: application/name
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:8
 #: ../src/app/data/io.aosc.MediaWriter.desktop:4
-msgid "Fedora Media Writer"
-msgstr "Fedora Media Writer"
+msgid "AOSC Media Writer"
+msgstr "AOSC Media Writer"
 
 #. (itstool) path: application/summary
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
-msgid "A tool to create a live USB drive with an edition of Fedora"
-msgstr "Un instrument pentru a crea o unitate USB live cu o ediție a Fedora"
+msgid "A tool to create a live USB drive with an edition of AOSC"
+msgstr "Un instrument pentru a crea o unitate USB live cu o ediție a AOSC"
 
 #. (itstool) path: description/p
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:11
 msgid ""
-"A tool to create a bootable live USB drive with an edition of Fedora. Not "
-"only can Fedora Media Writer write an image to your flash drive, it can also "
+"A tool to create a bootable live USB drive with an edition of AOSC. Not "
+"only can AOSC Media Writer write an image to your flash drive, it can also "
 "download it for you. It offers official editions (Server, Workstation), "
-"Fedora spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and "
-"Fedora Labs (Design Suite, Security Lab,...). It provides basic information "
+"AOSC spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and "
+"AOSC Labs (Design Suite, Security Lab,...). It provides basic information "
 "about each of them to help you make the right choice."
 msgstr ""
 "Un instrument pentru a crea o unitate USB live ce poate fi pornită cu o "
-"ediție a Fedora. Fedora Media Writer nu numai că poate scrie o imagine pe "
+"ediție a AOSC. AOSC Media Writer nu numai că poate scrie o imagine pe "
 "unitatea dvs. de memorie flash, dar o poate și descărca pentru dvs. Oferă "
-"ediții oficiale (Server, Workstation), Fedora spins (KDE Plasma Desktop, "
-"Xfce Desktop, Cinnamon Desktop,...) și Fedora Labs (Design Suite, Security "
+"ediții oficiale (Server, Workstation), AOSC spins (KDE Plasma Desktop, "
+"Xfce Desktop, Cinnamon Desktop,...) și AOSC Labs (Design Suite, Security "
 "Lab,...). Acesta oferă informații de bază despre fiecare dintre ele pentru a "
 "vă ajuta să faceți alegerea corectă."
 
 #. (itstool) path: description/p
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:12
 msgid ""
-"Fedora Media Writer can also write other bootable ISOs loaded from your "
-"local disk, but keep in mind that it's only tested with Fedora images."
+"AOSC Media Writer can also write other bootable ISOs loaded from your "
+"local disk, but keep in mind that it's only tested with AOSC images."
 msgstr ""
-"Fedora Media Writer poate scrie și alte ISO-uri apte de-a fi pornite, "
+"AOSC Media Writer poate scrie și alte ISO-uri apte de-a fi pornite, "
 "încărcate de pe discul dvs. local, dar rețineți că a fost testat doar cu "
-"imagini Fedora."
+"imagini AOSC."
 
 #: ../src/app/data/io.aosc.MediaWriter.desktop:43
-msgid "Write Fedora images to your portable drives"
-msgstr "Scrie imagini Fedora pe unitățile dvs. amovibile"
+msgid "Write AOSC images to your portable drives"
+msgstr "Scrie imagini AOSC pe unitățile dvs. amovibile"
 
 #: ../src/app/data/io.aosc.MediaWriter.desktop:87
 msgid "fmw;usb;iso;bootable;"

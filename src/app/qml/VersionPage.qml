@@ -1,5 +1,5 @@
 /*
- * Fedora Media Writer
+ * AOSC Media Writer
  * Copyright (C) 2024 Jan Grulich <jgrulich@redhat.com>
  * Copyright (C) 2021-2022 Evžen Gasta <evzen.ml@seznam.cz>
  *
@@ -26,7 +26,7 @@ Page {
     id: versionPage
     property int prevSource: 0
 
-    text: qsTr("Select Fedora Release")
+    text: qsTr("Select AOSC Release")
 
     QQC2.Label {
         text: qsTr("Select from:")

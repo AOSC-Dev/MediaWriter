@@ -1,5 +1,5 @@
 /*
- * Fedora Media Writer
+ * AOSC Media Writer
  * Copyright (C) 2017 Martin Bříza <mbriza@redhat.com>
  *
  * This program is free software; you can redistribute it and/or
@@ -46,7 +46,7 @@ QString DownloadManager::dir()
 
 QString DownloadManager::userAgent()
 {
-    QString ret = QString("FedoraMediaWriter/%1 (%2; %3; %4")
+    QString ret = QString("AOSCMediaWriter/%1 (%2; %3; %4")
         .arg(MEDIAWRITER_VERSION)
         .arg(QSysInfo::prettyProductName().replace(QRegularExpression("[()]"), ""))
         .arg(QSysInfo::buildAbi())

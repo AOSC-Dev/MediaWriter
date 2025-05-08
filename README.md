@@ -1,18 +1,18 @@
-# Fedora Media Writer
+# AOSC Media Writer
 
-Fedora Media Writer is a tool that helps users put Fedora images on their portable drives such as flash disks.
+AOSC Media Writer is a tool that helps users put AOSC images on their portable drives such as flash disks.
 
 It is able to automatically download the required image for them and write them in a `dd`-like fashion, using either `dd` itself or some other way to access the drive directly.
 
 This overwrites the drive's partition layout though so it also provides a way to restore a single-partition layout with a FAT32 partition.
 
-![Fedora Media Writer running](/dist/screenshots/linux_main.png)
+![AOSC Media Writer running](/dist/screenshots/linux_main.png)
 
 ## Troubleshooting
 
 If you experience any problem with the application, like crashes or errors when writing to your drives, please open an issue here on Github.
 
-Please don't forget to attach the `FedoraMediaWriter.log` file that will appear in your Documents folder (`$HOME/Documents` on Linux and Mac, `%USERPROFILE%\Documents` on Windows). It contains some non-sensitive information about your system and the log of all events happening during the runtime.
+Please don't forget to attach the `AOSCMediaWriter.log` file that will appear in your Documents folder (`$HOME/Documents` on Linux and Mac, `%USERPROFILE%\Documents` on Windows). It contains some non-sensitive information about your system and the log of all events happening during the runtime.
 
 ## Building
 
@@ -39,7 +39,7 @@ Building FMW in Windows is just the matter of running `cmake` and `make` - as lo
 
 To create a standalone package, use the `windeployqt` tool, included in your Qt installation. You will probably have to include a bunch of not included DLLs.
 
-It is also possible to crosscompile the application using the `MinGW` compiler suite in Fedora (and probably some other distros).
+It is also possible to crosscompile the application using the `MinGW` compiler suite in AOSC (and probably some other distros).
 
 #### Requirements
 
@@ -57,9 +57,9 @@ To release a standalone package, use `macdeployqt`, supplied with your Qt instal
 
 ## Translation
 
-If you want to help with translating Fedora Media Writer, please visit our [Weblate project page](https://translate.fedoraproject.org/projects/fedora-media-writer/mediawriter/).
+If you want to help with translating AOSC Media Writer, please visit our [Weblate project page](https://translate.AOSCproject.org/projects/AOSC-media-writer/mediawriter/).
 
-Information about the individual Fedora flavors is retrieved from the websites and translated as a separate project.
+Information about the individual AOSC flavors is retrieved from the websites and translated as a separate project.
 
 ## Other information
 

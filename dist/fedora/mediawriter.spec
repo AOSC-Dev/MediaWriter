@@ -1,7 +1,7 @@
 Name:           mediawriter
 Version:        5.0.0
 Release:        1%{?dist}
-Summary:        Fedora Media Writer
+Summary:        AOSC Media Writer
 
 License:        GPLv2+
 URL:            https://github.com/AOSC-Dev/MediaWriter
@@ -28,7 +28,7 @@ Requires:       polkit
 Requires:       xz-libs
 
 %if !0%{?flatpak}
-%if 0%{?fedora} && 0%{?fedora} != 25
+%if 0%{?AOSC} && 0%{?AOSC} != 25
 Requires: storaged
 %else
 Requires: udisks
@@ -36,7 +36,7 @@ Requires: udisks
 %endif
 
 %description
-A tool to write images of Fedora media to portable drives
+A tool to write images of AOSC media to portable drives
 like flash drives or memory cards.
 
 %prep
