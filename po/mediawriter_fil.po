@@ -887,18 +887,18 @@ msgstr "Nakaraan"
 
 #. #-#-#-#-#  appstream.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: application/name
-#: ../src/app/data/org.fedoraproject.MediaWriter.appdata.xml.in:8
-#: ../src/app/data/org.fedoraproject.MediaWriter.desktop:4
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:8
+#: ../src/app/data/io.aosc.MediaWriter.desktop:4
 msgid "Fedora Media Writer"
 msgstr "Fedora Media Writer"
 
 #. (itstool) path: application/summary
-#: ../src/app/data/org.fedoraproject.MediaWriter.appdata.xml.in:9
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
 msgid "A tool to create a live USB drive with an edition of Fedora"
 msgstr "Isang tool para gumawa ng live USB drive na may edisyon ng Fedora"
 
 #. (itstool) path: description/p
-#: ../src/app/data/org.fedoraproject.MediaWriter.appdata.xml.in:11
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:11
 msgid ""
 "A tool to create a bootable live USB drive with an edition of Fedora. Not "
 "only can Fedora Media Writer write an image to your flash drive, it can also "
@@ -916,7 +916,7 @@ msgstr ""
 "bawat isa sa kanila upang matulungan kang na pumili ng wasto."
 
 #. (itstool) path: description/p
-#: ../src/app/data/org.fedoraproject.MediaWriter.appdata.xml.in:12
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:12
 msgid ""
 "Fedora Media Writer can also write other bootable ISOs loaded from your "
 "local disk, but keep in mind that it's only tested with Fedora images."
@@ -925,11 +925,11 @@ msgstr ""
 "ISO na na-load mula sa iyong lokal na disk, ngunit tandaan na ito ay nasubok "
 "lamang sa mga larawan ng Fedora."
 
-#: ../src/app/data/org.fedoraproject.MediaWriter.desktop:43
+#: ../src/app/data/io.aosc.MediaWriter.desktop:43
 msgid "Write Fedora images to your portable drives"
 msgstr "Sumulat ng mga imahe ng Fedora sa iyong mga portable drive"
 
-#: ../src/app/data/org.fedoraproject.MediaWriter.desktop:87
+#: ../src/app/data/io.aosc.MediaWriter.desktop:87
 msgid "fmw;usb;iso;bootable;"
 msgstr "fmw;usb;iso;bootable;"
 

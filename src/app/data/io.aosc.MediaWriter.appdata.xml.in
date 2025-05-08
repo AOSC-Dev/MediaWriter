@@ -2,8 +2,8 @@
 <!-- Copyright 2016 Jiri Eischmann <eischmann@redhat.com> -->
 
 <component type="desktop">
-	<id>org.fedoraproject.MediaWriter.desktop</id>
-	<launchable type="desktop-id">org.fedoraproject.MediaWriter.desktop</launchable>
+	<id>io.aosc.MediaWriter.desktop</id>
+	<launchable type="desktop-id">io.aosc.MediaWriter.desktop</launchable>
 	<project_license>GPL-2.0+</project_license>
 	<metadata_license>CC0-1.0</metadata_license>
 	<name>Fedora Media Writer</name>
