@@ -34,6 +34,7 @@ Page {
         Layout.alignment: Qt.AlignCenter
         
         QQC2.BusyIndicator {
+            id: spinner
             Layout.alignment: Qt.AlignCenter
             running: true
         }
@@ -45,8 +46,39 @@ Page {
             text: qsTr("Please wait while AOSC Media Writer is fetching AOSC OS release information ...")
             wrapMode: QQC2.Label.Wrap
         }
+
+        Connections {
+            target: releases
+            function onBeingUpdatedChanged() {
+                if (!releases.beingUpdated && isUpdated()) {
+                    selectedPage += 1
+                }
+            }
+        }
     }
 
+    Item {
+        Timer {
+            interval: 1500
+            repeat: false
+            running: true
+            onTriggered: {
+                console.log(releases.beingUpdated);
+                if (!releases.beingUpdated && isUpdated()) {
+                    selectedPage += 1
+                } else if (!releases.beingUpdated && !isUpdated()) {
+                    // Error
+                    messageDownload.text = qsTr("Failed to fetch AOSC OS release information. Please try again later.")
+                    spinner.running = false
+                }
+            }
+        }
+    }
+
+
+    function isUpdated() {
+        return releases.size() > 1;
+    }
 
     onPreviousButtonClicked: selectedPage -= 1
     onNextButtonClicked: selectedPage += 1

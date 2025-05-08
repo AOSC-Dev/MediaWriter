@@ -46,10 +46,11 @@ QString DownloadManager::dir()
 
 QString DownloadManager::userAgent()
 {
-    QString ret = QString("FedoraMediaWriter/%1 (").arg(MEDIAWRITER_VERSION);
-    ret.append(QString("%1").arg(QSysInfo::prettyProductName().replace(QRegularExpression("[()]"), "")));
-    ret.append(QString("; %1").arg(QSysInfo::buildAbi()));
-    ret.append(QString("; %1").arg(QLocale(QLocale().language()).name()));
+    QString ret = QString("FedoraMediaWriter/%1 (%2; %3; %4")
+        .arg(MEDIAWRITER_VERSION)
+        .arg(QSysInfo::prettyProductName().replace(QRegularExpression("[()]"), ""))
+        .arg(QSysInfo::buildAbi())
+        .arg(QLocale(QLocale().language()).name());
 #ifdef MEDIAWRITER_PLATFORM_DETAILS
     ret.append(QString("; %1").arg(MEDIAWRITER_PLATFORM_DETAILS));
 #endif
@@ -66,7 +67,7 @@ QString DownloadManager::downloadFile(DownloadReceiver *receiver, const QUrl &ur
     mDebug() << this->metaObject()->className() << "Going to download" << url;
     QString bareFileName = QString("%1/%2").arg(folder).arg(url.fileName());
 
-    QDir dir;
+    QDir dir{};
     dir.mkpath(folder);
 
     if (QFile::exists(bareFileName)) {
@@ -75,7 +76,11 @@ QString DownloadManager::downloadFile(DownloadReceiver *receiver, const QUrl &ur
     }
 
     m_mirrorCache.clear();
-    m_mirrorCache << url.toString();
+    // prepare mirror list (will be handled in onStringDownloaded)
+    constexpr const char* mirrors[] {"https://repo.aosc.io/anthon/aosc-os/", "https://mirrors.cernet.edu.cn/anthon/aosc-os/", "https://repo-hk.aosc.io/anthon/aosc-os/"};
+    for (auto mirror : mirrors) {
+        m_mirrorCache << QString(mirror) + url.toString();
+    }
 
     if (m_current)
         m_current->deleteLater();
@@ -84,15 +89,14 @@ QString DownloadManager::downloadFile(DownloadReceiver *receiver, const QUrl &ur
     connect(m_current, &QObject::destroyed, [&]() {
         m_current = nullptr;
     });
-    fetchPageAsync(this, "https://mirrors.fedoraproject.org/mirrorlist?path=" + url.path());
+    onStringDownloaded(url.toString());
 
     return bareFileName + ".part";
 }
 
 void DownloadManager::fetchPageAsync(DownloadReceiver *receiver, const QString &url)
 {
-    QNetworkRequest request;
-    request.setUrl(QUrl(url));
+    QNetworkRequest request{url};
     // request.setAttribute(QNetworkRequest::FollowRedirectsAttribute, true);
 
     if (!options.noUserAgent)
@@ -117,9 +121,8 @@ QNetworkReply *DownloadManager::tryAnotherMirror()
     if (!m_current)
         return nullptr;
 
-    QNetworkRequest request;
+    QNetworkRequest request{m_mirrorCache.first()};
     // request.setAttribute(QNetworkRequest::FollowRedirectsAttribute, true);
-    request.setUrl(m_mirrorCache.first());
     request.setRawHeader("Range", QString("bytes=%1-").arg(m_current->bytesDownloaded()).toLocal8Bit());
     if (!options.noUserAgent)
         request.setHeader(QNetworkRequest::UserAgentHeader, userAgent());
@@ -148,19 +151,6 @@ void DownloadManager::onStringDownloaded(const QString &text)
 {
     if (!m_current)
         return;
-
-    mDebug() << this->metaObject()->className() << "Received a list of mirrors";
-
-    QStringList mirrors;
-    for (const QString &i : text.split("\n")) {
-        if (!i.trimmed().startsWith("#") && !i.trimmed().isEmpty()) {
-            mirrors.append(i.trimmed());
-            if (mirrors.count() == 8)
-                break;
-        }
-    }
-    if (!mirrors.isEmpty())
-        m_mirrorCache = mirrors;
 
     if (!m_current->hasCatchedUp())
         return;
@@ -376,6 +366,7 @@ void Download::onFinished()
         if (m_file && m_file->size() == 0) {
             m_file->remove();
         }
+        m_receiver->onDownloadError(m_reply->errorString());
     } else {
         while (m_reply->bytesAvailable() > 0) {
             onReadyRead();

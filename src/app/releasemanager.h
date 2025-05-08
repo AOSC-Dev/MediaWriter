@@ -96,6 +96,7 @@ public:
     bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const override;
 
     Q_INVOKABLE Release *get(int index) const;
+    Q_INVOKABLE int size() const;
 
     bool beingUpdated() const;
 
@@ -152,6 +153,7 @@ private:
     int m_filterArchitecture{0};
     int m_filterSource{0};
     int m_selectedIndex{0};
+    int m_retryCount{0};
     bool m_beingUpdated{false};
 };
 
@@ -474,9 +476,12 @@ class ReleaseArchitecture : public QObject
 public:
     enum Id {
         X86_64 = 0,
-        X86,
-        ARM,
+        i486,
+        PPC64LE,
         AARCH64,
+        LOONGARCH64,
+        LOONGSON3,
+        RISCV64,
         _ARCHCOUNT,
     };
     Q_ENUMS(Id);

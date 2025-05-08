@@ -43,11 +43,6 @@ ReleaseManager::ReleaseManager(QObject *parent)
     qmlRegisterUncreatableType<ReleaseArchitecture>("MediaWriter", 1, 0, "Architecture", "");
     qmlRegisterUncreatableType<Progress>("MediaWriter", 1, 0, "Progress", "");
 
-    QFile releases(":/releases.json");
-    releases.open(QIODevice::ReadOnly);
-    onStringDownloaded(releases.readAll());
-    releases.close();
-
     connect(this, SIGNAL(selectedChanged()), this, SLOT(variantChangedFilter()));
     QTimer::singleShot(0, this, SLOT(fetchReleases()));
 }
@@ -78,6 +73,12 @@ bool ReleaseManager::filterAcceptsRow(int source_row, const QModelIndex &source_
 Release *ReleaseManager::get(int index) const
 {
     return m_sourceModel->get(index);
+}
+
+int ReleaseManager::size() const
+{
+    Release *r = m_sourceModel->get(0);
+    return r->versionList().size();
 }
 
 void ReleaseManager::fetchReleases()
@@ -196,11 +197,6 @@ bool ReleaseManager::updateUrl(const QString &release,
     for (int i = 0; i < m_sourceModel->rowCount(); i++) {
         Release *r = get(i);
         if (r->name().toLower().contains(release) || r->subvariant().toLower().contains(release)) {
-            // Special case for Sway and Budgie
-            if (release == "sway"_L1 || release == "budgie"_L1) {
-                if (r->source() == Release::EMERGING && (category != "sericea"_L1 && category != "onyx"_L1))
-                    continue;
-            }
             return r->updateUrl(version, status, type, releaseDate, architecture, url, sha256, size);
         }
     }
@@ -270,46 +266,21 @@ void ReleaseManager::onStringDownloaded(const QString &text)
 {
     mDebug() << this->metaObject()->className() << "Received a metadata json";
 
-    QRegularExpression re("(\\d+)\\s?(\\S+)?");
     auto doc = QJsonDocument::fromJson(text.toUtf8());
 
     for (auto i : doc.array()) {
         QJsonObject obj = i.toObject();
         QString arch = obj["arch"].toString().toLower();
-        QString url = obj["link"].toString();
-        QString category = obj["variant"].toString().toLower();
-        QString release = obj["subvariant"].toString().toLower();
-        QString versionWithStatus = obj["version"].toString().toLower();
-        QString sha256 = obj["sha256"].toString();
+        QString url = obj["path"].toString();
+        QString category = QString();
+        QString release = QStringLiteral("livekit");
+        QString versionWithStatus = obj["date"].toString().toLower();
+        QString sha256 = obj["sha256sum"].toString();
         QString type = "live";
-        QDateTime releaseDate = QDateTime::fromString((obj["releaseDate"].toString()), "yyyy-MM-dd");
-        int64_t size = obj["size"].toString().toLongLong();
-        int version;
-        QString status;
-
-        if (QStringList{"cloud", "cloud_base", "atomic", "everything", "minimal", "docker", "docker_base"}.contains(release))
-            continue;
-
-        // Filter out non-ISO or OSTree boot images
-        if (!url.endsWith("iso") || url.contains("-osb-") || url.contains("-provisioner-"))
-            continue;
-
-        if (release.contains("workstation") && !url.contains("Live") && !url.contains("armhfp"))
-            continue;
-
-        if (!re.match(versionWithStatus).hasMatch())
-            continue;
-
-        if (release.contains("server")) {
-            // we want a DVD for x86 but we don't want it for ARM
-            if (!arch.contains("arm") && !url.contains("dvd"))
-                continue;
-            else if (arch.contains("arm") && url.contains("dvd"))
-                continue;
-        }
-
-        version = re.match(versionWithStatus).captured(1).toInt();
-        status = re.match(versionWithStatus).captured(2);
+        QDateTime releaseDate = QDateTime::fromString((obj["date"].toString()), "yyyyMMdd");
+        int64_t size = obj["downloadSize"].toString().toLongLong();
+        int version = versionWithStatus.toInt();
+        QString status = QString();
 
         mDebug() << this->metaObject()->className() << "Adding" << release << versionWithStatus << arch;
 
@@ -318,11 +289,20 @@ void ReleaseManager::onStringDownloaded(const QString &text)
     }
 
     m_beingUpdated = false;
+    m_retryCount = 0;
     emit beingUpdatedChanged();
 }
 
 void ReleaseManager::onDownloadError(const QString &message)
 {
+    if (++m_retryCount > 10) {
+        // bail out
+        m_beingUpdated = false;
+        m_retryCount = 0;
+        emit beingUpdatedChanged();
+        mWarning() << "Was not able to fetch new releases:" << message;
+        return;
+    }
     mWarning() << "Was not able to fetch new releases:" << message << "Retrying in 10 seconds.";
 
     QTimer::singleShot(10000, this, SLOT(fetchReleases()));
@@ -509,19 +489,6 @@ bool Release::updateUrl(int version, const QString &status, const QString &type,
     auto variant = new ReleaseVariant(ver, url, sha256, size, ReleaseArchitecture::fromAbbreviation(architecture));
     ver->addVariant(variant);
     addVersion(ver);
-    if (ver->status() == ReleaseVersion::FINAL)
-        finalVersions++;
-    if (finalVersions > 2) {
-        int min = INT32_MAX;
-        ReleaseVersion *oldVer = nullptr;
-        for (auto i : m_versions) {
-            if (i->number() < min) {
-                min = i->number();
-                oldVer = i;
-            }
-        }
-        removeVersion(oldVer);
-    }
     return true;
 }
 
@@ -1096,10 +1063,13 @@ void ReleaseVariant::setErrorString(const QString &o)
 }
 
 ReleaseArchitecture ReleaseArchitecture::m_all[] = {
-    {{"x86_64"}, QT_TR_NOOP("Intel/AMD 64bit"), QT_TR_NOOP("ISO format image for Intel, AMD and other compatible PCs (64-bit)")},
-    {{"x86", "i386", "i686"}, QT_TR_NOOP("Intel/AMD 32bit"), QT_TR_NOOP("ISO format image for Intel, AMD and other compatible PCs (32-bit)")},
-    {{"armv7hl", "armhfp"}, QT_TR_NOOP("ARM v7"), QT_TR_NOOP("LZMA-compressed raw image for ARM v7-A machines like the Raspberry Pi 2 and 3")},
-    {{"aarch64"}, QT_TR_NOOP("AArch64"), QT_TR_NOOP("LZMA-compressed raw image for AArch64 machines")},
+    {{"amd64", "x86_64"}, QT_TR_NOOP("Intel/AMD 64bit"), QT_TR_NOOP("ISO format image for Intel, AMD and other compatible PCs (64-bit)")},
+    {{"i486"}, QT_TR_NOOP("Intel/AMD 32bit"), QT_TR_NOOP("ISO format image for Intel, AMD and other compatible PCs (32-bit)")},
+    {{"ppc64el"}, QT_TR_NOOP("POWER 64bit"), QT_TR_NOOP("System releases for IBM POWER devices")},
+    {{"arm64", "aarch64"}, QT_TR_NOOP("AArch64"), QT_TR_NOOP("LZMA-compressed raw image for AArch64 machines")},
+    {{"loongarch64"}, QT_TR_NOOP("LoongArch"), QT_TR_NOOP("System releases for LoongArch devices")},
+    {{"loongson3"}, QT_TR_NOOP("MIPS-based Loongson 3"), QT_TR_NOOP("System releases for MIPS-based Loongson 3 devices")},
+    {{"riscv64"}, QT_TR_NOOP("RISC-V (64bit)"), QT_TR_NOOP("System releases for 64-bit RISC-V devices")},
 };
 
 ReleaseArchitecture::ReleaseArchitecture(const QStringList &abbreviation, const char *description, const char *details)
