@@ -51,7 +51,7 @@ Page {
             target: releases
             function onBeingUpdatedChanged() {
                 if (!releases.beingUpdated && isUpdated()) {
-                    selectedPage += 1
+                    selectedPage = Units.Page.DrivePage
                 }
             }
         }
@@ -63,9 +63,10 @@ Page {
             repeat: false
             running: true
             onTriggered: {
-                console.log(releases.beingUpdated);
+                releases.selectedIndex = Units.Source.Product
+                console.log("beingUpdated =", releases.beingUpdated);
                 if (!releases.beingUpdated && isUpdated()) {
-                    selectedPage += 1
+                    selectedPage = Units.Page.DrivePage
                 } else if (!releases.beingUpdated && !isUpdated()) {
                     // Error
                     messageDownload.text = qsTr("Failed to fetch AOSC OS release information. Please try again later.")

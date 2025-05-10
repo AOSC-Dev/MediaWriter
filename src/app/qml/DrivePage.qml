@@ -176,7 +176,7 @@ Page {
         if (selectedOption == Units.MainSelect.Write)
             selectedPage = Units.Page.MainPage
         else {
-            selectedPage -= 1
+            selectedPage = Units.Page.MainPage
             stackView.pop()
         }
     }
