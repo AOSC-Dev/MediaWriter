@@ -1064,12 +1064,12 @@ void ReleaseVariant::setErrorString(const QString &o)
 
 ReleaseArchitecture ReleaseArchitecture::m_all[] = {
     {{"amd64", "x86_64"}, QT_TR_NOOP("Intel/AMD 64bit"), QT_TR_NOOP("ISO format image for Intel, AMD and other compatible PCs (64-bit)")},
-    {{"i486"}, QT_TR_NOOP("Intel/AMD 32bit"), QT_TR_NOOP("ISO format image for Intel, AMD and other compatible PCs (32-bit)")},
-    {{"ppc64el"}, QT_TR_NOOP("POWER 64bit"), QT_TR_NOOP("System releases for IBM POWER devices")},
     {{"arm64", "aarch64"}, QT_TR_NOOP("AArch64"), QT_TR_NOOP("LZMA-compressed raw image for AArch64 machines")},
     {{"loongarch64"}, QT_TR_NOOP("LoongArch"), QT_TR_NOOP("System releases for LoongArch devices")},
-    {{"loongson3"}, QT_TR_NOOP("MIPS-based Loongson 3"), QT_TR_NOOP("System releases for MIPS-based Loongson 3 devices")},
+    {{"ppc64el"}, QT_TR_NOOP("POWER 64bit"), QT_TR_NOOP("System releases for IBM POWER devices")},
     {{"riscv64"}, QT_TR_NOOP("RISC-V (64bit)"), QT_TR_NOOP("System releases for 64-bit RISC-V devices")},
+    {{"loongson3"}, QT_TR_NOOP("MIPS-based Loongson 3"), QT_TR_NOOP("System releases for MIPS-based Loongson 3 devices")},
+    {{"i486"}, QT_TR_NOOP("Intel/AMD 32bit"), QT_TR_NOOP("ISO format image for Intel, AMD and other compatible PCs (32-bit)")},
 };
 
 ReleaseArchitecture::ReleaseArchitecture(const QStringList &abbreviation, const char *description, const char *details)
