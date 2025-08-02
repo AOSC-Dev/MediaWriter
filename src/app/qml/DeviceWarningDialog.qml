@@ -94,11 +94,11 @@ ApplicationWindow {
         const gb = mb * 1024;
 
         if (bytes >= gb) {
-            return (bytes / gb).toFixed(2) + " " + qsTr("GB");
+            return (bytes / gb).toFixed(2) + " " + qsTr("GiB");
         } else if (bytes >= mb) {
-            return (bytes / mb).toFixed(2) + " " + qsTr("MB");
+            return (bytes / mb).toFixed(2) + " " + qsTr("MiB");
         } else if (bytes >= kb) {
-            return (bytes / kb).toFixed(2) + " " + qsTr("KB");
+            return (bytes / kb).toFixed(2) + " " + qsTr("KiB");
         } else {
             return bytes + " " + qsTr("Bytes");
         }
