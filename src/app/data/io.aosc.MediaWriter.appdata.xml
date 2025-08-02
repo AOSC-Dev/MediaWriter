@@ -2,9 +2,13 @@
 <!-- Copyright 2016 Jiri Eischmann <eischmann@redhat.com> -->
 <component type="desktop">
 	<id>io.aosc.MediaWriter.desktop</id>
+	<id xml:lang="zh-cn">io.aosc.MediaWriter.desktop</id>
 	<launchable type="desktop-id">io.aosc.MediaWriter.desktop</launchable>
+	<launchable type="desktop-id" xml:lang="zh-cn">io.aosc.MediaWriter.desktop</launchable>
 	<project_license>GPL-2.0+</project_license>
+	<project_license xml:lang="zh-cn">GPL-2.0+</project_license>
 	<metadata_license>CC0-1.0</metadata_license>
+	<metadata_license xml:lang="zh-cn">CC0-1.0</metadata_license>
 	<name>AOSC Media Writer</name>
 	<name xml:lang="ar">كاتب وسائط فيدورا</name>
 	<name xml:lang="az">AOSC Media Yazıcı</name>
@@ -26,7 +30,6 @@
 	<name xml:lang="id">AOSC Media Writer</name>
 	<name xml:lang="it">AOSC Media Writer</name>
 	<name xml:lang="ka">AOSC Media Writer</name>
-	<name xml:lang="kab">AOSC Media Writer</name>
 	<name xml:lang="kn">ಫೆಡೋರ ಮಾಧ್ಯಮ</name>
 	<name xml:lang="ko">페도라 미디어 작성기</name>
 	<name xml:lang="ml">ഫെഡോറ മാധ്യമ എഴുതുപകരണം </name>
@@ -50,14 +53,13 @@
 	<summary>A tool to create a live USB drive with an edition of AOSC</summary>
 	<summary xml:lang="ar">أداة لإنشاء محرك أقراص USB يقوم بتشغيل إحدى إصدارات فيدورا مباشرةً</summary>
 	<summary xml:lang="az">AOSC Buraxılışı ilə Live USB diski yaratmaq üçün bir vasitədir</summary>
-	<summary xml:lang="be">Інструмент для стварэння носьбітаў Live USB з пэўным выпускам AOSC</summary>
+	<summary xml:lang="be">Інструмент для стварэння Live USB-дыска з AOSC</summary>
 	<summary xml:lang="bg">Инструмент за създаване на USB устройство с живо издание на AOSC</summary>
 	<summary xml:lang="ca">Una eina per a la creació d'una unitat USB autònoma amb una edició de AOSC</summary>
 	<summary xml:lang="cs">Nástroj pro vytváření živých USB disků s některou z edicí Fedory</summary>
 	<summary xml:lang="da">Et værktøj til at oprette et live-USB-drev med en udgave af AOSC</summary>
 	<summary xml:lang="de">Ein Werkzeug, um einen Live-USB-Datenträger mit einer Ausgabe von AOSC zu erzeugen</summary>
 	<summary xml:lang="es">Una herramienta para crear USB vivos con una edición de AOSC</summary>
-	<summary xml:lang="eu">AOSC-ren edizioren batekin USB gailu biziak sortzeko tresna</summary>
 	<summary xml:lang="fa">یک ابزار برای ایجاد یک USB لایو با یک نسخهٔ فدورا</summary>
 	<summary xml:lang="fi">Luo USB-muistitikku, jolta voi käynnistää jonkin AOSCn version</summary>
 	<summary xml:lang="fil">Isang tool para gumawa ng live USB drive na may edisyon ng AOSC</summary>
@@ -70,8 +72,7 @@
 	<summary xml:lang="it">Uno strumento per creare unità USB live con una edizione di AOSC</summary>
 	<summary xml:lang="ja">AOSCの特定のエディションのLive USBドライブを作成できるツールです</summary>
 	<summary xml:lang="ka">ხელსაწყო AOSC-ის ცოცხალი USB დისკის შესაქმნელად</summary>
-	<summary xml:lang="kab">Afecku i tmerna n unuḍaf USB live yesεan yiwet n teẓrigt si tid n AOSC</summary>
-	<summary xml:lang="ko">페도라 배포판으로 실시간 USB 드라이브를 생성하는 도구</summary>
+	<summary xml:lang="ko">페도라 배포판을 실시간 USB 드라이브를 생성하는 도구</summary>
 	<summary xml:lang="ml">ലൈവ് ആയ ഇമേജ് ഡിസ്കിനെ USB ഡ്രൈവ് ആകുന്ന ഉപകരണം </summary>
 	<summary xml:lang="nl">Een hulpmiddel om een live-USB-drive te maken met een editie van AOSC</summary>
 	<summary xml:lang="pa">ਫੇਡੋਰਾ ਦੇ ਐਡੀਸ਼ਨ ਨਾਲ ਲਾਈਵ USB ਡਰਾਇਵ ਬਣਾਉਣ ਲਈ ਟੂਲ</summary>
@@ -94,7 +95,7 @@
 		<p>A tool to create a bootable live USB drive with an edition of AOSC. Not only can AOSC Media Writer write an image to your flash drive, it can also download it for you. It offers official editions (Server, Workstation), AOSC spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and AOSC Labs (Design Suite, Security Lab,...). It provides basic information about each of them to help you make the right choice.</p>
 		<p xml:lang="ar">أداة لإنشاء محرك أقراص USB مباشر قابل للإقلاع بإحدى إصدارات فيدورا. لا يقوم كاتب وسائط فيدورا بكتابة صورة القرص وحسب، بل بوسعه أيضًا تنزيلها لك. يدعم الإصدارات الرسمية (Server وWorkstation)، ومتحورات فيدورا (أسطح مكتب KDE وXfce وCinnamon...) ومختبرات فيدورا (Desgin Suite وSecurity Lab...). كما يعطيك معلومات أساسية عن كل واحد منهم لمساعدتك في اختيار الأنسب.</p>
 		<p xml:lang="az">AOSC buraxılışı ilə yüklənə bilən Live USB disk yaratmaq üçün alət. AOSC Media Writer təkcə flash diskinizə görüntü yaza bilməz, həm də onu sizin üçün endirə bilər. O, rəsmi buraxılışları (Server, Workstation), AOSC spinləri (KDE Plazma Masaüstü, Xfce Desktop, Cinnamon Desktop,...) və AOSC Labs (Dizayn Suite, Təhlükəsizlik Laboratoriyası,...) təklif edir. Düzgün seçim etməyinizə kömək etmək üçün onların hər biri haqqında əsas məlumatları təqdim edir.</p>
-		<p xml:lang="be">Інструмент для стварэння загрузачных дыскаў Live USB з пэўным выпускам AOSC. AOSC Media Writer можа не толькі запісаць вобраз на флэш-накапляльнік, але і спампаваць яго. Прапануюцца афіцыйныя выпускі (Server, Workstation), AOSC Spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop, ...) і AOSC Labs (Design Suite, Security Lab, ...). Падаюцца асноўныя звесткі пра кожны з іх, каб дапамагчы зрабіць правільны выбар.</p>
+		<p xml:lang="be">Інструмент для стварэння загрузных Live USB-дыскаў з версіяй AOSC. AOSC Media Writer можа не толькі запісаць вобраз на флэш-накпляльнік, але і спампаваць яго. Прапануюцца афіцыйныя версіі (Server, Workstation), AOSC Spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop, ...) і AOSC Labs (Design Suite, Security Lab, ...). Прадастаўляецца асноўная інфармацыя па кожным з іх, якая дапамагае зрабіць правільны выбар.</p>
 		<p xml:lang="bg">Инструмент за създаване на зареждащо живо USB устройство с AOSC. AOSC Media Writer записва образ на Вашия флаш диск, но също може и да го свали вместо Вас. Той предлага основните предназначения (Server, Workstation), AOSC компилации (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...) и AOSC Labs (Design Suite, Security Lab,...). Програмата предоставя основна информация за всяка от версиите, за да Ви помогне да направите правилния избор.</p>
 		<p xml:lang="ca">Una eina per crear una unitat USB autònoma d'arrencada amb una edició de AOSC. AOSC Media Writer no només pot escriure una imatge en la vostra unitat flash, també pot baixar-la. Ofereix les edicions oficials (Server i Workstation), els spins de AOSC (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), i els laboratoris de AOSC (Design Suite, Security Lab, ...). Proporciona la informació bàsica sobre cada un d'ells per ajudar a prendre la decisió correcta.</p>
 		<p xml:lang="cs">Nástroj pro vytváření živých USB disků s některou z edicí Fedory. Nejen, že AOSC Media Writer zapíše obraz na váš disk, ale také ho pro vás stáhne. Nabízí oficiální vydání (Server, Workstation), Spiny Fedory (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...) a AOSC Labs (Design Suite, Security Lab,...). Obsahuje základní informace o každém z nich, aby pro vás bylo snažší udělat správnou volbu.</p>
@@ -113,8 +114,7 @@
 		<p xml:lang="it">Uno strumento per creare unità USB live con una edizione di AOSC. E non solo. AOSC Media Writer è in grado di scrivere immagini su unità flash USB, ma anche di effettuarne il download. Mette a disposizione le edizioni ufficiali (Server, Workstation), le spin di AOSC (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), e le edizioni AOSC Lab (Design Suite, Security Lab,...). Fornisce inoltre informazioni di base su ciascuna di esse per aiutarti a fare la scelta giusta.</p>
 		<p xml:lang="ja">このツールではAOSCのさまざまなエディションのLive USBメディアを作成することができます。AOSC Media Writerはイメージの書き込みだけではなくイメージのダウンロードも行なうことができます。オフィシャルイメージ(Server, Workstation)およびAOSC Spin(KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktopなど)や、AOSC Labs(Design Suite, Security Labなど)に対応しています。確かな選択が行えるように、それぞれについての基本的な情報を提供します。</p>
 		<p xml:lang="ka">ხელსაწყო AOSC-სთვის ცოცხალი USB დისკის შესაქმნელად. AOSC Media Writer-ს არა მხოლოდ ასლების ჩაწერა შეუძლია, არამედ მათი გადმოწერაც. ის გთავაზობთ ოფიციალურ გამოცემებს (სერვერი, სამუშაო მაგიდა), სპინები (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop და ა.შ.) და AOSC Labs-ი (დიზაინი, უსაფრთხოება და ა.შ.). ის გაჩვენებთ ძირითად ინფორმაციას ყველაფერზე, რასაც მონიშნავთ, რათა სწორი არჩევანის გაკეთებაში დაგეხმაროთ.</p>
-		<p xml:lang="kab">Afecku i tmerna n unuḍaf USB live s yiwet teẓrigt seg tid n AOSC. Mačči kan d tira i yettaru AOSC Media Writer tugna i unuḍaf-ik USB, yezmer daɣen ad tt-id-yessader. Yettakk-d tiẓrigin tunṣibin (Aqeddac, Workstation), AOSC spins (Tanarit n KDE Plasma, Tnarit Xfce, Tanarit Cinnamon,...), akked tebzimin n AOSC(Design Suite, Tibzimin n tɣellist,...). Yettmuddu-d talɣut tagejdant ɣef yal yiwen seg-sen ara k-yallen deg ufran igerrzen.</p>
-		<p xml:lang="ko">페도라 배포판으로 부팅 가능한 라이브 USB 드라이브를 생성하는 도구입니다. 페도라 미디어 작성기는 사용자의 플래시 드라이브에 이미지를 쓸 수도 있으며 사용자 대신에 그것을 내려 받을 수도 있습니다. 공식 배포판(서버, 웍스테이션), 페로라 스핀 (KDE 플래즈마 데스크탑, Xfce 데스크탑, 시나몬 데스크탑,...), 그리고 페도라 랩(디자인 제품군, 보안 랩,...) 등이 있습니다. 사용자에게 알맞는 선택을 할 수 있도록 각 제품에 대한 기본 정보가 제공됩니다.</p>
+		<p xml:lang="ko">페도라 배포판으로 부팅 가능한 라이브 USB 드라이브를 생성하는 도구입니다. 페도라 미디어 작성기는 사용자의 플래시 드라이브에 이미지를 쓸 수 있을 뿐만 아니라, 이를 내려 받을 수도 있습니다. 공식 배포판(서버, 웍스테이션), 페도라 스핀(KDE 플래즈마 데스크탑, Xfce 데스크탑, 시나몬 데스크탑,...), 그리고 페도라 Labs(디자인 제품군, 보안 랩,...) 등이 있습니다. 사용자에게 맞는 선택을 할 수 있도록 각 제품에 대한 기본 정보가 제공됩니다.</p>
 		<p xml:lang="ml">ലൈവ് ആയ ഇമേജ് ഡിസ്കിനെ USB ഡ്രൈവ് ആകുന്ന ഉപകരണം. ഫെഡോറ മീഡിയ റൈറ്റർ ഉപയോഗിച്ച് കൊണ്ടു ഫെഡോറ ലൈവ് ഇമേജ് ഡൌൺലോഡ് ചെയ്യാനും സാദിക്കും. ഫെഡോറ വർക്സ്റ്റേഷൻ, ഫെഡോറ സെർവർ എന്നുള്ള ഔദ്യോഗിക ഇമേജുകൾ, ഫെഡോറ റെസ്പിൻ ഇമേജുകൾ (KDE Plasma ഡെസ്ക്ടോപ്പ്, Xfce ഡെസ്ക്ടോപ്പ്, Cinnamon ഡെസ്ക്ടോപ്പ്) , ഫെഡോറ ലാബ് ( ഡിസൈൻ Suite , സുരക്ഷാ ലാബ് ) എന്നിവ ഡൌൺലോഡ് ചെയ്യാനുള്ള ഓപ്ഷനും ലഭ്യമാണ്.</p>
 		<p xml:lang="nl">Een hulpmiddel om een opstartbare live-USB-drive te maken met een oplage van AOSC. AOSC mediaschrijver kan niet alleen een image naar je flash drive schrijven, maar kan deze ook voor je downloaden. Het biedt officiële edities aan (Server, Workstation), AOSC spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), en AOSC Labs (Design Suite, Security Lab,...). Het biedt basis informatie over elke editie aan om je de juiste keuze te laten maken.</p>
 		<p xml:lang="pa">ਫੇਡੋਰਾ (AOSC) ਦੇ ਐਡੀਸ਼ਨਾਂ ਲਈ ਬੂਟ ਹੋਣ ਯੋਗ ਲਾਈਵ USB ਬਣਾਉਣ ਵਾਲਾ ਟੂਲ ਹੈ। AOSC ਮੀਡੀਆ ਰਾਇਟਰ ਨਾ ਸਿਰਫ਼ ਤੁਹਾਡੀ ਫਲੈਸ਼ ਡਰਾਇਵ ਉੱਤੇ ਈਮੇਜ਼ ਲਿਖ ਸਕਦਾ ਹੈ, ਪਰ ਇਹ ਤੁਹਾਡੇ ਲਈ ਡਾਊਨਲੋਡ ਵੀ ਕਰ ਸਕਦਾ ਹੈ। ਇਹ ਆਫਿਸ਼ਲ ਐਡੀਸ਼ਨ (ਸਰਵਰ, ਵਰਕਸਟੇਸ਼ਨ), ਫੇਡੋਰਾ ਸਪਿਨ (KDE ਪਲਾਜ਼ਮਾ ਡੈਸਕਟਾਪ, Xfce ਡੈਸਕਟਾਪ, ਸਿਨਾਮਨ ਡੈਸਕਟਾਪ,..) ਅਤੇ ਫੇਡੋਰਾ ਲੈਬਾਂ (ਡਿਜ਼ਾਇਨ ਸਵੀਟ, ਸਕਿਉਰਟੀ ਲੈਬ,..) ਪੇਸ਼ ਕਰਦਾ ਹੈ। ਇਹ ਤੁਹਾਨੂੰ ਚੋਣ ਕਰਨ ਲਈ ਉਹਨਾਂ ਵਿੱਚੋਂ ਹਰੇਕ ਬਾਰੇ ਸੰਖੇਪ ਜਿਹੀ ਜਾਣਕਾਰੀ ਦਿੰਦਾ ਹੈ।</p>
@@ -136,7 +136,7 @@
 		<p>AOSC Media Writer can also write other bootable ISOs loaded from your local disk, but keep in mind that it's only tested with AOSC images.</p>
 		<p xml:lang="ar">بوسع كاتب وسائط فيدورا أيضًا كتابة صور الأقراص الأخرى القابلة للإقلاع من قرصك المحلي، مع العلم أنه لم يُختبر سوى على صور أقراص فيدورا.</p>
 		<p xml:lang="az">AOSC Media Yazıcı yerli diskinizdən yüklənmiş digər yüklənə bilən İSO-ları da yaza bilər, lakin onun yalnız AOSC görüntü ilə sınaqdan keçirildiyini unutmayın.</p>
-		<p xml:lang="be">AOSC Media Writer можа запісваць любыя загрузачныя вобразы ISO з лакальнага дыска, але майце на ўвазе, што праграма правяралася толькі з вобразамі AOSC.</p>
+		<p xml:lang="be">AOSC Media Writer можа запісаць і іншыя загрузныя ISO-файлы, якія бяруцца з вашага лакальнага дыска, але майце на ўвазе, што ён правераны толькі з вобразамі AOSC.</p>
 		<p xml:lang="bg">AOSC Media Writer също може да записва други зареждащи ISO образи, заредени от твърдия Ви диск, но имайте предвид, че това е тествано само с образи на AOSC.</p>
 		<p xml:lang="ca">AOSC Media Writer també pot escriure altres ISO d'arrencada des del vostre disc local, però tingueu present que només s'ha provat amb les imatges de AOSC.</p>
 		<p xml:lang="cs">AOSC Media Writer také dokáže zapsat jiné bootovatelné ISO obrazy z vašeho disku, ale mějte na paměti, že byl testovaný pouze s obrazy Fedory.</p>
@@ -146,7 +146,7 @@
 		<p xml:lang="fa">همچنین AOSC Media Writer می تواند دیگر فایل های ISO قابل بوت موجود در دیسک محلی شما را رایت کند، اما در نظر داشته باشید که این فقط با فدورا آزمایش شده است.</p>
 		<p xml:lang="fi">AOSC-median luontityökalulla voi kirjoittaa USB:lle myös muita ISO-tiedostoja, mutta työkalua on testattu vain AOSCn levykuvilla.</p>
 		<p xml:lang="fil">Ang AOSC Media Writer ay maaari ding magsulat ng iba pang mga bootable na ISO na na-load mula sa iyong lokal na disk, ngunit tandaan na ito ay nasubok lamang sa mga larawan ng AOSC.</p>
-		<p xml:lang="fr">AOSC Media Writer peut également écrire d'autres ISO bootables chargés depuis votre disque local, mais gardez en tête que l'outil est testé uniquement avec les images AOSC.</p>
+		<p xml:lang="fr">AOSC Media Writer peut également écrire d'autres ISO amorçables chargés depuis votre disque local, mais gardez en tête que l'outil est testé uniquement avec les images AOSC.</p>
 		<p xml:lang="fur">Scritôr Supuarts di AOSC al pues ancje scrivi altris ISO inviabilis, cjariadis sul disc fis locâl, ma ten iniments che al è stât provât dome cun lis imagjins di AOSC.</p>
 		<p xml:lang="he">כותב המדיה של AOSC מסוגל גם לכתוב דמויות ISO ניתנות לאתחול אחרות מהכונן המקומי, אך מוטב לזכור שהוא נבדק רק עם דמויות של AOSC.</p>
 		<p xml:lang="hr">AOSC zapisnik medija može zapisivati i druge pokretljive ISO slike učitane s vašeg čvrstog diska, ali zapamtite da je samo testiran s AOSC slikama.</p>
@@ -155,15 +155,14 @@
 		<p xml:lang="it">AOSC Media Writer può inoltre creare altre ISO avviabili da immagini caricate dai dischi locali, ma va tenuto presente che è testato solo con le immagini AOSC.</p>
 		<p xml:lang="ja">AOSC Media Writerはローカルディスクから読み込まれた他の起動可能なISOイメージを書き込むこともできますが、このツールはAOSCイメージでのみテストされていることに注意してください。</p>
 		<p xml:lang="ka">AOSC Media Writer-ს თქვენი დისკიდან წაკითხული სხვა ჩატვირთვადი ISO ფაილების ჩაწერაც შეუძლია, მაგრამ, დაიმახსოვრეთ, რომ ის მხოლოდ AOSC-ის ასლებზეა დატესტილი.</p>
-		<p xml:lang="kab">AOSC Media Writer yezmer daɣen ad yaru ISOs niḍen i d-yettwasulin seg uḍebsi-k adigan, maca err deg lbal-ik yettwasekyed kan akked tugniwin.</p>
-		<p xml:lang="ko">페도라 미디어 작성기는 사용자의 로컬 디스크에서 적재된 다른 부팅 가능한 ISO에도 쓸 수 있지만, 페도라 이미지만 시험되었으니 유의하시기 바랍니다.</p>
+		<p xml:lang="ko">페도라 미디어 작성기는 또한 사용자의 로컬 디스크에서 적재된 다른 부팅 가능한 ISO에도 쓸 수 있지만, 페도라 이미지만 시험 되었으니 유의하기 바랍니다.</p>
 		<p xml:lang="ml">ഫെഡോറ മാധ്യമ എഴുതുപകരണം ഉപയോഗിച്ച് ലോക്കൽ ഡിസ്കിലുള്ള ഐസോ എഴുതാനുള്ള സവിശേഷത ലഭ്യമാണ്, പക്ഷെ ഫെഡോറ ഡിസ്ക് ഇമേജ് മാത്രം പരിശോധന വിദേയം.</p>
 		<p xml:lang="nl">AOSC mediaschrijver kan ook andere opstartbare ISO's schrijven die geladen zijn vanaf je lokale schijf, maar denk eraan dat dit alleen getest is voor AOSC images.</p>
 		<p xml:lang="pa">ਫੇਡੋਰਾ ਮੀਡੀਆ ਰਾਇਟਰ ਤੁਹਾਡੀ ਲੋਕਲ ਡਿਸਕ ਤੋਂ ਲੋਡ ਕੀਤੇ ਹੋਰ ਬੂਟ ਹੋਣਯੋਗ ISO ਵੀ ਲਿਖ ਸਕਦਾ ਹੈ, ਪਰ ਧਿਆਨ ਰੱਖੋ ਕਿ ਇਹ ਕੇਵਲ ਫੇਡੋਰਾ ਈਮੇਜ਼ਾਂ ਲਈ ਹੀ ਜਾਂਚਿਆ ਗਿਆ ਹੈ।</p>
 		<p xml:lang="pl">AOSC Media Writer może także zapisywać inne startowe pliki ISO z lokalnego dysku, ale należy pamiętać, że jest testowany tylko z obrazami Fedory.</p>
 		<p xml:lang="pt">O AOSC Media Writer também consegue gravar outras ISOs carregadas a partir do seu disco local, mas tenha em atenção que este apenas foi testado com imagens do AOSC.</p>
 		<p xml:lang="pt-br">O AOSC Media Writer também pode criar outras ISO inicializáveis a partir de seu disco local, mas tenha consciência de que isso só foi testado com as imagens do AOSC.</p>
-		<p xml:lang="ro">AOSC Media Writer poate scrie și alte imagini ISO apte de-a fi pornite, încărcate de pe discul dvs. local, dar rețineți că a fost testat doar cu imagini AOSC.</p>
+		<p xml:lang="ro">AOSC Media Writer poate scrie și alte ISO-uri apte de-a fi pornite, încărcate de pe discul dvs. local, dar rețineți că a fost testat doar cu imagini AOSC.</p>
 		<p xml:lang="ru">AOSC Media Writer может записать и другие загрузочные ISO-файлы, которые берутся с вашего локального диска, но имейте в виду, что он проверен только с образами AOSC.</p>
 		<p xml:lang="sk">AOSC Media Writer umožňuje tiež zapísať iné spustiteľné ISO obrazy z vášho disku. Nezabudnite však, že bol testovaný iba s obrazmi Fedory.</p>
 		<p xml:lang="sl">AOSC Media Writer lahko piše tudi druge naložene slike OS iz vašega lokalnega diska, a zavedajte se, da je bilo to preverjeno samo s slikami OS AOSC.</p>
@@ -178,25 +177,37 @@
 	</description>
 	<keywords>
         <keyword>iso</keyword>
+        <keyword xml:lang="zh-cn">镜像</keyword>
         <keyword>aosc</keyword>
+        <keyword xml:lang="zh-cn">安同</keyword>
         <keyword>usb</keyword>
+        <keyword xml:lang="zh-cn">USB</keyword>
         <keyword>writer</keyword>
+        <keyword xml:lang="zh-cn">制作向导</keyword>
         <keyword>live</keyword>
+        <keyword xml:lang="zh-cn">启动盘</keyword>
         <keyword>spin</keyword>
+        <keyword xml:lang="zh-cn">spin</keyword>
         <keyword>creator</keyword>
+        <keyword xml:lang="zh-cn">制作向导</keyword>
         <keyword>media</keyword>
+        <keyword xml:lang="zh-cn">启动盘</keyword>
     </keywords>
 	<url type="homepage">https://github.com/AOSC-Dev/MediaWriter</url>
+	<url type="homepage" xml:lang="zh-cn">https://github.com/AOSC-Dev/MediaWriter</url>
 	<screenshots>
-	<screenshot type="default"><image type="source">https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/linux_main.png</image></screenshot>
-	    <screenshot><image type="source">https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/linux_select_release.png</image></screenshot>
+	<screenshot type="default"><image type="source">https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/linux_main.png</image><image type="source" xml:lang="zh-cn">https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/linux_main.png</image></screenshot>
+	    <screenshot><image type="source">https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/linux_select_release.png</image><image type="source" xml:lang="zh-cn">https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/linux_select_release.png</image></screenshot>
 	</screenshots>
 	<developer_name>Jan Grulich</developer_name>
+	<developer_name xml:lang="zh-cn">Jan Grulich</developer_name>
 	<update_contact>jgrulich@redhat.com</update_contact>
+	<update_contact xml:lang="zh-cn">jgrulich@redhat.com</update_contact>
 	<content_rating type="oars-1.1"/>
 	<releases>
 		<release version="5.2.5" date="2025-04-23">
 			<url>https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5</url>
+			<url xml:lang="zh-cn">https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5</url>
 		</release>
 	</releases>
 </component>
