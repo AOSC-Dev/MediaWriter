@@ -22,11 +22,11 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 21:31+0100\n"
+"POT-Creation-Date: 2025-08-02 10:45+0800\n"
 "PO-Revision-Date: 2024-10-23 12:38+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
-"Language-Team: French <https://translate.AOSCproject.org/projects/"
-"AOSC-media-writer/mediawriter/fr/>\n"
+"Language-Team: French <https://translate.AOSCproject.org/projects/AOSC-media-"
+"writer/mediawriter/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,49 +35,49 @@ msgstr ""
 "X-Generator: Weblate 5.7.2\n"
 "X-Qt-Contexts: true\n"
 
-#: ../src/app/qml/AboutDialog.qml:50
+#: ../src/app/qml/AboutDialog.qml:49
 msgctxt "AboutDialog|"
 msgid "About AOSC Media Writer"
 msgstr "À propos de AOSC Media Writer"
 
-#: ../src/app/qml/AboutDialog.qml:59
+#: ../src/app/qml/AboutDialog.qml:58
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1"
 msgstr "Version %1"
 
-#: ../src/app/qml/AboutDialog.qml:66
+#: ../src/app/qml/AboutDialog.qml:65
 msgctxt "AboutDialog|"
 msgid "AOSC Media Writer is now checking for new releases"
 msgstr "AOSC Media Writer vérifie la disponibilité de nouvelles versions"
 
-#: ../src/app/qml/AboutDialog.qml:72
+#: ../src/app/qml/AboutDialog.qml:71
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "Please report bugs or your suggestions on %1"
 msgstr "Signalez les bugs et envoyez vos suggestions : %1"
 
-#: ../src/app/qml/AboutDialog.qml:95
+#: ../src/app/qml/AboutDialog.qml:94
 msgctxt "AboutDialog|"
 msgid "Close"
 msgstr "Fermer"
 
-#: ../src/app/qml/CancelDialog.qml:56
+#: ../src/app/qml/CancelDialog.qml:55
 msgctxt "CancelDialog|"
 msgid "Cancel Download?"
 msgstr "Annuler le téléchargement ?"
 
-#: ../src/app/qml/CancelDialog.qml:58
+#: ../src/app/qml/CancelDialog.qml:57
 msgctxt "CancelDialog|"
 msgid "Cancel Writing?"
 msgstr "Annuler l'écriture ?"
 
-#: ../src/app/qml/CancelDialog.qml:60
+#: ../src/app/qml/CancelDialog.qml:59
 msgctxt "CancelDialog|"
 msgid "Cancel Verification?"
 msgstr "Annuler la vérification ?"
 
-#: ../src/app/qml/CancelDialog.qml:67
+#: ../src/app/qml/CancelDialog.qml:66
 msgctxt "CancelDialog|"
 msgid ""
 "Download and media writing will be aborted. This process can be resumed any "
@@ -86,7 +86,7 @@ msgstr ""
 "Les opérations de téléchargement et d'écriture sur le support seront "
 "abandonnés. Vous pourrez reprendre le processus plus tard."
 
-#: ../src/app/qml/CancelDialog.qml:69
+#: ../src/app/qml/CancelDialog.qml:68
 msgctxt "CancelDialog|"
 msgid ""
 "Writing process will be aborted and your drive will have to be restored "
@@ -95,175 +95,206 @@ msgstr ""
 "Le processus d'écriture sera abandonné et votre lecteur devra ensuite être "
 "restauré."
 
-#: ../src/app/qml/CancelDialog.qml:71
+#: ../src/app/qml/CancelDialog.qml:70
 msgctxt "CancelDialog|"
 msgid "This operation is safe to be cancelled."
 msgstr "Cette opération peut être annulée en toute sécurité."
 
-#: ../src/app/qml/CancelDialog.qml:88
+#: ../src/app/qml/CancelDialog.qml:87
 msgctxt "CancelDialog|"
 msgid "Continue"
 msgstr "Continuer"
 
-#: ../src/app/qml/CancelDialog.qml:111
+#: ../src/app/qml/CancelDialog.qml:110
 msgctxt "CancelDialog|"
 msgid "Cancel Download"
 msgstr "Annuler le téléchargement"
 
-#: ../src/app/qml/CancelDialog.qml:113
+#: ../src/app/qml/CancelDialog.qml:112
 msgctxt "CancelDialog|"
 msgid "Cancel Writing"
 msgstr "Annuler l'écriture"
 
-#: ../src/app/qml/CancelDialog.qml:115
+#: ../src/app/qml/CancelDialog.qml:114
 msgctxt "CancelDialog|"
 msgid "Cancel Verification"
 msgstr "Annuler la vérification"
 
-#: ../src/app/qml/CancelDialog.qml:117
+#: ../src/app/qml/CancelDialog.qml:116
 msgctxt "CancelDialog|"
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ../src/app/downloadmanager.cpp:235
+#: ../src/app/qml/DeviceWarningDialog.qml:49
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Erase confirmation"
+msgstr "Administration facile"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:54
+#, qt-format
+msgctxt "DeviceWarningDialog|"
+msgid ""
+"The entire device (all of %1) will be erased and the selected image will be "
+"written to it. Do you want to continue?"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:69
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:82
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Write"
+msgstr "Écrire"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:84
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Download && Write"
+msgstr "Télécharger et écrire"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:85
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Download & Write"
+msgstr "Télécharger et écrire"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:97
+msgctxt "DeviceWarningDialog|"
+msgid "GB"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:99
+msgctxt "DeviceWarningDialog|"
+msgid "MB"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:101
+msgctxt "DeviceWarningDialog|"
+msgid "KB"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:103
+msgctxt "DeviceWarningDialog|"
+msgid "Bytes"
+msgstr ""
+
+#: ../src/app/downloadmanager.cpp:225
 msgctxt "Download|"
 msgid "Unable to fetch the requested image."
 msgstr "Impossible de récupérer l'image demandée."
 
-#: ../src/app/downloadmanager.cpp:335
+#: ../src/app/downloadmanager.cpp:325
 msgctxt "Download|"
 msgid "You ran out of space in your Downloads folder."
 msgstr "Vous n'avez plus d'espace dans votre dossier Téléchargements."
 
-#: ../src/app/downloadmanager.cpp:337
+#: ../src/app/downloadmanager.cpp:327
 msgctxt "Download|"
 msgid "The download file is not writable."
 msgstr "Impossible d'ouvrir en écriture le fichier du téléchargement."
 
-#: ../src/app/downloadmanager.cpp:425
+#: ../src/app/downloadmanager.cpp:416
 msgctxt "Download|"
 msgid "Connection timed out"
 msgstr "Le délai de connexion a expiré"
 
-#: ../src/app/qml/DownloadPage.qml:52
+#: ../src/app/qml/DownloadPage.qml:36
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "%1 Successfully Written"
 msgstr "%1 écrit avec succès"
 
-#: ../src/app/qml/DownloadPage.qml:54
+#: ../src/app/qml/DownloadPage.qml:38
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Writing %1"
 msgstr "Écriture de %1"
 
-#: ../src/app/qml/DownloadPage.qml:56
+#: ../src/app/qml/DownloadPage.qml:40
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Downloading %1"
 msgstr "Téléchargement de %1"
 
-#: ../src/app/qml/DownloadPage.qml:58
+#: ../src/app/qml/DownloadPage.qml:42
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Preparing %1"
 msgstr "Préparation de %1"
 
-#: ../src/app/qml/DownloadPage.qml:60
+#: ../src/app/qml/DownloadPage.qml:44
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Ready to write %1"
 msgstr "Prêt à écrire %1"
 
-#: ../src/app/qml/DownloadPage.qml:62
+#: ../src/app/qml/DownloadPage.qml:46
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Failed to download %1"
 msgstr "Échec du téléchargement de %1"
 
-#: ../src/app/qml/DownloadPage.qml:76
-msgctxt "DownloadPage|"
-msgid " B left)"
-msgstr " o restants)"
-
-#: ../src/app/qml/DownloadPage.qml:77
-msgctxt "DownloadPage|"
-msgid " KB left)"
-msgstr " Ko restants)"
-
-#: ../src/app/qml/DownloadPage.qml:78
-msgctxt "DownloadPage|"
-msgid " MB left)"
-msgstr " Mo restants)"
-
-#: ../src/app/qml/DownloadPage.qml:79
-msgctxt "DownloadPage|"
-msgid " GB left)"
-msgstr " Go restants)"
-
-#: ../src/app/qml/DownloadPage.qml:82 ../src/app/qml/DownloadPage.qml:83
-#: ../src/app/qml/DownloadPage.qml:84 ../src/app/qml/DownloadPage.qml:85
-#, qt-format
-msgctxt "DownloadPage|"
-msgid " (%1"
-msgstr " (%1"
-
-#: ../src/app/qml/DownloadPage.qml:101
+#: ../src/app/qml/DownloadPage.qml:63
 msgctxt "DownloadPage|"
 msgid "Your drive was unplugged during the process"
 msgstr "Votre lecteur a été débranché durant le processus"
 
-#: ../src/app/qml/DownloadPage.qml:135
+#: ../src/app/qml/DownloadPage.qml:91
 msgctxt "DownloadPage|"
 msgid "Downloads are saved to the downloads folder."
 msgstr "Les téléchargements sont enregistrés dans le dossier Téléchargements."
 
-#: ../src/app/qml/DownloadPage.qml:143
+#: ../src/app/qml/DownloadPage.qml:101
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "By writing, you will lose all of the data on %1."
 msgstr "En écrivant sur %1, vous perdrez toutes les données dessus."
 
-#: ../src/app/qml/DownloadPage.qml:151
+#: ../src/app/qml/DownloadPage.qml:109
 msgctxt "DownloadPage|"
 msgid "Please insert an USB drive."
 msgstr "Veuillez insérer un lecteur USB."
 
-#: ../src/app/qml/DownloadPage.qml:159
+#: ../src/app/qml/DownloadPage.qml:118
 msgctxt "DownloadPage|"
 msgid ""
 "Your drive will be resized to a smaller capacity. You may resize it back to "
-"normal by using AOSC Media Writer. This will remove installation media "
-"from your drive."
+"normal by using AOSC Media Writer. This will remove installation media from "
+"your drive."
 msgstr ""
 "Votre lecteur sera redimensionné à une taille plus petite. Vous pourrez le "
-"ramener à sa taille normale en utilisant AOSC Media Writer. Cela "
-"supprimera le support d'installation de votre lecteur."
+"ramener à sa taille normale en utilisant AOSC Media Writer. Cela supprimera "
+"le support d'installation de votre lecteur."
 
-#: ../src/app/qml/DownloadPage.qml:167
+#: ../src/app/qml/DownloadPage.qml:126
 msgctxt "DownloadPage|"
 msgid "Selected:"
 msgstr "Sélectionné :"
 
-#: ../src/app/qml/DownloadPage.qml:167
+#: ../src/app/qml/DownloadPage.qml:126
 msgctxt "DownloadPage|"
 msgid "None"
 msgstr "—"
 
-#: ../src/app/qml/DownloadPage.qml:175
+#: ../src/app/qml/DownloadPage.qml:134
 #, qt-format
 msgctxt "DownloadPage|"
 msgid ""
-"Your board or device is not supported by AOSC Media Writer yet. Please "
-"check <a href=%1>this page</a> for more information about its compatibility "
-"with AOSC and how to create bootable media for it."
+"Your board or device is not supported by AOSC Media Writer yet. Please check "
+"<a href=%1>this page</a> for more information about its compatibility with "
+"AOSC and how to create bootable media for it."
 msgstr ""
 "Votre carte ou appareil n'est pas encore pris en charge par AOSC Media "
 "Writer. Consultez <a href=%1>cette page</a> pour plus d'informations sur la "
 "compatibilité de AOSC avec cet appareil et savoir comment créer un support "
 "amorçable compatible."
 
-#: ../src/app/qml/DownloadPage.qml:184
+#: ../src/app/qml/DownloadPage.qml:145
 #, qt-format
 msgctxt "DownloadPage|"
 msgid ""
@@ -273,76 +304,118 @@ msgstr ""
 "Le disque sélectionné est de %1. Il est possible que vous ayez sélectionné "
 "un lecteur externe par erreur !"
 
-#: ../src/app/qml/DownloadPage.qml:193
+#: ../src/app/qml/DownloadPage.qml:153
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Restart and boot from %1 to start using %2."
-msgstr "Redémarrez votre appareil en utilisant %1 pour commencer à utiliser %2."
+msgstr ""
+"Redémarrez votre appareil en utilisant %1 pour commencer à utiliser %2."
+
+#: ../src/app/qml/DownloadPage.qml:222 ../src/app/qml/DownloadPage.qml:253
+#, fuzzy
+msgctxt "DownloadPage|"
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../src/app/qml/DownloadPage.qml:255
+#, fuzzy
+msgctxt "DownloadPage|"
+msgid "Write"
+msgstr "Écrire"
+
+#: ../src/app/qml/DownloadPage.qml:257
+msgctxt "DownloadPage|"
+msgid "Finish"
+msgstr "Terminé"
+
+#: ../src/app/qml/DownloadPage.qml:259
+#, fuzzy
+msgctxt "DownloadPage|"
+msgid "Retry"
+msgstr "Réessayer"
 
 #: ../src/app/drivemanager.cpp:317
 msgctxt "Drive|"
 msgid "This drive is not large enough."
 msgstr "Ce lecteur n'est pas assez grand."
 
-#: ../src/app/qml/DrivePage.qml:36
+#: ../src/app/qml/DrivePage.qml:30
 msgctxt "DrivePage|"
 msgid "Write Options"
 msgstr "Options d'écriture"
 
-#: ../src/app/qml/DrivePage.qml:45
+#: ../src/app/qml/DrivePage.qml:37
 msgctxt "DrivePage|"
 msgid "Version"
 msgstr "Version"
 
-#: ../src/app/qml/DrivePage.qml:67
+#: ../src/app/qml/DrivePage.qml:59
 msgctxt "DrivePage|"
 msgid "Hardware Architecture"
 msgstr "Architecture matérielle"
 
-#: ../src/app/qml/DrivePage.qml:84
+#: ../src/app/qml/DrivePage.qml:76
 msgctxt "DrivePage|"
 msgid "Selected file"
 msgstr "Fichier sélectionné"
 
-#: ../src/app/qml/DrivePage.qml:91
+#: ../src/app/qml/DrivePage.qml:83
 msgctxt "DrivePage|"
 msgid "None"
 msgstr "Aucun"
 
-#: ../src/app/qml/DrivePage.qml:99
+#: ../src/app/qml/DrivePage.qml:91
 msgctxt "DrivePage|"
 msgid "Select..."
 msgstr "Sélectionner…"
 
-#: ../src/app/qml/DrivePage.qml:116
+#: ../src/app/qml/DrivePage.qml:108
 msgctxt "DrivePage|"
 msgid "Image files"
 msgstr "Fichiers images"
 
-#: ../src/app/qml/DrivePage.qml:116
+#: ../src/app/qml/DrivePage.qml:108
 msgctxt "DrivePage|"
 msgid "All files (*)"
 msgstr "Tous les fichiers (*)"
 
-#: ../src/app/qml/DrivePage.qml:127
+#: ../src/app/qml/DrivePage.qml:119
 msgctxt "DrivePage|"
 msgid "USB Drive"
 msgstr "Lecteur USB"
 
-#: ../src/app/qml/DrivePage.qml:135
+#: ../src/app/qml/DrivePage.qml:127
 msgctxt "DrivePage|"
 msgid "There are no portable drives connected"
 msgstr "Il n'y a aucun lecteur amovible connecté"
 
-#: ../src/app/qml/DrivePage.qml:155
+#: ../src/app/qml/DrivePage.qml:146
 msgctxt "DrivePage|"
 msgid "Download"
 msgstr "Télécharger"
 
-#: ../src/app/qml/DrivePage.qml:160
+#: ../src/app/qml/DrivePage.qml:151
 msgctxt "DrivePage|"
 msgid "Delete download after writing"
 msgstr "Supprimer le fichier téléchargé après l'écriture"
+
+#: ../src/app/qml/DrivePage.qml:169
+#, fuzzy
+msgctxt "DrivePage|"
+msgid "Write"
+msgstr "Écrire"
+
+#: ../src/app/qml/DrivePage.qml:171
+#, fuzzy
+msgctxt "DrivePage|"
+msgid "Download && Write"
+msgstr "Télécharger et écrire"
+
+#: ../src/app/qml/DrivePage.qml:172
+#, fuzzy
+msgctxt "DrivePage|"
+msgid "Download & Write"
+msgstr "Télécharger et écrire"
 
 #: ../src/app/linuxdrivemanager.cpp:199
 msgctxt "LinuxDrive|"
@@ -415,26 +488,44 @@ msgctxt "MacDrive|"
 msgid "Writing %1 was successful"
 msgstr "L'écriture de %1 a réussi"
 
-#: ../src/app/qml/MainPage.qml:43
+#: ../src/app/qml/MainPage.qml:29
 msgctxt "MainPage|"
 msgid "Select Image Source"
 msgstr "Sélectionnez la source de l'image"
 
-#: ../src/app/qml/MainPage.qml:57
+#: ../src/app/qml/MainPage.qml:33
 msgctxt "MainPage|"
 msgid "Download automatically"
 msgstr "Télécharger automatiquement"
 
-#: ../src/app/qml/MainPage.qml:65
+#: ../src/app/qml/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Select .iso file"
 msgstr "Sélectionner un fichier .iso"
 
-#: ../src/app/qml/MainPage.qml:76
+#: ../src/app/qml/MainPage.qml:50
 #, qt-format
 msgctxt "MainPage|"
 msgid "Restore <b>%1</b>"
 msgstr "Restaurer <b>%1</b>"
+
+#: ../src/app/qml/MainPage.qml:72
+#, fuzzy
+msgctxt "MainPage|"
+msgid "About"
+msgstr "À propos"
+
+#: ../src/app/qml/Page.qml:100
+#, fuzzy
+msgctxt "Page|"
+msgid "Previous"
+msgstr "Précédent"
+
+#: ../src/app/qml/Page.qml:110
+#, fuzzy
+msgctxt "Page|"
+msgid "Next"
+msgstr "Suivant"
 
 #: ../src/app/portalfiledialog.cpp:143
 msgctxt "PortalFileDialog|"
@@ -451,197 +542,346 @@ msgctxt "PortalFileDialog|"
 msgid "Open File"
 msgstr "Ouvrir le fichier"
 
-#: ../src/app/releasemanager.cpp:397
+#: ../src/app/utilities.cpp:117
+#, fuzzy, qt-format
+msgctxt "Progress|"
+msgid " (%1 %2 left)"
+msgstr " o restants)"
+
+#: ../src/helper/win/writejob.cpp:398
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 TB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:400
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 GB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:402
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 MB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:404
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 KB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:407
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 byte(s)"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:395
 msgctxt "Release|"
 msgid "Pick a file from your drive(s)"
 msgstr "Sélectionnez un fichier sur l'un de vos lecteurs"
 
-#: ../src/app/releasemanager.cpp:398
+#: ../src/app/releasemanager.cpp:396
 msgctxt "Release|"
 msgid ""
 "<p>Here you can choose a OS image from your hard drive to be written to your "
-"flash disk</p><p>Currently it is only supported to write raw disk images (."
-"iso or .bin)</p>"
+"flash disk</p><p>Currently it is only supported to write raw disk images "
+"(.iso or .bin)</p>"
 msgstr ""
 "<p>Ici, vous pouvez choisir une image de système d'exploitation sur votre "
 "disque dur à écrire sur votre périphérique USB.</p><p>Actuellement, seule "
 "l'écriture d'images disque brutes est prise en charge (.iso ou .bin).</p>"
 
-#: ../src/app/releasemanager.cpp:428
+#: ../src/app/releasemanager.cpp:427
 msgctxt "Release|"
 msgid "AOSC Spins"
 msgstr "Spins AOSC"
 
-#: ../src/app/releasemanager.cpp:430
+#: ../src/app/releasemanager.cpp:429
 msgctxt "Release|"
 msgid "AOSC Labs"
 msgstr "Labs AOSC"
 
-#: ../src/app/releasemanager.cpp:432
+#: ../src/app/releasemanager.cpp:431
 msgctxt "Release|"
 msgid "AOSC Atomic Desktops"
 msgstr "Bureaux atomiques AOSC"
 
-#: ../src/app/releasemanager.cpp:434
+#: ../src/app/releasemanager.cpp:433
 msgctxt "Release|"
 msgid "Other"
 msgstr "Autre"
 
-#: ../src/app/releasemanager.cpp:1074
+#: ../src/app/releasemanager.cpp:1066
 msgctxt "ReleaseArchitecture|"
 msgid "Intel/AMD 64bit"
 msgstr "Intel/AMD 64 bits"
 
-#: ../src/app/releasemanager.cpp:1074
+#: ../src/app/releasemanager.cpp:1066
 msgctxt "ReleaseArchitecture|"
 msgid "ISO format image for Intel, AMD and other compatible PCs (64-bit)"
 msgstr ""
 "Image au format ISO pour les PC Intel, AMD et autres PC compatibles (64 bits)"
 
-#: ../src/app/releasemanager.cpp:1075
+#: ../src/app/releasemanager.cpp:1067
+msgctxt "ReleaseArchitecture|"
+msgid "AArch64"
+msgstr "AArch64"
+
+#: ../src/app/releasemanager.cpp:1067
+msgctxt "ReleaseArchitecture|"
+msgid "LZMA-compressed raw image for AArch64 machines"
+msgstr "Image brute compressée au format LZMA pour les machines AArch64"
+
+#: ../src/app/releasemanager.cpp:1068
+msgctxt "ReleaseArchitecture|"
+msgid "LoongArch"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1068
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for LoongArch devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1069
+msgctxt "ReleaseArchitecture|"
+msgid "POWER 64bit"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1069
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for IBM POWER devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1070
+msgctxt "ReleaseArchitecture|"
+msgid "RISC-V (64bit)"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1070
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for 64-bit RISC-V devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1071
+msgctxt "ReleaseArchitecture|"
+msgid "MIPS-based Loongson 3"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1071
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for MIPS-based Loongson 3 devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1072
 msgctxt "ReleaseArchitecture|"
 msgid "Intel/AMD 32bit"
 msgstr "Intel/AMD 32 bits"
 
-#: ../src/app/releasemanager.cpp:1075
+#: ../src/app/releasemanager.cpp:1072
 msgctxt "ReleaseArchitecture|"
 msgid "ISO format image for Intel, AMD and other compatible PCs (32-bit)"
 msgstr ""
 "Image au format ISO pour les PC Intel, AMD et autres PC compatibles (32 bits)"
 
-#: ../src/app/releasemanager.cpp:1076
-msgctxt "ReleaseArchitecture|"
-msgid "ARM v7"
-msgstr "ARM v7"
-
-#: ../src/app/releasemanager.cpp:1076
-msgctxt "ReleaseArchitecture|"
-msgid ""
-"LZMA-compressed raw image for ARM v7-A machines like the Raspberry Pi 2 and 3"
-msgstr ""
-"Image brute compressée au format LZMA pour les machines ARM v7-A, comme les "
-"Raspberry Pi 2 et 3"
-
-#: ../src/app/releasemanager.cpp:1077
-msgctxt "ReleaseArchitecture|"
-msgid "AArch64"
-msgstr "AArch64"
-
-#: ../src/app/releasemanager.cpp:1077
-msgctxt "ReleaseArchitecture|"
-msgid "LZMA-compressed raw image for AArch64 machines"
-msgstr "Image brute compressée au format LZMA pour les machines AArch64"
-
-#: ../src/app/releasemanager.cpp:396
+#: ../src/app/releasemanager.cpp:394
 msgctxt "ReleaseListModel|"
 msgid "Custom image"
 msgstr "Image personnalisée"
 
-#: ../src/app/releasemanager.cpp:933 ../src/app/releasemanager.cpp:945
+#: ../src/app/releasemanager.cpp:925 ../src/app/releasemanager.cpp:937
 msgctxt "ReleaseVariant|"
 msgid "The downloaded image is corrupted"
 msgstr "L'image téléchargée est corrompue"
 
-#: ../src/app/releasemanager.cpp:949
+#: ../src/app/releasemanager.cpp:941
 msgctxt "ReleaseVariant|"
 msgid "The downloaded file is not readable."
 msgstr "Le fichier téléchargé n'est pas lisible."
 
-#: ../src/app/releasemanager.cpp:960
+#: ../src/app/releasemanager.cpp:952
 msgctxt "ReleaseVariant|"
 msgid "Unable to rename the temporary file."
 msgstr "Impossible de renommer le fichier temporaire."
 
-#: ../src/app/releasemanager.h:375
+#: ../src/app/releasemanager.h:380
 msgctxt "ReleaseVariant|"
 msgid "Preparing"
 msgstr "Préparation"
 
-#: ../src/app/releasemanager.h:376
+#: ../src/app/releasemanager.h:381
 msgctxt "ReleaseVariant|"
 msgid "Downloading"
 msgstr "Téléchargement"
 
-#: ../src/app/releasemanager.h:377
+#: ../src/app/releasemanager.h:382
 msgctxt "ReleaseVariant|"
 msgid "Checking the download"
 msgstr "Vérification du fichier téléchargé"
 
-#: ../src/app/releasemanager.h:378
+#: ../src/app/releasemanager.h:383
 msgctxt "ReleaseVariant|"
 msgid "Ready to write"
 msgstr "Prêt à l'écriture"
 
-#: ../src/app/releasemanager.h:379
+#: ../src/app/releasemanager.h:384
 msgctxt "ReleaseVariant|"
 msgid "Image file was saved to your downloads folder. Writing is not possible"
 msgstr ""
 "Le fichier image a été enregistré dans votre dossier Téléchargements. "
 "L'écriture est impossible"
 
-#: ../src/app/releasemanager.h:380
+#: ../src/app/releasemanager.h:385
 msgctxt "ReleaseVariant|"
 msgid "Writing"
 msgstr "Écriture"
 
-#: ../src/app/releasemanager.h:381
+#: ../src/app/releasemanager.h:386
 msgctxt "ReleaseVariant|"
 msgid "Checking the written data"
 msgstr "Vérification des données écrites"
 
-#: ../src/app/releasemanager.h:382
+#: ../src/app/releasemanager.h:387
 msgctxt "ReleaseVariant|"
 msgid "Finished!"
 msgstr "Fini !"
 
-#: ../src/app/releasemanager.h:383
+#: ../src/app/releasemanager.h:388
 msgctxt "ReleaseVariant|"
 msgid "The written data is corrupted"
 msgstr "Les données écrites sont corrompues"
 
-#: ../src/app/releasemanager.h:384
+#: ../src/app/releasemanager.h:389
 msgctxt "ReleaseVariant|"
 msgid "Download failed"
 msgstr "Le téléchargement a échoué"
 
-#: ../src/app/releasemanager.h:385
+#: ../src/app/releasemanager.h:390
 msgctxt "ReleaseVariant|"
 msgid "Error"
 msgstr "Erreur"
 
-#: ../src/app/releasemanager.cpp:706
+#: ../src/app/releasemanager.cpp:698
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Alpha"
 msgstr "%1 Alpha"
 
-#: ../src/app/releasemanager.cpp:708
+#: ../src/app/releasemanager.cpp:700
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Beta"
 msgstr "%1 Beta"
 
-#: ../src/app/releasemanager.cpp:710
+#: ../src/app/releasemanager.cpp:702
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Release Candidate"
 msgstr "%1 Release Candidate"
 
-#: ../src/app/qml/RestorePage.qml:37
+#: ../src/helper/linux/restorejob.cpp:67
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Failed to open device for writing"
+msgstr "Impossible d'ouvrir la destination pour l'écriture"
+
+#: ../src/helper/linux/restorejob.cpp:82 ../src/helper/linux/restorejob.cpp:114
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Destination drive is not writable"
+msgstr "Impossible d'ouvrir en écriture le lecteur destination"
+
+#: ../src/helper/linux/restorejob.cpp:91
+msgctxt "RestoreJob|"
+msgid "Failed to get file size"
+msgstr ""
+
+#: ../src/helper/linux/restorejob.cpp:98
+msgctxt "RestoreJob|"
+msgid "File size is smaller than 128 blocks"
+msgstr ""
+
+#: ../src/helper/linux/restorejob.cpp:105
+msgctxt "RestoreJob|"
+msgid "Failed to move file pointer to the end region"
+msgstr ""
+
+#: ../src/helper/linux/restorejob.cpp:122
+msgctxt "RestoreJob|"
+msgid "Failed to sync data to disk"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:60
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Couldn't remove drive mountpoints"
+msgstr "Impossible de retirer le lecteur %1 :"
+
+#: ../src/helper/win/restorejob.cpp:71
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Failed to remove partitions from the drive"
+msgstr "La vérification à échouée : aucun disque"
+
+#: ../src/helper/win/restorejob.cpp:80
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Failed to open the drive for formatting"
+msgstr "Impossible d'ouvrir le lecteur pour l'écriture"
+
+#: ../src/helper/win/restorejob.cpp:95
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Couldn't lock the drive"
+msgstr "Impossible de verrouiller le lecteur"
+
+#: ../src/helper/win/restorejob.cpp:112
+msgctxt "RestoreJob|"
+msgid "Failed to clear the partition table on the drive"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:123
+msgctxt "RestoreJob|"
+msgid "Failed to set the drive to RAW partition style"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:134
+msgctxt "RestoreJob|"
+msgid "Failed to create a GPT partition on the drive"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:150
+msgctxt "RestoreJob|"
+msgid "Failed to get GUID volume path on the drive"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:165
+msgctxt "RestoreJob|"
+msgid "Failed to mount the new partition"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:176
+msgctxt "RestoreJob|"
+msgid "Failed to format the partition to exFAT"
+msgstr ""
+
+#: ../src/app/qml/RestorePage.qml:28
 #, qt-format
 msgctxt "RestorePage|"
 msgid "Restore Drive <b>%1</b>"
 msgstr "Restaurer le lecteur <b>%1</b>"
 
-#: ../src/app/qml/RestorePage.qml:49
+#: ../src/app/qml/RestorePage.qml:36
+#, fuzzy
 msgctxt "RestorePage|"
 msgid ""
 "<p align=\"justify\"> To reclaim all space available on the drive, it has to "
 "be restored to its factory settings. The live system and all saved data will "
-"be deleted. </p> <p align=\"justify\"> You don't need to restore the drive "
-"if you want to write another live system to it. \n"
-"                </p> <p align=\"justify\"> Do you want to restore it to "
-"factory settings? </p>"
+"be deleted.</p> <p align=\"justify\"> You don't need to restore the drive if "
+"you want to write another live system to it.</p> <p align=\"justify\"> Do "
+"you want to restore it to factory settings? </p>"
 msgstr ""
 "<p align=\"justify\"> Pour pouvoir utiliser à nouveau le lecteur dans son "
 "intégralité, il doit être remis dans son état d'usine. Le système live et "
@@ -651,7 +891,7 @@ msgstr ""
 "                </p> <p align=\"justify\"> Voulez-vous le restaurer à son "
 "état d'usine ? </p>"
 
-#: ../src/app/qml/RestorePage.qml:67
+#: ../src/app/qml/RestorePage.qml:53
 msgctxt "RestorePage|"
 msgid ""
 "<p align=\"justify\">Please wait while AOSC Media Writer restores your "
@@ -660,12 +900,12 @@ msgstr ""
 "<p align=\"justify\">Veuillez patienter pendant que AOSC Media Writer "
 "restaure votre lecteur amovible.</p>"
 
-#: ../src/app/qml/RestorePage.qml:84
+#: ../src/app/qml/RestorePage.qml:69
 msgctxt "RestorePage|"
 msgid "Your drive was successfully restored!"
 msgstr "Votre lecteur a été restauré avec succès !"
 
-#: ../src/app/qml/RestorePage.qml:94
+#: ../src/app/qml/RestorePage.qml:78
 msgctxt "RestorePage|"
 msgid ""
 "Unfortunately, an error occurred during the process. Please try restoring "
@@ -674,110 +914,117 @@ msgstr ""
 "Malheureusement, une erreur est survenue durant le processus. Essayez de "
 "restaurer le disque en utilisant vos outils système."
 
-#: ../src/app/qml/RestorePage.qml:143
+#: ../src/app/qml/RestorePage.qml:92
 msgctxt "RestorePage|"
 msgid "Restoring finished"
 msgstr "Restauration terminée"
 
-#: ../src/app/qml/VersionPage.qml:35
-msgctxt "VersionPage|"
-msgid "Select AOSC Release"
+#: ../src/app/qml/RestorePage.qml:110
+#, fuzzy
+msgctxt "RestorePage|"
+msgid "Finish"
+msgstr "Terminer"
+
+#: ../src/app/qml/RestorePage.qml:110
+#, fuzzy
+msgctxt "RestorePage|"
+msgid "Restore"
+msgstr "Restaurer"
+
+#: ../src/app/qml/VersionLoadPage.qml:29
+#, fuzzy
+msgctxt "VersionLoadPage|"
+msgid "Fetching AOSC Release Data"
 msgstr "Sélectionnez une version de AOSC"
 
-#: ../src/app/qml/VersionPage.qml:48
-msgctxt "VersionPage|"
-msgid "Select from:"
-msgstr "Sélectionner parmi :"
+#: ../src/app/qml/VersionLoadPage.qml:46
+msgctxt "VersionLoadPage|"
+msgid ""
+"Please wait while AOSC Media Writer is fetching AOSC OS release "
+"information ..."
+msgstr ""
 
-#: ../src/app/qml/VersionPage.qml:53
-msgctxt "VersionPage|"
-msgid "Official Editions"
-msgstr "Éditions officielles"
+#: ../src/app/qml/VersionLoadPage.qml:72
+msgctxt "VersionLoadPage|"
+msgid "Failed to fetch AOSC OS release information. Please try again later."
+msgstr ""
 
-#: ../src/app/qml/VersionPage.qml:59
-msgctxt "VersionPage|"
-msgid "Atomic Desktops"
-msgstr "Bureaux atomiques"
-
-#: ../src/app/qml/VersionPage.qml:65
-msgctxt "VersionPage|"
-msgid "Spins"
-msgstr "Spins"
-
-#: ../src/app/qml/VersionPage.qml:71
-msgctxt "VersionPage|"
-msgid "Labs"
-msgstr "Labs"
-
-#: ../src/app/windrivemanager.cpp:319
+#: ../src/app/windrivemanager.cpp:149
 msgctxt "WinDrive|"
 msgid "Could not find the helper binary. Check your installation."
 msgstr ""
 "Le binaire assistant n'a pas pu être trouvé. Vérifiez votre installation."
 
-#: ../src/app/windrivemanager.cpp:404 ../src/app/windrivemanager.cpp:455
+#: ../src/app/windrivemanager.cpp:239 ../src/app/windrivemanager.cpp:297
 msgctxt "WinDrive|"
 msgid "Finished!"
 msgstr "Fini !"
 
-#: ../src/app/windrivemanager.cpp:404 ../src/app/windrivemanager.cpp:455
+#: ../src/app/windrivemanager.cpp:239 ../src/app/windrivemanager.cpp:297
 #, qt-format
 msgctxt "WinDrive|"
 msgid "Writing %1 was successful"
 msgstr "L'écriture de %1 a réussi"
 
-#: ../src/helper/linux/writejob.cpp:143 ../src/helper/mac/writejob.cpp:225
-#: ../src/helper/win/writejob.cpp:271
+#: ../src/app/windrivemanager.cpp:244
+#, fuzzy
+msgctxt "WinDrive|"
+msgid "Writing has been cancelled"
+msgstr "L'écriture de %1 a échoué"
+
+#: ../src/helper/linux/writejob.cpp:80 ../src/helper/mac/writejob.cpp:225
+#: ../src/helper/win/writejob.cpp:295
 msgctxt "WriteJob|"
 msgid "Failed to start decompressing."
 msgstr "Échec du démarrage de la décompression."
 
-#: ../src/helper/linux/writejob.cpp:168 ../src/helper/linux/writejob.cpp:198
-#: ../src/helper/linux/writejob.cpp:236 ../src/helper/mac/writejob.cpp:185
+#: ../src/helper/linux/writejob.cpp:105 ../src/helper/linux/writejob.cpp:135
+#: ../src/helper/linux/writejob.cpp:173 ../src/helper/mac/writejob.cpp:185
 #: ../src/helper/mac/writejob.cpp:250 ../src/helper/mac/writejob.cpp:280
-#: ../src/helper/win/writejob.cpp:188 ../src/helper/win/writejob.cpp:195
+#: ../src/helper/win/writejob.cpp:327 ../src/helper/win/writejob.cpp:370
+#: ../src/helper/win/writejob.cpp:465
 msgctxt "WriteJob|"
 msgid "Destination drive is not writable"
 msgstr "Impossible d'ouvrir en écriture le lecteur destination"
 
-#: ../src/helper/linux/writejob.cpp:177 ../src/helper/mac/writejob.cpp:259
-#: ../src/helper/win/writejob.cpp:315
+#: ../src/helper/linux/writejob.cpp:114 ../src/helper/mac/writejob.cpp:259
+#: ../src/helper/win/writejob.cpp:345
 msgctxt "WriteJob|"
 msgid "There is not enough memory to decompress the file."
 msgstr "Il n'y a pas suffisamment de mémoire pour décompresser le fichier."
 
-#: ../src/helper/linux/writejob.cpp:182 ../src/helper/mac/writejob.cpp:264
-#: ../src/helper/win/writejob.cpp:320
+#: ../src/helper/linux/writejob.cpp:119 ../src/helper/mac/writejob.cpp:264
+#: ../src/helper/win/writejob.cpp:350
 msgctxt "WriteJob|"
 msgid "The downloaded compressed file is corrupted."
 msgstr "Le fichier compressé téléchargé est corrompu."
 
-#: ../src/helper/linux/writejob.cpp:185 ../src/helper/mac/writejob.cpp:267
-#: ../src/helper/win/writejob.cpp:323
+#: ../src/helper/linux/writejob.cpp:122 ../src/helper/mac/writejob.cpp:267
+#: ../src/helper/win/writejob.cpp:353
 msgctxt "WriteJob|"
 msgid "Unsupported compression options."
 msgstr "Options de compression non prises en charge."
 
-#: ../src/helper/linux/writejob.cpp:188 ../src/helper/mac/writejob.cpp:270
-#: ../src/helper/win/writejob.cpp:326
+#: ../src/helper/linux/writejob.cpp:125 ../src/helper/mac/writejob.cpp:270
+#: ../src/helper/win/writejob.cpp:356
 msgctxt "WriteJob|"
 msgid "Unknown decompression error."
 msgstr "Erreur de décompression inconnue."
 
-#: ../src/helper/linux/writejob.cpp:214 ../src/helper/linux/writejob.cpp:229
-#: ../src/helper/win/writejob.cpp:361
+#: ../src/helper/linux/writejob.cpp:151 ../src/helper/linux/writejob.cpp:166
+#: ../src/helper/win/writejob.cpp:255 ../src/helper/win/writejob.cpp:420
 msgctxt "WriteJob|"
 msgid "Source image is not readable"
 msgstr "L'image source ne peut pas être ouverte en lecture"
 
-#: ../src/helper/linux/writejob.cpp:266 ../src/helper/mac/writejob.cpp:304
-#: ../src/helper/win/writejob.cpp:406
+#: ../src/helper/linux/writejob.cpp:203 ../src/helper/mac/writejob.cpp:304
+#: ../src/helper/win/writejob.cpp:538
 msgctxt "WriteJob|"
 msgid "Your drive is probably damaged."
 msgstr "Votre disque est probablement endommagé."
 
-#: ../src/helper/linux/writejob.cpp:271 ../src/helper/mac/writejob.cpp:309
-#: ../src/helper/win/writejob.cpp:411
+#: ../src/helper/linux/writejob.cpp:208 ../src/helper/mac/writejob.cpp:309
+#: ../src/helper/win/writejob.cpp:543
 msgctxt "WriteJob|"
 msgid "Unexpected error occurred during media check."
 msgstr ""
@@ -793,139 +1040,295 @@ msgctxt "WriteJob|"
 msgid "Unable to open destination for writing"
 msgstr "Impossible d'ouvrir la destination pour l'écriture"
 
-#: ../src/helper/win/writejob.cpp:74
+#: ../src/helper/win/writejob.cpp:122
+#, fuzzy
 msgctxt "WriteJob|"
-msgid "Couldn't open the drive for writing"
+msgid "Couldn't remove drive mountpoints"
+msgstr "Impossible de retirer le lecteur %1 :"
+
+#: ../src/helper/win/writejob.cpp:129
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to remove partitions from the drive"
+msgstr "La vérification à échouée : aucun disque"
+
+#: ../src/helper/win/writejob.cpp:140
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to open the drive for formatting"
 msgstr "Impossible d'ouvrir le lecteur pour l'écriture"
 
-#: ../src/helper/win/writejob.cpp:98
+#: ../src/helper/win/writejob.cpp:146
 msgctxt "WriteJob|"
 msgid "Couldn't lock the drive"
 msgstr "Impossible de verrouiller le lecteur"
 
-#: ../src/helper/win/writejob.cpp:134
-#, qt-format
+#: ../src/helper/win/writejob.cpp:159
+#, fuzzy
 msgctxt "WriteJob|"
-msgid "Couldn't remove the drive %1:"
-msgstr "Impossible de retirer le lecteur %1 :"
+msgid "Couldn't open the logical handle"
+msgstr "Impossible d'ouvrir le lecteur pour l'écriture"
 
-#: ../src/helper/win/writejob.cpp:209
+#: ../src/helper/win/writejob.cpp:165
+#, fuzzy
 msgctxt "WriteJob|"
-msgid "Couldn't unlock the drive"
+msgid "Couldn't lock the logical drive"
+msgstr "Impossible de verrouiller le lecteur"
+
+#: ../src/helper/win/writejob.cpp:172
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Couldn't unmount drive"
 msgstr "Impossible de déverrouiller le disque"
 
-#: ../src/app/qml/main.qml:116
+#: ../src/helper/win/writejob.cpp:268 ../src/helper/win/writejob.cpp:434
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to allocate the buffer"
+msgstr "Impossible d'allouer la paire de sockets"
+
+#: ../src/helper/win/writejob.cpp:334 ../src/helper/win/writejob.cpp:377
+#: ../src/helper/win/writejob.cpp:473
+msgctxt "WriteJob|"
+msgid "The last block was not fully written"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:466
+#, qt-format
+msgctxt "WriteJob|"
+msgid "Wrote %1 out of %2"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:492
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to read the image file: "
+msgstr "Impossible de renommer le fichier temporaire."
+
+#: ../src/helper/win/writejob.cpp:498
+#, qt-format
+msgctxt "WriteJob|"
+msgid "Failed to write entire image. Total written: %1 out of %2"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:518
+#, fuzzy, qt-format
+msgctxt "WriteJob|"
+msgid "Couldn't open the drive for data verification for %1:"
+msgstr "Impossible d'ouvrir le lecteur pour l'écriture"
+
+#: ../src/app/qml/main.qml:81
 msgctxt "main|"
 msgid "AOSC Media Writer"
 msgstr "AOSC Media Writer"
 
-#: ../src/app/qml/main.qml:154
+#: ../src/app/qml/main.qml:100
 msgctxt "main|"
 msgid "Select AOSC Version"
 msgstr "Sélectionnez une version de AOSC"
 
-#: ../src/app/qml/main.qml:170
+#: ../src/app/qml/main.qml:114
 msgctxt "main|"
 msgid "Select Drive"
 msgstr "Sélectionnez un lecteur"
 
-#: ../src/app/qml/main.qml:250 ../src/app/qml/main.qml:291
+#: ../src/app/qml/main.qml:139
 msgctxt "main|"
 msgid "Restore"
 msgstr "Restaurer"
 
-#: ../src/app/qml/main.qml:290 ../src/app/qml/main.qml:304
-msgctxt "main|"
-msgid "Finish"
-msgstr "Terminer"
+#. (itstool) path: component/id
+#. (itstool) path: component/launchable
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:5
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:6
+msgid "io.aosc.MediaWriter.desktop"
+msgstr ""
 
-#: ../src/app/qml/main.qml:294 ../src/app/qml/main.qml:302
-msgctxt "main|"
-msgid "Write"
-msgstr "Écrire"
+#. (itstool) path: component/project_license
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:7
+msgid "GPL-2.0+"
+msgstr ""
 
-#: ../src/app/qml/main.qml:296
-msgctxt "main|"
-msgid "Download && Write"
-msgstr "Télécharger et écrire"
-
-#: ../src/app/qml/main.qml:297
-msgctxt "main|"
-msgid "Download & Write"
-msgstr "Télécharger et écrire"
-
-#: ../src/app/qml/main.qml:300 ../src/app/qml/main.qml:315
-msgctxt "main|"
-msgid "Cancel"
-msgstr "Annuler"
-
-#: ../src/app/qml/main.qml:306
-msgctxt "main|"
-msgid "Retry"
-msgstr "Réessayer"
-
-#: ../src/app/qml/main.qml:308
-msgctxt "main|"
-msgid "Next"
-msgstr "Suivant"
-
-#: ../src/app/qml/main.qml:313
-msgctxt "main|"
-msgid "About"
-msgstr "À propos"
-
-#: ../src/app/qml/main.qml:316
-msgctxt "main|"
-msgid "Previous"
-msgstr "Précédent"
+#. (itstool) path: component/metadata_license
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:8
+msgid "CC0-1.0"
+msgstr ""
 
 #. #-#-#-#-#  appstream.pot (PACKAGE VERSION)  #-#-#-#-#
-#. (itstool) path: application/name
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:8
-#: ../src/app/data/io.aosc.MediaWriter.desktop:4
+#. (itstool) path: component/name
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
+#: ../src/app/data/io.aosc.MediaWriter.desktop:3
 msgid "AOSC Media Writer"
 msgstr "AOSC Media Writer"
 
-#. (itstool) path: application/summary
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
+#. (itstool) path: component/summary
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:10
 msgid "A tool to create a live USB drive with an edition of AOSC"
 msgstr "Un outil pour créer un lecteur USB live contenant une édition de AOSC"
 
 #. (itstool) path: description/p
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:11
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:12
 msgid ""
-"A tool to create a bootable live USB drive with an edition of AOSC. Not "
-"only can AOSC Media Writer write an image to your flash drive, it can also "
-"download it for you. It offers official editions (Server, Workstation), "
-"AOSC spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and "
-"AOSC Labs (Design Suite, Security Lab,...). It provides basic information "
-"about each of them to help you make the right choice."
+"A tool to create a bootable live USB drive with an edition of AOSC. Not only "
+"can AOSC Media Writer write an image to your flash drive, it can also "
+"download it for you. It offers official editions (Server, Workstation), AOSC "
+"spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and AOSC "
+"Labs (Design Suite, Security Lab,...). It provides basic information about "
+"each of them to help you make the right choice."
 msgstr ""
 "Un outil pour créer un lecteur USB live avec une des éditions de AOSC. Non "
 "seulement AOSC Media Writer peut écrire une image sur votre disque USB, il "
 "peut aussi la télécharger pour vous. Il met à disposition les éditions "
-"officielles (Server, Workstation), les Spins AOSC (bureau KDE Plasma, "
-"bureau Xfce, bureau Cinnamon…) et les Labs AOSC (Design Suite, Security "
-"Lab…). Il vous fournit aussi des informations de base sur chacune de ces "
-"options pour vous permettre de faire le bon choix."
+"officielles (Server, Workstation), les Spins AOSC (bureau KDE Plasma, bureau "
+"Xfce, bureau Cinnamon…) et les Labs AOSC (Design Suite, Security Lab…). Il "
+"vous fournit aussi des informations de base sur chacune de ces options pour "
+"vous permettre de faire le bon choix."
 
 #. (itstool) path: description/p
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:12
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:13
 msgid ""
-"AOSC Media Writer can also write other bootable ISOs loaded from your "
-"local disk, but keep in mind that it's only tested with AOSC images."
+"AOSC Media Writer can also write other bootable ISOs loaded from your local "
+"disk, but keep in mind that it's only tested with AOSC images."
 msgstr ""
 "AOSC Media Writer peut également écrire d'autres ISO amorçables chargés "
 "depuis votre disque local, mais gardez en tête que l'outil est testé "
 "uniquement avec les images AOSC."
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:43
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:16
+msgid "iso"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:17
+msgid "aosc"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:18
+msgid "usb"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:19
+#, fuzzy
+msgid "writer"
+msgstr "Écrire"
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:20
+msgid "live"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:21
+msgid "spin"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:22
+msgid "creator"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:23
+msgid "media"
+msgstr ""
+
+#. (itstool) path: component/url
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:25
+msgid "https://github.com/AOSC-Dev/MediaWriter"
+msgstr ""
+
+#. (itstool) path: screenshot/image
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:27
+msgid ""
+"https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/"
+"linux_main.png"
+msgstr ""
+
+#. (itstool) path: screenshot/image
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:28
+msgid ""
+"https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/"
+"linux_select_release.png"
+msgstr ""
+
+#. (itstool) path: component/developer_name
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:30
+msgid "Jan Grulich"
+msgstr ""
+
+#. (itstool) path: component/update_contact
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:31
+msgid "jgrulich@redhat.com"
+msgstr ""
+
+#. (itstool) path: release/url
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:35
+msgid "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
+msgstr ""
+
+#: ../src/app/data/io.aosc.MediaWriter.desktop:45
 msgid "Write AOSC images to your portable drives"
 msgstr "Écrivez des images AOSC sur vos lecteurs amovibles"
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:87
+#: ../src/app/data/io.aosc.MediaWriter.desktop:92
 msgid "fmw;usb;iso;bootable;"
 msgstr "fmw;usb;iso;bootable;"
+
+#~ msgctxt "DownloadPage|"
+#~ msgid " KB left)"
+#~ msgstr " Ko restants)"
+
+#~ msgctxt "DownloadPage|"
+#~ msgid " MB left)"
+#~ msgstr " Mo restants)"
+
+#~ msgctxt "DownloadPage|"
+#~ msgid " GB left)"
+#~ msgstr " Go restants)"
+
+#, qt-format
+#~ msgctxt "DownloadPage|"
+#~ msgid " (%1"
+#~ msgstr " (%1"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "ARM v7"
+#~ msgstr "ARM v7"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid ""
+#~ "LZMA-compressed raw image for ARM v7-A machines like the Raspberry Pi 2 "
+#~ "and 3"
+#~ msgstr ""
+#~ "Image brute compressée au format LZMA pour les machines ARM v7-A, comme "
+#~ "les Raspberry Pi 2 et 3"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Select from:"
+#~ msgstr "Sélectionner parmi :"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Official Editions"
+#~ msgstr "Éditions officielles"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Atomic Desktops"
+#~ msgstr "Bureaux atomiques"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Spins"
+#~ msgstr "Spins"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Labs"
+#~ msgstr "Labs"
+
+#~ msgctxt "main|"
+#~ msgid "Cancel"
+#~ msgstr "Annuler"
 
 #~ msgctxt "Release|"
 #~ msgid "Emerging AOSC Editions"
@@ -954,10 +1357,6 @@ msgstr "fmw;usb;iso;bootable;"
 #~ msgctxt "DownloadPage|"
 #~ msgid "Writing"
 #~ msgstr "Écriture"
-
-#~ msgctxt "DownloadPage|"
-#~ msgid "Finish"
-#~ msgstr "Terminé"
 
 #~ msgctxt "DownloadPage|"
 #~ msgid "Successfully written"
@@ -990,10 +1389,6 @@ msgstr "fmw;usb;iso;bootable;"
 #~ msgctxt "DownloadPage|"
 #~ msgid "Write Successful"
 #~ msgstr "L’écriture a réussi"
-
-#~ msgctxt "DownloadPage|"
-#~ msgid "Failed verification no drives"
-#~ msgstr "La vérification à échouée : aucun disque"
 
 #~ msgctxt "DownloadPage|"
 #~ msgid "Failed verification"
@@ -1034,8 +1429,8 @@ msgstr "fmw;usb;iso;bootable;"
 #~ "AOSC %1 was released! Check it out!<br>If you want a stable, finished "
 #~ "system, it's better to stay at version %2."
 #~ msgstr ""
-#~ "AOSC %1 est disponible ! Allez voir !<br>Si vous voulez un système "
-#~ "stable et finalisé, il vaut mieux rester à la version %2."
+#~ "AOSC %1 est disponible ! Allez voir !<br>Si vous voulez un système stable "
+#~ "et finalisé, il vaut mieux rester à la version %2."
 
 #~ msgctxt "ImageDetails|"
 #~ msgid ", released on %1"
@@ -1099,8 +1494,8 @@ msgstr "fmw;usb;iso;bootable;"
 #~ "flavors and download images to your hard drive."
 #~ msgstr ""
 #~ "%1<br>L’écriture des images n’est pas possible.<br>Vous pouvez encore "
-#~ "voir les déclinaisons de AOSC et télécharger les images sur votre "
-#~ "disque dur."
+#~ "voir les déclinaisons de AOSC et télécharger les images sur votre disque "
+#~ "dur."
 
 #~ msgctxt "main|"
 #~ msgid "Ok"
@@ -1125,8 +1520,8 @@ msgstr "fmw;usb;iso;bootable;"
 #~ "developers, from hobbyists and students to professionals in corporate "
 #~ "environments."
 #~ msgstr ""
-#~ "AOSC Workstation est un système d’exploitation fiable, facile d’accès "
-#~ "et puissant pour votre ordinateur portable ou de bureau. Il apporte son "
+#~ "AOSC Workstation est un système d’exploitation fiable, facile d’accès et "
+#~ "puissant pour votre ordinateur portable ou de bureau. Il apporte son "
 #~ "soutien à un grand nombre de développeurs, qu’ils soient amateurs, "
 #~ "étudiants, ou professionnels."
 
@@ -1163,11 +1558,11 @@ msgstr "fmw;usb;iso;bootable;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "Skip the drag of trying to find or build the tools you need. With "
-#~ "AOSC's complete set of open source languages, tools, and utilities, "
-#~ "everything is a click or command line away. There's even project hosting "
-#~ "and repositories like COPR to make your code and builds available quickly "
-#~ "to the community."
+#~ "Skip the drag of trying to find or build the tools you need. With AOSC's "
+#~ "complete set of open source languages, tools, and utilities, everything "
+#~ "is a click or command line away. There's even project hosting and "
+#~ "repositories like COPR to make your code and builds available quickly to "
+#~ "the community."
 #~ msgstr ""
 #~ "Épargnez-vous la peine de chercher ou de construire les outils dont vous "
 #~ "avez besoin. AOSC contient un jeu complet d’outils et de langages open "
@@ -1248,10 +1643,6 @@ msgstr "fmw;usb;iso;bootable;"
 #~ "dans la communauté open source."
 
 #~ msgctxt "Release|"
-#~ msgid "Easy Administration"
-#~ msgstr "Administration facile"
-
-#~ msgctxt "Release|"
 #~ msgid ""
 #~ "Manage your system simply with Cockpit's powerful, modern interface. View "
 #~ "and monitor system performance and status, and deploy and manage "
@@ -1269,8 +1660,8 @@ msgstr "fmw;usb;iso;bootable;"
 #~ msgid ""
 #~ "There's no need to set up your server from scratch when you use server "
 #~ "roles. Server roles plug into your AOSC Server system, providing a well-"
-#~ "integrated service on top of the AOSC Server platform. Deploy and "
-#~ "manage these prepared roles simply using the Rolekit tool."
+#~ "integrated service on top of the AOSC Server platform. Deploy and manage "
+#~ "these prepared roles simply using the Rolekit tool."
 #~ msgstr ""
 #~ "Il n’est pas nécessaire de configurer votre serveur à partir de zéro "
 #~ "lorsque vous utilisez des rôles de serveur. Les rôles de serveur se "
@@ -1284,8 +1675,8 @@ msgstr "fmw;usb;iso;bootable;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "AOSC Server brings with it an enterprise-class, scalable database "
-#~ "server powered by the open-source PostgreSQL project."
+#~ "AOSC Server brings with it an enterprise-class, scalable database server "
+#~ "powered by the open-source PostgreSQL project."
 #~ msgstr ""
 #~ "AOSC Server apporte avec lui un serveur de base de données évolutif de "
 #~ "classe entreprise, alimenté par le projet open-source PostgreSQL."
@@ -1349,9 +1740,9 @@ msgstr "fmw;usb;iso;bootable;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "Silverblue is a variant of AOSC Workstation. It looks, feels and "
-#~ "behaves like a regular desktop operating system, and the experience is "
-#~ "similar to what you find with using a standard AOSC Workstation."
+#~ "Silverblue is a variant of AOSC Workstation. It looks, feels and behaves "
+#~ "like a regular desktop operating system, and the experience is similar to "
+#~ "what you find with using a standard AOSC Workstation."
 #~ msgstr ""
 #~ "Silverblue est une variante de AOSC Workstation. Le système se comporte "
 #~ "de la même façon qu'un système d'exploitation avec interface graphique "
@@ -1421,14 +1812,12 @@ msgstr "fmw;usb;iso;bootable;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "The AOSC KDE Plasma Desktop Edition is a powerful AOSC-based "
-#~ "operating system utilizing the KDE Plasma Desktop as the main user "
-#~ "interface."
+#~ "The AOSC KDE Plasma Desktop Edition is a powerful AOSC-based operating "
+#~ "system utilizing the KDE Plasma Desktop as the main user interface."
 #~ msgstr ""
-#~ "AOSC avec l’environnement de bureau Plasma Desktop de KDE est un "
-#~ "système d’exploitation puissant, basé sur AOSC, qui utilise "
-#~ "l’environnement de bureau Plasma Desktop de KDE comme interface "
-#~ "utilisateur principale."
+#~ "AOSC avec l’environnement de bureau Plasma Desktop de KDE est un système "
+#~ "d’exploitation puissant, basé sur AOSC, qui utilise l’environnement de "
+#~ "bureau Plasma Desktop de KDE comme interface utilisateur principale."
 
 #~ msgctxt "Release|"
 #~ msgid ""
@@ -1439,14 +1828,14 @@ msgstr "fmw;usb;iso;bootable;"
 #~ "productivity suite, including office applications and enterprise grade "
 #~ "personal information management."
 #~ msgstr ""
-#~ "AOSC avec l’environnement de bureau Plasma Desktop de KDE est fourni "
-#~ "avec une présélection de nombreux logiciels de première qualité, "
-#~ "convenant à tous les cas d’utilisation d’un bureau moderne – depuis la "
-#~ "communication en ligne comme la navigation sur internet, en passant par "
-#~ "la messagerie instantanée, la correspondance par courriels, le multimédia "
-#~ "et les divertissements, jusqu’à une suite avancée de productivité, "
-#~ "incluant des logiciels de bureautique et une gestion professionnelle des "
-#~ "informations personnelles."
+#~ "AOSC avec l’environnement de bureau Plasma Desktop de KDE est fourni avec "
+#~ "une présélection de nombreux logiciels de première qualité, convenant à "
+#~ "tous les cas d’utilisation d’un bureau moderne – depuis la communication "
+#~ "en ligne comme la navigation sur internet, en passant par la messagerie "
+#~ "instantanée, la correspondance par courriels, le multimédia et les "
+#~ "divertissements, jusqu’à une suite avancée de productivité, incluant des "
+#~ "logiciels de bureautique et une gestion professionnelle des informations "
+#~ "personnelles."
 
 #~ msgctxt "Release|"
 #~ msgid ""
@@ -1472,8 +1861,8 @@ msgstr "fmw;usb;iso;bootable;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "The AOSC Xfce spin showcases the Xfce desktop, which aims to be fast "
-#~ "and lightweight, while still being visually appealing and user friendly."
+#~ "The AOSC Xfce spin showcases the Xfce desktop, which aims to be fast and "
+#~ "lightweight, while still being visually appealing and user friendly."
 #~ msgstr ""
 #~ "La version personnalisée Xfce montre le bureau Xfce, qui se veut être "
 #~ "rapide et léger, tout en restant visuellement attractif et convivial."
@@ -1554,8 +1943,8 @@ msgstr "fmw;usb;iso;bootable;"
 #~ "If you want a powerful, lightweight AOSC desktop with 3D eyecandy you "
 #~ "should definitely try the MATE-Compiz spin."
 #~ msgstr ""
-#~ "Si vous souhaitez un environnement de bureau AOSC puissant, léger et "
-#~ "avec des effets 3D, alors vous devez absolument essayer la version "
+#~ "Si vous souhaitez un environnement de bureau AOSC puissant, léger et avec "
+#~ "des effets 3D, alors vous devez absolument essayer la version "
 #~ "personnalisée MATE-Compiz."
 
 #~ msgctxt "Release|"
@@ -1713,8 +2102,8 @@ msgstr "fmw;usb;iso;bootable;"
 #~ "It makes i3 accessible and appealing to both novices and advanced users "
 #~ "who prefer not to use a mouse, touchpad, or other pointing device to "
 #~ "interact with their environment. Featuring lightweight applications for "
-#~ "web browsing, text editing, and media playback, the AOSC i3 Spin offers "
-#~ "a complete experience with a minimalist user interface."
+#~ "web browsing, text editing, and media playback, the AOSC i3 Spin offers a "
+#~ "complete experience with a minimalist user interface."
 #~ msgstr ""
 #~ "Il rend i3 accessible et attrayant à la fois pour les novices et les "
 #~ "utilisateurs avancés qui préfèrent ne pas utiliser de souris, de pavé "
@@ -1793,16 +2182,16 @@ msgstr "fmw;usb;iso;bootable;"
 #~ msgstr ""
 #~ "Vous recherchez un environnement bureautique près à l’emploi remplis "
 #~ "d’outils de production et de publication multimédia gratuits et libres ? "
-#~ "Essayez la Design Suite, une version personnalisée de AOSC créée par "
-#~ "des designers, pour des designers."
+#~ "Essayez la Design Suite, une version personnalisée de AOSC créée par des "
+#~ "designers, pour des designers."
 
 #~ msgctxt "Release|"
 #~ msgid ""
 #~ "The Design Suite includes the favorite tools of the AOSC Design Team. "
 #~ "These are the same programs we use to create all the artwork that you see "
-#~ "within the AOSC Project, from desktop backgrounds to CD sleeves, web "
-#~ "page designs, application interfaces, flyers, posters and more. From "
-#~ "document publication to vector and bitmap editing or 3D modeling to photo "
+#~ "within the AOSC Project, from desktop backgrounds to CD sleeves, web page "
+#~ "designs, application interfaces, flyers, posters and more. From document "
+#~ "publication to vector and bitmap editing or 3D modeling to photo "
 #~ "management, the Design Suite has an application for you — and you can "
 #~ "install thousands more from the AOSC universe of packages."
 #~ msgstr ""
@@ -1833,10 +2222,9 @@ msgstr "fmw;usb;iso;bootable;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "The AOSC Games spin offers a perfect showcase of the best games "
-#~ "available in AOSC. The included games span several genres, from first-"
-#~ "person shooters to real-time and turn-based strategy games to puzzle "
-#~ "games."
+#~ "The AOSC Games spin offers a perfect showcase of the best games available "
+#~ "in AOSC. The included games span several genres, from first-person "
+#~ "shooters to real-time and turn-based strategy games to puzzle games."
 #~ msgstr ""
 #~ "La variante AOSC Games est une vitrine parfaite des meilleurs jeux "
 #~ "disponibles dans AOSC. Les jeux inclus couvrent un large éventail de "
@@ -1845,9 +2233,9 @@ msgstr "fmw;usb;iso;bootable;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "Not all the games available in AOSC are included on this spin, but "
-#~ "trying out this spin will give you a fair impression of AOSC's ability "
-#~ "to run great games."
+#~ "Not all the games available in AOSC are included on this spin, but trying "
+#~ "out this spin will give you a fair impression of AOSC's ability to run "
+#~ "great games."
 #~ msgstr ""
 #~ "Tous les jeux disponibles dans AOSC ne sont pas inclus dans cette "
 #~ "variante, mais un essai de cette dernière vous laissera une impression "
@@ -1868,34 +2256,34 @@ msgstr "fmw;usb;iso;bootable;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "One of the benefits of AOSC for Python developers is the ease of "
-#~ "setting up Python development. The AOSC Python Classroom Lab makes it "
-#~ "even easier for teachers and instructors to use AOSC in their "
-#~ "classrooms or workshops. Ready to use operating system with important "
-#~ "stuff pre-installed - either with GNOME or as a headless environment for "
-#~ "Docker or Vagrant. Teach Python on AOSC, with AOSC, using the stuff "
-#~ "you love: IPython, Jupyter Notebook, multiple Pythons, virtualenvs, tox, "
-#~ "git and more"
+#~ "One of the benefits of AOSC for Python developers is the ease of setting "
+#~ "up Python development. The AOSC Python Classroom Lab makes it even easier "
+#~ "for teachers and instructors to use AOSC in their classrooms or "
+#~ "workshops. Ready to use operating system with important stuff pre-"
+#~ "installed - either with GNOME or as a headless environment for Docker or "
+#~ "Vagrant. Teach Python on AOSC, with AOSC, using the stuff you love: "
+#~ "IPython, Jupyter Notebook, multiple Pythons, virtualenvs, tox, git and "
+#~ "more"
 #~ msgstr ""
-#~ "Un des avantages de AOSC pour les développeurs Python, est la facilité "
-#~ "de mise en place d’un environnement de production Python. Le labo Python "
-#~ "de AOSC rend encore plus facile pour les professeurs et formateurs "
+#~ "Un des avantages de AOSC pour les développeurs Python, est la facilité de "
+#~ "mise en place d’un environnement de production Python. Le labo Python de "
+#~ "AOSC rend encore plus facile pour les professeurs et formateurs "
 #~ "l’utilisation de AOSC dans leurs salles de cours ou ateliers. C’est un "
 #~ "système d’exploitation prêt à l’emploi dont les éléments clefs sont "
 #~ "préinstallés soit avec GNOME, soit en tant qu’environnements pour Docker "
-#~ "ou Vagrant. Enseignez Python sur AOSC, avec AOSC, en utilisant les "
-#~ "outils que vous aimez : IPython, Jupyter Notebook, multiple Pythons, "
+#~ "ou Vagrant. Enseignez Python sur AOSC, avec AOSC, en utilisant les outils "
+#~ "que vous aimez : IPython, Jupyter Notebook, multiple Pythons, "
 #~ "virtualenvs, tox, git et plus encore"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "The AOSC Python Classroom Lab comes in 3 variants. Either you can run "
-#~ "it in graphical mode with GNOME, or you can virtualize it with Vagrant or "
+#~ "The AOSC Python Classroom Lab comes in 3 variants. Either you can run it "
+#~ "in graphical mode with GNOME, or you can virtualize it with Vagrant or "
 #~ "run it in a Docker container. You choose what fits your teaching "
 #~ "environment the best."
 #~ msgstr ""
-#~ "Ce labo AOSC Python Classroom offre trois variantes. Soit vous le "
-#~ "lancez en mode graphique avec GNOME, soit vous pouvez le virtualiser avec "
+#~ "Ce labo AOSC Python Classroom offre trois variantes. Soit vous le lancez "
+#~ "en mode graphique avec GNOME, soit vous pouvez le virtualiser avec "
 #~ "Vagrant ou le lancer dans un conteneur Docker. Vous choisissez ce qui "
 #~ "correspond le mieux à votre environnement d’enseignement."
 
@@ -1917,25 +2305,24 @@ msgstr "fmw;usb;iso;bootable;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "The AOSC Robotics spin provides a wide variety of free and open "
-#~ "robotics software packages. These range from hardware accessory libraries "
-#~ "for the Hokuyo laser scanners or Katana robotic arm to software "
-#~ "frameworks like Fawkes or Player and simulation environments such as "
-#~ "Stage and RoboCup Soccer Simulation Server 2D/3D. It also provides a "
-#~ "ready to use development environment for robotics including useful "
-#~ "libraries such as OpenCV computer vision library, Festival text to speech "
-#~ "system and MRPT."
+#~ "The AOSC Robotics spin provides a wide variety of free and open robotics "
+#~ "software packages. These range from hardware accessory libraries for the "
+#~ "Hokuyo laser scanners or Katana robotic arm to software frameworks like "
+#~ "Fawkes or Player and simulation environments such as Stage and RoboCup "
+#~ "Soccer Simulation Server 2D/3D. It also provides a ready to use "
+#~ "development environment for robotics including useful libraries such as "
+#~ "OpenCV computer vision library, Festival text to speech system and MRPT."
 #~ msgstr ""
-#~ "La version personnalisée AOSC Robotics met à votre disposition une "
-#~ "grande variété de paquets logiciels libres et ouverts concernant la "
-#~ "robotique. Cela va des bibliothèques pour accessoires matériels tels que "
-#~ "les scanners laser Hokuyo ou les bras de robots Katana jusqu’aux "
-#~ "maquettes de développement telles que Fawkes ou Player et aux contextes "
-#~ "de simulation tels que Stage et RoboCup Soccer Simulation Server 2D/3D. "
-#~ "Elle fournit également des environnements de développement prêts à "
-#~ "l’emploi pour la robotique incorporant des bibliothèques utiles comme "
-#~ "OpenCV pour le traitement d’images en temps réel et Festival pour la "
-#~ "relecture de texte et MRPT."
+#~ "La version personnalisée AOSC Robotics met à votre disposition une grande "
+#~ "variété de paquets logiciels libres et ouverts concernant la robotique. "
+#~ "Cela va des bibliothèques pour accessoires matériels tels que les "
+#~ "scanners laser Hokuyo ou les bras de robots Katana jusqu’aux maquettes de "
+#~ "développement telles que Fawkes ou Player et aux contextes de simulation "
+#~ "tels que Stage et RoboCup Soccer Simulation Server 2D/3D. Elle fournit "
+#~ "également des environnements de développement prêts à l’emploi pour la "
+#~ "robotique incorporant des bibliothèques utiles comme OpenCV pour le "
+#~ "traitement d’images en temps réel et Festival pour la relecture de texte "
+#~ "et MRPT."
 
 #~ msgctxt "Release|"
 #~ msgid ""
@@ -1970,9 +2357,9 @@ msgstr "fmw;usb;iso;bootable;"
 #~ msgctxt "Release|"
 #~ msgid ""
 #~ "Wary of reinstalling all the essential tools for your scientific and "
-#~ "numerical work? The answer is here. AOSC Scientific Spin brings "
-#~ "together the most useful open source scientific and numerical tools atop "
-#~ "the goodness of the KDE desktop environment."
+#~ "numerical work? The answer is here. AOSC Scientific Spin brings together "
+#~ "the most useful open source scientific and numerical tools atop the "
+#~ "goodness of the KDE desktop environment."
 #~ msgstr ""
 #~ "Vous craignez de réinstaller tous les outils indispensables à vos travaux "
 #~ "scientifiques et numériques ? La réponse est ici. AOSC Scientific Spin "
@@ -1981,24 +2368,24 @@ msgstr "fmw;usb;iso;bootable;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "AOSC Scientific currently ships with numerous applications and "
-#~ "libraries. These range from libraries such as the GNU Scientific library, "
-#~ "the SciPy libraries, tools like Octave and xfig to typesetting tools like "
-#~ "Kile and graphics programs such as Inkscape. The current set of packages "
-#~ "include an IDE, tools and libraries for programming in C, C++, Python, "
-#~ "Java and R. Also included along with are libraries for parallel computing "
-#~ "such as the OpenMPI and OpenMP. Tools for typesetting, writing and "
-#~ "publishing are included."
+#~ "AOSC Scientific currently ships with numerous applications and libraries. "
+#~ "These range from libraries such as the GNU Scientific library, the SciPy "
+#~ "libraries, tools like Octave and xfig to typesetting tools like Kile and "
+#~ "graphics programs such as Inkscape. The current set of packages include "
+#~ "an IDE, tools and libraries for programming in C, C++, Python, Java and "
+#~ "R. Also included along with are libraries for parallel computing such as "
+#~ "the OpenMPI and OpenMP. Tools for typesetting, writing and publishing are "
+#~ "included."
 #~ msgstr ""
-#~ "AOSC Scientific est actuellement livré avec de nombreuses applications "
-#~ "et bibliothèques. Celles-ci vont de bibliothèques telles que la "
-#~ "bibliothèque GNU Scientific, les bibliothèques SciPy, des outils comme "
-#~ "Octave et xfig à des outils de composition comme Kile et des programmes "
-#~ "graphiques comme Inkscape. L’ensemble actuel de paquets comprend un IDE, "
-#~ "des outils et des bibliothèques pour la programmation en C, C++, Python, "
-#~ "Java et R. Sont également incluses des bibliothèques pour le calcul "
-#~ "parallèle telles que OpenMPI et OpenMP. Des outils pour la composition, "
-#~ "la rédaction et la publication sont inclus."
+#~ "AOSC Scientific est actuellement livré avec de nombreuses applications et "
+#~ "bibliothèques. Celles-ci vont de bibliothèques telles que la bibliothèque "
+#~ "GNU Scientific, les bibliothèques SciPy, des outils comme Octave et xfig "
+#~ "à des outils de composition comme Kile et des programmes graphiques comme "
+#~ "Inkscape. L’ensemble actuel de paquets comprend un IDE, des outils et des "
+#~ "bibliothèques pour la programmation en C, C++, Python, Java et R. Sont "
+#~ "également incluses des bibliothèques pour le calcul parallèle telles que "
+#~ "OpenMPI et OpenMP. Des outils pour la composition, la rédaction et la "
+#~ "publication sont inclus."
 
 #~ msgctxt "Release|"
 #~ msgid "security"

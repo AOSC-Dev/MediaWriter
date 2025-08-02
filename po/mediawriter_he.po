@@ -8,11 +8,11 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 21:31+0100\n"
+"POT-Creation-Date: 2025-08-02 10:45+0800\n"
 "PO-Revision-Date: 2024-05-23 13:59+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://translate.AOSCproject.org/projects/"
-"AOSC-media-writer/mediawriter/he/>\n"
+"Language-Team: Hebrew <https://translate.AOSCproject.org/projects/AOSC-media-"
+"writer/mediawriter/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,229 +21,259 @@ msgstr ""
 "X-Generator: Weblate 5.5.5\n"
 "X-Qt-Contexts: true\n"
 
-#: ../src/app/qml/AboutDialog.qml:50
+#: ../src/app/qml/AboutDialog.qml:49
 msgctxt "AboutDialog|"
 msgid "About AOSC Media Writer"
 msgstr "על כותב המדיה של פדורה"
 
-#: ../src/app/qml/AboutDialog.qml:59
+#: ../src/app/qml/AboutDialog.qml:58
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1"
 msgstr "גרסה %1"
 
-#: ../src/app/qml/AboutDialog.qml:66
+#: ../src/app/qml/AboutDialog.qml:65
 msgctxt "AboutDialog|"
 msgid "AOSC Media Writer is now checking for new releases"
 msgstr "כותב המדיה של פדורה מחפש מהדורות חדשות"
 
-#: ../src/app/qml/AboutDialog.qml:72
+#: ../src/app/qml/AboutDialog.qml:71
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "Please report bugs or your suggestions on %1"
 msgstr "נא לדווח על תקלות או הצעות ב־%1"
 
-#: ../src/app/qml/AboutDialog.qml:95
+#: ../src/app/qml/AboutDialog.qml:94
 msgctxt "AboutDialog|"
 msgid "Close"
 msgstr "סגירה"
 
-#: ../src/app/qml/CancelDialog.qml:56
+#: ../src/app/qml/CancelDialog.qml:55
 msgctxt "CancelDialog|"
 msgid "Cancel Download?"
 msgstr "לבטל את ההורדה?"
 
-#: ../src/app/qml/CancelDialog.qml:58
+#: ../src/app/qml/CancelDialog.qml:57
 msgctxt "CancelDialog|"
 msgid "Cancel Writing?"
 msgstr "לבטל את הכתיבה?"
 
-#: ../src/app/qml/CancelDialog.qml:60
+#: ../src/app/qml/CancelDialog.qml:59
 msgctxt "CancelDialog|"
 msgid "Cancel Verification?"
 msgstr "לבטל את הבדיקה?"
 
-#: ../src/app/qml/CancelDialog.qml:67
+#: ../src/app/qml/CancelDialog.qml:66
 msgctxt "CancelDialog|"
 msgid ""
 "Download and media writing will be aborted. This process can be resumed any "
 "time later."
 msgstr "ההורדה והכתיבה של המדיה יבוטלו. אפשר להמשיך בתהליך הזה בכלל עת."
 
-#: ../src/app/qml/CancelDialog.qml:69
+#: ../src/app/qml/CancelDialog.qml:68
 msgctxt "CancelDialog|"
 msgid ""
 "Writing process will be aborted and your drive will have to be restored "
 "afterwards."
 msgstr "תהליך הכתיבה יבוטל ולאחר מכן יהיה עליך לשחזר את הכונן שלך."
 
-#: ../src/app/qml/CancelDialog.qml:71
+#: ../src/app/qml/CancelDialog.qml:70
 msgctxt "CancelDialog|"
 msgid "This operation is safe to be cancelled."
 msgstr "ביטול הפעולה הזאת נחשב בטוח."
 
-#: ../src/app/qml/CancelDialog.qml:88
+#: ../src/app/qml/CancelDialog.qml:87
 msgctxt "CancelDialog|"
 msgid "Continue"
 msgstr "המשך"
 
-#: ../src/app/qml/CancelDialog.qml:111
+#: ../src/app/qml/CancelDialog.qml:110
 msgctxt "CancelDialog|"
 msgid "Cancel Download"
 msgstr "ביטול ההורדה"
 
-#: ../src/app/qml/CancelDialog.qml:113
+#: ../src/app/qml/CancelDialog.qml:112
 msgctxt "CancelDialog|"
 msgid "Cancel Writing"
 msgstr "ביטול כתיבה"
 
-#: ../src/app/qml/CancelDialog.qml:115
+#: ../src/app/qml/CancelDialog.qml:114
 msgctxt "CancelDialog|"
 msgid "Cancel Verification"
 msgstr "ביטול בדיקה"
 
-#: ../src/app/qml/CancelDialog.qml:117
+#: ../src/app/qml/CancelDialog.qml:116
 msgctxt "CancelDialog|"
 msgid "Cancel"
 msgstr "ביטול"
 
-#: ../src/app/downloadmanager.cpp:235
+#: ../src/app/qml/DeviceWarningDialog.qml:49
+msgctxt "DeviceWarningDialog|"
+msgid "Erase confirmation"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:54
+#, qt-format
+msgctxt "DeviceWarningDialog|"
+msgid ""
+"The entire device (all of %1) will be erased and the selected image will be "
+"written to it. Do you want to continue?"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:69
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Cancel"
+msgstr "ביטול"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:82
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Write"
+msgstr "כתיבה"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:84
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Download && Write"
+msgstr "הורדה וכתיבה"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:85
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Download & Write"
+msgstr "הורדה וכתיבה"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:97
+msgctxt "DeviceWarningDialog|"
+msgid "GB"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:99
+msgctxt "DeviceWarningDialog|"
+msgid "MB"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:101
+msgctxt "DeviceWarningDialog|"
+msgid "KB"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:103
+msgctxt "DeviceWarningDialog|"
+msgid "Bytes"
+msgstr ""
+
+#: ../src/app/downloadmanager.cpp:225
 msgctxt "Download|"
 msgid "Unable to fetch the requested image."
 msgstr "לא ניתן להשיג את הדמות המבוקשת."
 
-#: ../src/app/downloadmanager.cpp:335
+#: ../src/app/downloadmanager.cpp:325
 msgctxt "Download|"
 msgid "You ran out of space in your Downloads folder."
 msgstr "נגמר לך המקום בתיקיית ההורדות."
 
-#: ../src/app/downloadmanager.cpp:337
+#: ../src/app/downloadmanager.cpp:327
 msgctxt "Download|"
 msgid "The download file is not writable."
 msgstr "קובץ ההורדה אינו זמין לכתיבה."
 
-#: ../src/app/downloadmanager.cpp:425
+#: ../src/app/downloadmanager.cpp:416
 msgctxt "Download|"
 msgid "Connection timed out"
 msgstr "תם הזמן להתחברות"
 
-#: ../src/app/qml/DownloadPage.qml:52
+#: ../src/app/qml/DownloadPage.qml:36
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "%1 Successfully Written"
 msgstr "%1 נכתב בהצלחה"
 
-#: ../src/app/qml/DownloadPage.qml:54
+#: ../src/app/qml/DownloadPage.qml:38
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Writing %1"
 msgstr "%1 נכתב"
 
-#: ../src/app/qml/DownloadPage.qml:56
+#: ../src/app/qml/DownloadPage.qml:40
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Downloading %1"
 msgstr "%1 בהורדה"
 
-#: ../src/app/qml/DownloadPage.qml:58
+#: ../src/app/qml/DownloadPage.qml:42
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Preparing %1"
 msgstr "%1 בהכנה"
 
-#: ../src/app/qml/DownloadPage.qml:60
+#: ../src/app/qml/DownloadPage.qml:44
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Ready to write %1"
 msgstr "מוכן לכתיבה אל %1"
 
-#: ../src/app/qml/DownloadPage.qml:62
+#: ../src/app/qml/DownloadPage.qml:46
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Failed to download %1"
 msgstr "ההורדה אל %1 נכשלה"
 
-#: ../src/app/qml/DownloadPage.qml:76
-msgctxt "DownloadPage|"
-msgid " B left)"
-msgstr " בתים נותרו)"
-
-#: ../src/app/qml/DownloadPage.qml:77
-msgctxt "DownloadPage|"
-msgid " KB left)"
-msgstr " ק״ב נותרו)"
-
-#: ../src/app/qml/DownloadPage.qml:78
-msgctxt "DownloadPage|"
-msgid " MB left)"
-msgstr " מ״ב נותרו)"
-
-#: ../src/app/qml/DownloadPage.qml:79
-msgctxt "DownloadPage|"
-msgid " GB left)"
-msgstr " ג״ב נותרו)"
-
-#: ../src/app/qml/DownloadPage.qml:82 ../src/app/qml/DownloadPage.qml:83
-#: ../src/app/qml/DownloadPage.qml:84 ../src/app/qml/DownloadPage.qml:85
-#, qt-format
-msgctxt "DownloadPage|"
-msgid " (%1"
-msgstr " (%1"
-
-#: ../src/app/qml/DownloadPage.qml:101
+#: ../src/app/qml/DownloadPage.qml:63
 msgctxt "DownloadPage|"
 msgid "Your drive was unplugged during the process"
 msgstr "הכונן שלך נותק תוך כדי התהליך"
 
-#: ../src/app/qml/DownloadPage.qml:135
+#: ../src/app/qml/DownloadPage.qml:91
 msgctxt "DownloadPage|"
 msgid "Downloads are saved to the downloads folder."
 msgstr "ההורדות נשמרות לתיקיית ההורדות."
 
-#: ../src/app/qml/DownloadPage.qml:143
+#: ../src/app/qml/DownloadPage.qml:101
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "By writing, you will lose all of the data on %1."
 msgstr "הכתיבה תגרום לאבדן כל המידע שעל %1."
 
-#: ../src/app/qml/DownloadPage.qml:151
+#: ../src/app/qml/DownloadPage.qml:109
 msgctxt "DownloadPage|"
 msgid "Please insert an USB drive."
 msgstr "נא לחבר כונן USB."
 
-#: ../src/app/qml/DownloadPage.qml:159
+#: ../src/app/qml/DownloadPage.qml:118
 msgctxt "DownloadPage|"
 msgid ""
 "Your drive will be resized to a smaller capacity. You may resize it back to "
-"normal by using AOSC Media Writer. This will remove installation media "
-"from your drive."
+"normal by using AOSC Media Writer. This will remove installation media from "
+"your drive."
 msgstr ""
 "גודל הכונן שלך יוקטן. ניתן לשנות את הגודל בחזרה על ידי שימוש בכותב המדיה של "
 "פדורה. פעולה זו תסיר את המדיה של ההתקנה מהכונן שלך."
 
-#: ../src/app/qml/DownloadPage.qml:167
+#: ../src/app/qml/DownloadPage.qml:126
 msgctxt "DownloadPage|"
 msgid "Selected:"
 msgstr "נבחר:"
 
-#: ../src/app/qml/DownloadPage.qml:167
+#: ../src/app/qml/DownloadPage.qml:126
 msgctxt "DownloadPage|"
 msgid "None"
 msgstr "ללא"
 
-#: ../src/app/qml/DownloadPage.qml:175
+#: ../src/app/qml/DownloadPage.qml:134
 #, qt-format
 msgctxt "DownloadPage|"
 msgid ""
-"Your board or device is not supported by AOSC Media Writer yet. Please "
-"check <a href=%1>this page</a> for more information about its compatibility "
-"with AOSC and how to create bootable media for it."
+"Your board or device is not supported by AOSC Media Writer yet. Please check "
+"<a href=%1>this page</a> for more information about its compatibility with "
+"AOSC and how to create bootable media for it."
 msgstr ""
 "הלוח או ההתקן שלך אינו נתמך על ידי כותב המדיה של פדורה. נא לעיין ב<a "
 "href=%1>עמוד הזה</a> לקבלת מידע נוסף על התאימות של ההתקן עם פדורה וכיצד "
 "ליצור מדיה להתקנה עבורו."
 
-#: ../src/app/qml/DownloadPage.qml:184
+#: ../src/app/qml/DownloadPage.qml:145
 #, qt-format
 msgctxt "DownloadPage|"
 msgid ""
@@ -251,76 +281,117 @@ msgid ""
 "drive by accident!"
 msgstr "גודל הכונן הנבחר הוא %1. יכול להיות שבחרת בכונן חיצוני בטעות!"
 
-#: ../src/app/qml/DownloadPage.qml:193
+#: ../src/app/qml/DownloadPage.qml:153
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Restart and boot from %1 to start using %2."
 msgstr "יש להפעיל מחדש ולטעון את המערכת דרך %1 כדי להתחיל להשתמש ב־%2."
+
+#: ../src/app/qml/DownloadPage.qml:222 ../src/app/qml/DownloadPage.qml:253
+#, fuzzy
+msgctxt "DownloadPage|"
+msgid "Cancel"
+msgstr "ביטול"
+
+#: ../src/app/qml/DownloadPage.qml:255
+#, fuzzy
+msgctxt "DownloadPage|"
+msgid "Write"
+msgstr "כתיבה"
+
+#: ../src/app/qml/DownloadPage.qml:257
+msgctxt "DownloadPage|"
+msgid "Finish"
+msgstr "סיום"
+
+#: ../src/app/qml/DownloadPage.qml:259
+#, fuzzy
+msgctxt "DownloadPage|"
+msgid "Retry"
+msgstr "ניסיון חוזר"
 
 #: ../src/app/drivemanager.cpp:317
 msgctxt "Drive|"
 msgid "This drive is not large enough."
 msgstr "הכונן הזה לא גדול מספיק."
 
-#: ../src/app/qml/DrivePage.qml:36
+#: ../src/app/qml/DrivePage.qml:30
 msgctxt "DrivePage|"
 msgid "Write Options"
 msgstr "אפשרויות כתיבה"
 
-#: ../src/app/qml/DrivePage.qml:45
+#: ../src/app/qml/DrivePage.qml:37
 msgctxt "DrivePage|"
 msgid "Version"
 msgstr "גרסה"
 
-#: ../src/app/qml/DrivePage.qml:67
+#: ../src/app/qml/DrivePage.qml:59
 msgctxt "DrivePage|"
 msgid "Hardware Architecture"
 msgstr "ארכיטקטורת חומרה"
 
-#: ../src/app/qml/DrivePage.qml:84
+#: ../src/app/qml/DrivePage.qml:76
 msgctxt "DrivePage|"
 msgid "Selected file"
 msgstr "קובץ נבחר"
 
-#: ../src/app/qml/DrivePage.qml:91
+#: ../src/app/qml/DrivePage.qml:83
 msgctxt "DrivePage|"
 msgid "None"
 msgstr "ללא"
 
-#: ../src/app/qml/DrivePage.qml:99
+#: ../src/app/qml/DrivePage.qml:91
 msgctxt "DrivePage|"
 msgid "Select..."
 msgstr "בחירה…"
 
-#: ../src/app/qml/DrivePage.qml:116
+#: ../src/app/qml/DrivePage.qml:108
 msgctxt "DrivePage|"
 msgid "Image files"
 msgstr "קובצי דמויות"
 
-#: ../src/app/qml/DrivePage.qml:116
+#: ../src/app/qml/DrivePage.qml:108
 msgctxt "DrivePage|"
 msgid "All files (*)"
 msgstr "כל הקבצים (*)"
 
-#: ../src/app/qml/DrivePage.qml:127
+#: ../src/app/qml/DrivePage.qml:119
 msgctxt "DrivePage|"
 msgid "USB Drive"
 msgstr "כונן USB"
 
-#: ../src/app/qml/DrivePage.qml:135
+#: ../src/app/qml/DrivePage.qml:127
 msgctxt "DrivePage|"
 msgid "There are no portable drives connected"
 msgstr "אין כוננים ניידים מחוברים"
 
-#: ../src/app/qml/DrivePage.qml:155
+#: ../src/app/qml/DrivePage.qml:146
 msgctxt "DrivePage|"
 msgid "Download"
 msgstr "הורדה"
 
-#: ../src/app/qml/DrivePage.qml:160
+#: ../src/app/qml/DrivePage.qml:151
 msgctxt "DrivePage|"
 msgid "Delete download after writing"
 msgstr "מחיקת הורדה לאחר הכתיבה"
+
+#: ../src/app/qml/DrivePage.qml:169
+#, fuzzy
+msgctxt "DrivePage|"
+msgid "Write"
+msgstr "כתיבה"
+
+#: ../src/app/qml/DrivePage.qml:171
+#, fuzzy
+msgctxt "DrivePage|"
+msgid "Download && Write"
+msgstr "הורדה וכתיבה"
+
+#: ../src/app/qml/DrivePage.qml:172
+#, fuzzy
+msgctxt "DrivePage|"
+msgid "Download & Write"
+msgstr "הורדה וכתיבה"
 
 #: ../src/app/linuxdrivemanager.cpp:199
 msgctxt "LinuxDrive|"
@@ -391,26 +462,44 @@ msgctxt "MacDrive|"
 msgid "Writing %1 was successful"
 msgstr "הכתיבה של %1 הצליחה"
 
-#: ../src/app/qml/MainPage.qml:43
+#: ../src/app/qml/MainPage.qml:29
 msgctxt "MainPage|"
 msgid "Select Image Source"
 msgstr "בחירת מקור דמות"
 
-#: ../src/app/qml/MainPage.qml:57
+#: ../src/app/qml/MainPage.qml:33
 msgctxt "MainPage|"
 msgid "Download automatically"
 msgstr "הורדה אוטומטית"
 
-#: ../src/app/qml/MainPage.qml:65
+#: ../src/app/qml/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Select .iso file"
 msgstr "בחירת קובץ ‎.iso"
 
-#: ../src/app/qml/MainPage.qml:76
+#: ../src/app/qml/MainPage.qml:50
 #, qt-format
 msgctxt "MainPage|"
 msgid "Restore <b>%1</b>"
 msgstr "שחזור של <b>%1</b>"
+
+#: ../src/app/qml/MainPage.qml:72
+#, fuzzy
+msgctxt "MainPage|"
+msgid "About"
+msgstr "על אודות"
+
+#: ../src/app/qml/Page.qml:100
+#, fuzzy
+msgctxt "Page|"
+msgid "Previous"
+msgstr "הקודם"
+
+#: ../src/app/qml/Page.qml:110
+#, fuzzy
+msgctxt "Page|"
+msgid "Next"
+msgstr "הבא"
 
 #: ../src/app/portalfiledialog.cpp:143
 msgctxt "PortalFileDialog|"
@@ -427,190 +516,341 @@ msgctxt "PortalFileDialog|"
 msgid "Open File"
 msgstr "פתיחת קובץ"
 
-#: ../src/app/releasemanager.cpp:397
+#: ../src/app/utilities.cpp:117
+#, fuzzy, qt-format
+msgctxt "Progress|"
+msgid " (%1 %2 left)"
+msgstr " בתים נותרו)"
+
+#: ../src/helper/win/writejob.cpp:398
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 TB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:400
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 GB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:402
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 MB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:404
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 KB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:407
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 byte(s)"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:395
 msgctxt "Release|"
 msgid "Pick a file from your drive(s)"
 msgstr "יש לבחור קובץ מהכונן"
 
-#: ../src/app/releasemanager.cpp:398
+#: ../src/app/releasemanager.cpp:396
 msgctxt "Release|"
 msgid ""
 "<p>Here you can choose a OS image from your hard drive to be written to your "
-"flash disk</p><p>Currently it is only supported to write raw disk images (."
-"iso or .bin)</p>"
+"flash disk</p><p>Currently it is only supported to write raw disk images "
+"(.iso or .bin)</p>"
 msgstr ""
 "<p>כאן ניתן לבחור דמות מערכת הפעלה מהכונן הקשיח אותה יש לכתוב לכונן ההבזק</"
 "p><p>כרגע נתמך רק בכתיבת דמות כונן גולמית (.iso או .bin)</p>"
 
-#: ../src/app/releasemanager.cpp:428
+#: ../src/app/releasemanager.cpp:427
 msgctxt "Release|"
 msgid "AOSC Spins"
 msgstr "מהדורות פדורה"
 
-#: ../src/app/releasemanager.cpp:430
+#: ../src/app/releasemanager.cpp:429
 msgctxt "Release|"
 msgid "AOSC Labs"
 msgstr "מעבדות פדורה"
 
-#: ../src/app/releasemanager.cpp:432
+#: ../src/app/releasemanager.cpp:431
 msgctxt "Release|"
 msgid "AOSC Atomic Desktops"
 msgstr "שולחנות עבודה של פדורה Atomic"
 
-#: ../src/app/releasemanager.cpp:434
+#: ../src/app/releasemanager.cpp:433
 msgctxt "Release|"
 msgid "Other"
 msgstr "אחר"
 
-#: ../src/app/releasemanager.cpp:1074
+#: ../src/app/releasemanager.cpp:1066
 msgctxt "ReleaseArchitecture|"
 msgid "Intel/AMD 64bit"
 msgstr "Intel/AMD‏ 64 סיביות"
 
-#: ../src/app/releasemanager.cpp:1074
+#: ../src/app/releasemanager.cpp:1066
 msgctxt "ReleaseArchitecture|"
 msgid "ISO format image for Intel, AMD and other compatible PCs (64-bit)"
 msgstr "דמות ISO עבור Intel, AMD ושאר מחשבים אישיים תואמים (64 סיביות)"
 
-#: ../src/app/releasemanager.cpp:1075
-msgctxt "ReleaseArchitecture|"
-msgid "Intel/AMD 32bit"
-msgstr "Intel/AMD‏ 32 סיביות"
-
-#: ../src/app/releasemanager.cpp:1075
-msgctxt "ReleaseArchitecture|"
-msgid "ISO format image for Intel, AMD and other compatible PCs (32-bit)"
-msgstr "דמות ISO עבור Intel, AMD ושאר מחשבים אישיים תואמים (32 סיביות)"
-
-#: ../src/app/releasemanager.cpp:1076
-msgctxt "ReleaseArchitecture|"
-msgid "ARM v7"
-msgstr "ARM v7"
-
-#: ../src/app/releasemanager.cpp:1076
-msgctxt "ReleaseArchitecture|"
-msgid ""
-"LZMA-compressed raw image for ARM v7-A machines like the Raspberry Pi 2 and 3"
-msgstr "דמות גולמית בדחיסת LZMA עבור מכונות ARM v7-A כגון Raspberry Pi 2 ו־3"
-
-#: ../src/app/releasemanager.cpp:1077
+#: ../src/app/releasemanager.cpp:1067
 msgctxt "ReleaseArchitecture|"
 msgid "AArch64"
 msgstr "AArch64"
 
-#: ../src/app/releasemanager.cpp:1077
+#: ../src/app/releasemanager.cpp:1067
 msgctxt "ReleaseArchitecture|"
 msgid "LZMA-compressed raw image for AArch64 machines"
 msgstr "דמות גולמית בדחיסת LZMA למכונות AArch64"
 
-#: ../src/app/releasemanager.cpp:396
+#: ../src/app/releasemanager.cpp:1068
+msgctxt "ReleaseArchitecture|"
+msgid "LoongArch"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1068
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for LoongArch devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1069
+msgctxt "ReleaseArchitecture|"
+msgid "POWER 64bit"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1069
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for IBM POWER devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1070
+msgctxt "ReleaseArchitecture|"
+msgid "RISC-V (64bit)"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1070
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for 64-bit RISC-V devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1071
+msgctxt "ReleaseArchitecture|"
+msgid "MIPS-based Loongson 3"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1071
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for MIPS-based Loongson 3 devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1072
+msgctxt "ReleaseArchitecture|"
+msgid "Intel/AMD 32bit"
+msgstr "Intel/AMD‏ 32 סיביות"
+
+#: ../src/app/releasemanager.cpp:1072
+msgctxt "ReleaseArchitecture|"
+msgid "ISO format image for Intel, AMD and other compatible PCs (32-bit)"
+msgstr "דמות ISO עבור Intel, AMD ושאר מחשבים אישיים תואמים (32 סיביות)"
+
+#: ../src/app/releasemanager.cpp:394
 msgctxt "ReleaseListModel|"
 msgid "Custom image"
 msgstr "דמות בהתאמה אישית"
 
-#: ../src/app/releasemanager.cpp:933 ../src/app/releasemanager.cpp:945
+#: ../src/app/releasemanager.cpp:925 ../src/app/releasemanager.cpp:937
 msgctxt "ReleaseVariant|"
 msgid "The downloaded image is corrupted"
 msgstr "הדמות שירדה פגומה"
 
-#: ../src/app/releasemanager.cpp:949
+#: ../src/app/releasemanager.cpp:941
 msgctxt "ReleaseVariant|"
 msgid "The downloaded file is not readable."
 msgstr "הקובץ שהתקבל אינו זמין לקריאה."
 
-#: ../src/app/releasemanager.cpp:960
+#: ../src/app/releasemanager.cpp:952
 msgctxt "ReleaseVariant|"
 msgid "Unable to rename the temporary file."
 msgstr "לא ניתן לשנות את שם הקובץ הזמני."
 
-#: ../src/app/releasemanager.h:375
+#: ../src/app/releasemanager.h:380
 msgctxt "ReleaseVariant|"
 msgid "Preparing"
 msgstr "בהכנה"
 
-#: ../src/app/releasemanager.h:376
+#: ../src/app/releasemanager.h:381
 msgctxt "ReleaseVariant|"
 msgid "Downloading"
 msgstr "בהורדה"
 
-#: ../src/app/releasemanager.h:377
+#: ../src/app/releasemanager.h:382
 msgctxt "ReleaseVariant|"
 msgid "Checking the download"
 msgstr "ההורדה נבדקת"
 
-#: ../src/app/releasemanager.h:378
+#: ../src/app/releasemanager.h:383
 msgctxt "ReleaseVariant|"
 msgid "Ready to write"
 msgstr "מוכן לכתיבה"
 
-#: ../src/app/releasemanager.h:379
+#: ../src/app/releasemanager.h:384
 msgctxt "ReleaseVariant|"
 msgid "Image file was saved to your downloads folder. Writing is not possible"
 msgstr "קובץ הדמות נשמר לתיקיית ההורדות שלך. אין אפשרות לכתוב"
 
-#: ../src/app/releasemanager.h:380
+#: ../src/app/releasemanager.h:385
 msgctxt "ReleaseVariant|"
 msgid "Writing"
 msgstr "מתבצעת כתיבה"
 
-#: ../src/app/releasemanager.h:381
+#: ../src/app/releasemanager.h:386
 msgctxt "ReleaseVariant|"
 msgid "Checking the written data"
 msgstr "הנתונים שנכתבו נבדקים"
 
-#: ../src/app/releasemanager.h:382
+#: ../src/app/releasemanager.h:387
 msgctxt "ReleaseVariant|"
 msgid "Finished!"
 msgstr "הסתיים!"
 
-#: ../src/app/releasemanager.h:383
+#: ../src/app/releasemanager.h:388
 msgctxt "ReleaseVariant|"
 msgid "The written data is corrupted"
 msgstr "הנתונים שנכתב פגומים"
 
-#: ../src/app/releasemanager.h:384
+#: ../src/app/releasemanager.h:389
 msgctxt "ReleaseVariant|"
 msgid "Download failed"
 msgstr "ההורדה נכשלה"
 
-#: ../src/app/releasemanager.h:385
+#: ../src/app/releasemanager.h:390
 msgctxt "ReleaseVariant|"
 msgid "Error"
 msgstr "שגיאה"
 
-#: ../src/app/releasemanager.cpp:706
+#: ../src/app/releasemanager.cpp:698
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Alpha"
 msgstr "%1 אלפא"
 
-#: ../src/app/releasemanager.cpp:708
+#: ../src/app/releasemanager.cpp:700
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Beta"
 msgstr "%1 בטא"
 
-#: ../src/app/releasemanager.cpp:710
+#: ../src/app/releasemanager.cpp:702
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Release Candidate"
 msgstr "%1 מועמדות להוצא לאור"
 
-#: ../src/app/qml/RestorePage.qml:37
+#: ../src/helper/linux/restorejob.cpp:67
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Failed to open device for writing"
+msgstr "לא ניתן לפתוח את היעד לכתיבה"
+
+#: ../src/helper/linux/restorejob.cpp:82 ../src/helper/linux/restorejob.cpp:114
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Destination drive is not writable"
+msgstr "כונן היעד אינו נגיש לכתיבה"
+
+#: ../src/helper/linux/restorejob.cpp:91
+msgctxt "RestoreJob|"
+msgid "Failed to get file size"
+msgstr ""
+
+#: ../src/helper/linux/restorejob.cpp:98
+msgctxt "RestoreJob|"
+msgid "File size is smaller than 128 blocks"
+msgstr ""
+
+#: ../src/helper/linux/restorejob.cpp:105
+msgctxt "RestoreJob|"
+msgid "Failed to move file pointer to the end region"
+msgstr ""
+
+#: ../src/helper/linux/restorejob.cpp:122
+msgctxt "RestoreJob|"
+msgid "Failed to sync data to disk"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:60
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Couldn't remove drive mountpoints"
+msgstr "לא ניתן להסיר את הכונן %1:"
+
+#: ../src/helper/win/restorejob.cpp:71
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Failed to remove partitions from the drive"
+msgstr "הבדיקה נכשלה בהעדר בכוננים"
+
+#: ../src/helper/win/restorejob.cpp:80
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Failed to open the drive for formatting"
+msgstr "לא ניתן לפתוח את הכונן לכתיבה"
+
+#: ../src/helper/win/restorejob.cpp:95
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Couldn't lock the drive"
+msgstr "לא ניתן לטעון את הכונן"
+
+#: ../src/helper/win/restorejob.cpp:112
+msgctxt "RestoreJob|"
+msgid "Failed to clear the partition table on the drive"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:123
+msgctxt "RestoreJob|"
+msgid "Failed to set the drive to RAW partition style"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:134
+msgctxt "RestoreJob|"
+msgid "Failed to create a GPT partition on the drive"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:150
+msgctxt "RestoreJob|"
+msgid "Failed to get GUID volume path on the drive"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:165
+msgctxt "RestoreJob|"
+msgid "Failed to mount the new partition"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:176
+msgctxt "RestoreJob|"
+msgid "Failed to format the partition to exFAT"
+msgstr ""
+
+#: ../src/app/qml/RestorePage.qml:28
 #, qt-format
 msgctxt "RestorePage|"
 msgid "Restore Drive <b>%1</b>"
 msgstr "שחזור הכונן <b>%1</b>"
 
-#: ../src/app/qml/RestorePage.qml:49
+#: ../src/app/qml/RestorePage.qml:36
+#, fuzzy
 msgctxt "RestorePage|"
 msgid ""
 "<p align=\"justify\"> To reclaim all space available on the drive, it has to "
 "be restored to its factory settings. The live system and all saved data will "
-"be deleted. </p> <p align=\"justify\"> You don't need to restore the drive "
-"if you want to write another live system to it. \n"
-"                </p> <p align=\"justify\"> Do you want to restore it to "
-"factory settings? </p>"
+"be deleted.</p> <p align=\"justify\"> You don't need to restore the drive if "
+"you want to write another live system to it.</p> <p align=\"justify\"> Do "
+"you want to restore it to factory settings? </p>"
 msgstr ""
 "<p align=\"justify\"> להשבת כל המקום הזמין בכונן, יש לשחזרו להגדרות היצרן. "
 "המערכת החיה וכל הנתונים השמורים יימחקו. </p> <p align=\"justify\"> אין צורך "
@@ -618,7 +858,7 @@ msgstr ""
 "                                            </p> <p align=\"justify\"> לשחזר "
 "אותו להגדרות היצרן? </p>"
 
-#: ../src/app/qml/RestorePage.qml:67
+#: ../src/app/qml/RestorePage.qml:53
 msgctxt "RestorePage|"
 msgid ""
 "<p align=\"justify\">Please wait while AOSC Media Writer restores your "
@@ -627,12 +867,12 @@ msgstr ""
 "<p align=\"justify\">נא להמתין בזמן שכותב המדיה של פדורה משחזר את הכונן "
 "הנייד.</p>"
 
-#: ../src/app/qml/RestorePage.qml:84
+#: ../src/app/qml/RestorePage.qml:69
 msgctxt "RestorePage|"
 msgid "Your drive was successfully restored!"
 msgstr "הכונן שלך שוחזר בהצלחה!"
 
-#: ../src/app/qml/RestorePage.qml:94
+#: ../src/app/qml/RestorePage.qml:78
 msgctxt "RestorePage|"
 msgid ""
 "Unfortunately, an error occurred during the process. Please try restoring "
@@ -641,109 +881,116 @@ msgstr ""
 "לרוע המזל, התהליך נתקל בשגיאה. נא לנסות לשחזר את הכונן באמצעות כלי המערכת "
 "שלך."
 
-#: ../src/app/qml/RestorePage.qml:143
+#: ../src/app/qml/RestorePage.qml:92
 msgctxt "RestorePage|"
 msgid "Restoring finished"
 msgstr "השחזור הושלם"
 
-#: ../src/app/qml/VersionPage.qml:35
-msgctxt "VersionPage|"
-msgid "Select AOSC Release"
+#: ../src/app/qml/RestorePage.qml:110
+#, fuzzy
+msgctxt "RestorePage|"
+msgid "Finish"
+msgstr "סיום"
+
+#: ../src/app/qml/RestorePage.qml:110
+#, fuzzy
+msgctxt "RestorePage|"
+msgid "Restore"
+msgstr "שחזור"
+
+#: ../src/app/qml/VersionLoadPage.qml:29
+#, fuzzy
+msgctxt "VersionLoadPage|"
+msgid "Fetching AOSC Release Data"
 msgstr "בחירת מהדורה של פדורה"
 
-#: ../src/app/qml/VersionPage.qml:48
-msgctxt "VersionPage|"
-msgid "Select from:"
-msgstr "בחירה מתוך:"
+#: ../src/app/qml/VersionLoadPage.qml:46
+msgctxt "VersionLoadPage|"
+msgid ""
+"Please wait while AOSC Media Writer is fetching AOSC OS release "
+"information ..."
+msgstr ""
 
-#: ../src/app/qml/VersionPage.qml:53
-msgctxt "VersionPage|"
-msgid "Official Editions"
-msgstr "מהדורות רשמיות"
+#: ../src/app/qml/VersionLoadPage.qml:72
+msgctxt "VersionLoadPage|"
+msgid "Failed to fetch AOSC OS release information. Please try again later."
+msgstr ""
 
-#: ../src/app/qml/VersionPage.qml:59
-msgctxt "VersionPage|"
-msgid "Atomic Desktops"
-msgstr "שולחנות עבודה Atomic"
-
-#: ../src/app/qml/VersionPage.qml:65
-msgctxt "VersionPage|"
-msgid "Spins"
-msgstr "ערבובים"
-
-#: ../src/app/qml/VersionPage.qml:71
-msgctxt "VersionPage|"
-msgid "Labs"
-msgstr "מעבדות"
-
-#: ../src/app/windrivemanager.cpp:319
+#: ../src/app/windrivemanager.cpp:149
 msgctxt "WinDrive|"
 msgid "Could not find the helper binary. Check your installation."
 msgstr "קובץ ההרצה של המסייע אינו נמצא. יש לבדוק את ההתקנה."
 
-#: ../src/app/windrivemanager.cpp:404 ../src/app/windrivemanager.cpp:455
+#: ../src/app/windrivemanager.cpp:239 ../src/app/windrivemanager.cpp:297
 msgctxt "WinDrive|"
 msgid "Finished!"
 msgstr "הסתיימה!"
 
-#: ../src/app/windrivemanager.cpp:404 ../src/app/windrivemanager.cpp:455
+#: ../src/app/windrivemanager.cpp:239 ../src/app/windrivemanager.cpp:297
 #, qt-format
 msgctxt "WinDrive|"
 msgid "Writing %1 was successful"
 msgstr "הכתיבה של %1 הצליחה"
 
-#: ../src/helper/linux/writejob.cpp:143 ../src/helper/mac/writejob.cpp:225
-#: ../src/helper/win/writejob.cpp:271
+#: ../src/app/windrivemanager.cpp:244
+#, fuzzy
+msgctxt "WinDrive|"
+msgid "Writing has been cancelled"
+msgstr "הכתיבה אל %1 נכשלה"
+
+#: ../src/helper/linux/writejob.cpp:80 ../src/helper/mac/writejob.cpp:225
+#: ../src/helper/win/writejob.cpp:295
 msgctxt "WriteJob|"
 msgid "Failed to start decompressing."
 msgstr "התחלת החילוץ נכשלה."
 
-#: ../src/helper/linux/writejob.cpp:168 ../src/helper/linux/writejob.cpp:198
-#: ../src/helper/linux/writejob.cpp:236 ../src/helper/mac/writejob.cpp:185
+#: ../src/helper/linux/writejob.cpp:105 ../src/helper/linux/writejob.cpp:135
+#: ../src/helper/linux/writejob.cpp:173 ../src/helper/mac/writejob.cpp:185
 #: ../src/helper/mac/writejob.cpp:250 ../src/helper/mac/writejob.cpp:280
-#: ../src/helper/win/writejob.cpp:188 ../src/helper/win/writejob.cpp:195
+#: ../src/helper/win/writejob.cpp:327 ../src/helper/win/writejob.cpp:370
+#: ../src/helper/win/writejob.cpp:465
 msgctxt "WriteJob|"
 msgid "Destination drive is not writable"
 msgstr "כונן היעד אינו נגיש לכתיבה"
 
-#: ../src/helper/linux/writejob.cpp:177 ../src/helper/mac/writejob.cpp:259
-#: ../src/helper/win/writejob.cpp:315
+#: ../src/helper/linux/writejob.cpp:114 ../src/helper/mac/writejob.cpp:259
+#: ../src/helper/win/writejob.cpp:345
 msgctxt "WriteJob|"
 msgid "There is not enough memory to decompress the file."
 msgstr "אין די זיכרון לחילוץ הקובץ."
 
-#: ../src/helper/linux/writejob.cpp:182 ../src/helper/mac/writejob.cpp:264
-#: ../src/helper/win/writejob.cpp:320
+#: ../src/helper/linux/writejob.cpp:119 ../src/helper/mac/writejob.cpp:264
+#: ../src/helper/win/writejob.cpp:350
 msgctxt "WriteJob|"
 msgid "The downloaded compressed file is corrupted."
 msgstr "הקובץ הדחוס שהתקבל פגום."
 
-#: ../src/helper/linux/writejob.cpp:185 ../src/helper/mac/writejob.cpp:267
-#: ../src/helper/win/writejob.cpp:323
+#: ../src/helper/linux/writejob.cpp:122 ../src/helper/mac/writejob.cpp:267
+#: ../src/helper/win/writejob.cpp:353
 msgctxt "WriteJob|"
 msgid "Unsupported compression options."
 msgstr "אפשרויות דחיסה בלתי נתמכות."
 
-#: ../src/helper/linux/writejob.cpp:188 ../src/helper/mac/writejob.cpp:270
-#: ../src/helper/win/writejob.cpp:326
+#: ../src/helper/linux/writejob.cpp:125 ../src/helper/mac/writejob.cpp:270
+#: ../src/helper/win/writejob.cpp:356
 msgctxt "WriteJob|"
 msgid "Unknown decompression error."
 msgstr "שגיאת חילוץ בלתי ידועה."
 
-#: ../src/helper/linux/writejob.cpp:214 ../src/helper/linux/writejob.cpp:229
-#: ../src/helper/win/writejob.cpp:361
+#: ../src/helper/linux/writejob.cpp:151 ../src/helper/linux/writejob.cpp:166
+#: ../src/helper/win/writejob.cpp:255 ../src/helper/win/writejob.cpp:420
 msgctxt "WriteJob|"
 msgid "Source image is not readable"
 msgstr "דמות המקור אינה זמינה לקריאה"
 
-#: ../src/helper/linux/writejob.cpp:266 ../src/helper/mac/writejob.cpp:304
-#: ../src/helper/win/writejob.cpp:406
+#: ../src/helper/linux/writejob.cpp:203 ../src/helper/mac/writejob.cpp:304
+#: ../src/helper/win/writejob.cpp:538
 msgctxt "WriteJob|"
 msgid "Your drive is probably damaged."
 msgstr "הכונן כנראה ניזוק."
 
-#: ../src/helper/linux/writejob.cpp:271 ../src/helper/mac/writejob.cpp:309
-#: ../src/helper/win/writejob.cpp:411
+#: ../src/helper/linux/writejob.cpp:208 ../src/helper/mac/writejob.cpp:309
+#: ../src/helper/win/writejob.cpp:543
 msgctxt "WriteJob|"
 msgid "Unexpected error occurred during media check."
 msgstr "שגיאה בלתי צפויה אירעה במהלך בדיקת המדיה."
@@ -758,136 +1005,291 @@ msgctxt "WriteJob|"
 msgid "Unable to open destination for writing"
 msgstr "לא ניתן לפתוח את היעד לכתיבה"
 
-#: ../src/helper/win/writejob.cpp:74
+#: ../src/helper/win/writejob.cpp:122
+#, fuzzy
 msgctxt "WriteJob|"
-msgid "Couldn't open the drive for writing"
+msgid "Couldn't remove drive mountpoints"
+msgstr "לא ניתן להסיר את הכונן %1:"
+
+#: ../src/helper/win/writejob.cpp:129
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to remove partitions from the drive"
+msgstr "הבדיקה נכשלה בהעדר בכוננים"
+
+#: ../src/helper/win/writejob.cpp:140
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to open the drive for formatting"
 msgstr "לא ניתן לפתוח את הכונן לכתיבה"
 
-#: ../src/helper/win/writejob.cpp:98
+#: ../src/helper/win/writejob.cpp:146
 msgctxt "WriteJob|"
 msgid "Couldn't lock the drive"
 msgstr "לא ניתן לטעון את הכונן"
 
-#: ../src/helper/win/writejob.cpp:134
-#, qt-format
+#: ../src/helper/win/writejob.cpp:159
+#, fuzzy
 msgctxt "WriteJob|"
-msgid "Couldn't remove the drive %1:"
-msgstr "לא ניתן להסיר את הכונן %1:"
+msgid "Couldn't open the logical handle"
+msgstr "לא ניתן לפתוח את הכונן לכתיבה"
 
-#: ../src/helper/win/writejob.cpp:209
+#: ../src/helper/win/writejob.cpp:165
+#, fuzzy
 msgctxt "WriteJob|"
-msgid "Couldn't unlock the drive"
+msgid "Couldn't lock the logical drive"
+msgstr "לא ניתן לטעון את הכונן"
+
+#: ../src/helper/win/writejob.cpp:172
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Couldn't unmount drive"
 msgstr "לא ניתן לשחרר את הכונן"
 
-#: ../src/app/qml/main.qml:116
+#: ../src/helper/win/writejob.cpp:268 ../src/helper/win/writejob.cpp:434
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to allocate the buffer"
+msgstr "לא ניתן להקצות צמד שקעים"
+
+#: ../src/helper/win/writejob.cpp:334 ../src/helper/win/writejob.cpp:377
+#: ../src/helper/win/writejob.cpp:473
+msgctxt "WriteJob|"
+msgid "The last block was not fully written"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:466
+#, qt-format
+msgctxt "WriteJob|"
+msgid "Wrote %1 out of %2"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:492
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to read the image file: "
+msgstr "לא ניתן לשנות את שם הקובץ הזמני."
+
+#: ../src/helper/win/writejob.cpp:498
+#, qt-format
+msgctxt "WriteJob|"
+msgid "Failed to write entire image. Total written: %1 out of %2"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:518
+#, fuzzy, qt-format
+msgctxt "WriteJob|"
+msgid "Couldn't open the drive for data verification for %1:"
+msgstr "לא ניתן לפתוח את הכונן לכתיבה"
+
+#: ../src/app/qml/main.qml:81
 msgctxt "main|"
 msgid "AOSC Media Writer"
 msgstr "כותב המדיה של פדורה"
 
-#: ../src/app/qml/main.qml:154
+#: ../src/app/qml/main.qml:100
 msgctxt "main|"
 msgid "Select AOSC Version"
 msgstr "בחירת גרסת פדורה"
 
-#: ../src/app/qml/main.qml:170
+#: ../src/app/qml/main.qml:114
 msgctxt "main|"
 msgid "Select Drive"
 msgstr "בחירת כונן"
 
-#: ../src/app/qml/main.qml:250 ../src/app/qml/main.qml:291
+#: ../src/app/qml/main.qml:139
 msgctxt "main|"
 msgid "Restore"
 msgstr "שחזור"
 
-#: ../src/app/qml/main.qml:290 ../src/app/qml/main.qml:304
-msgctxt "main|"
-msgid "Finish"
-msgstr "סיום"
+#. (itstool) path: component/id
+#. (itstool) path: component/launchable
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:5
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:6
+msgid "io.aosc.MediaWriter.desktop"
+msgstr ""
 
-#: ../src/app/qml/main.qml:294 ../src/app/qml/main.qml:302
-msgctxt "main|"
-msgid "Write"
-msgstr "כתיבה"
+#. (itstool) path: component/project_license
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:7
+msgid "GPL-2.0+"
+msgstr ""
 
-#: ../src/app/qml/main.qml:296
-msgctxt "main|"
-msgid "Download && Write"
-msgstr "הורדה וכתיבה"
-
-#: ../src/app/qml/main.qml:297
-msgctxt "main|"
-msgid "Download & Write"
-msgstr "הורדה וכתיבה"
-
-#: ../src/app/qml/main.qml:300 ../src/app/qml/main.qml:315
-msgctxt "main|"
-msgid "Cancel"
-msgstr "ביטול"
-
-#: ../src/app/qml/main.qml:306
-msgctxt "main|"
-msgid "Retry"
-msgstr "ניסיון חוזר"
-
-#: ../src/app/qml/main.qml:308
-msgctxt "main|"
-msgid "Next"
-msgstr "הבא"
-
-#: ../src/app/qml/main.qml:313
-msgctxt "main|"
-msgid "About"
-msgstr "על אודות"
-
-#: ../src/app/qml/main.qml:316
-msgctxt "main|"
-msgid "Previous"
-msgstr "הקודם"
+#. (itstool) path: component/metadata_license
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:8
+msgid "CC0-1.0"
+msgstr ""
 
 #. #-#-#-#-#  appstream.pot (PACKAGE VERSION)  #-#-#-#-#
-#. (itstool) path: application/name
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:8
-#: ../src/app/data/io.aosc.MediaWriter.desktop:4
+#. (itstool) path: component/name
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
+#: ../src/app/data/io.aosc.MediaWriter.desktop:3
 msgid "AOSC Media Writer"
 msgstr "כותב המדיה של AOSC"
 
-#. (itstool) path: application/summary
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
+#. (itstool) path: component/summary
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:10
 msgid "A tool to create a live USB drive with an edition of AOSC"
 msgstr "כלי ליצירת כונן USB חי עם מהדורה של AOSC"
 
 #. (itstool) path: description/p
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:11
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:12
 msgid ""
-"A tool to create a bootable live USB drive with an edition of AOSC. Not "
-"only can AOSC Media Writer write an image to your flash drive, it can also "
-"download it for you. It offers official editions (Server, Workstation), "
-"AOSC spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and "
-"AOSC Labs (Design Suite, Security Lab,...). It provides basic information "
-"about each of them to help you make the right choice."
+"A tool to create a bootable live USB drive with an edition of AOSC. Not only "
+"can AOSC Media Writer write an image to your flash drive, it can also "
+"download it for you. It offers official editions (Server, Workstation), AOSC "
+"spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and AOSC "
+"Labs (Design Suite, Security Lab,...). It provides basic information about "
+"each of them to help you make the right choice."
 msgstr ""
 "כלי ליצירת כונן USB חי עם מהדורת AOSC. לא בלבד שכותב המדיה של AOSC מסוגל "
 "לכתוב תמונה אל כונן ההבזק, הוא יכול גם להורידה. מציע מהדורות רשמיות (Server, "
 "Workstation), הסבות AOSC (שולחן עבודה KDE Plasma, שולחן עבודה Xfce, שולחן "
-"עבודה Cinnamon,...), ומעבדות AOSC (ערכת עיצוב, מעבדת אבטחה). מספק מידע "
-"בסיסי על אודות כל אחד מהם לעזרה בבחירה הנכונה."
+"עבודה Cinnamon,...), ומעבדות AOSC (ערכת עיצוב, מעבדת אבטחה). מספק מידע בסיסי "
+"על אודות כל אחד מהם לעזרה בבחירה הנכונה."
 
 #. (itstool) path: description/p
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:12
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:13
 msgid ""
-"AOSC Media Writer can also write other bootable ISOs loaded from your "
-"local disk, but keep in mind that it's only tested with AOSC images."
+"AOSC Media Writer can also write other bootable ISOs loaded from your local "
+"disk, but keep in mind that it's only tested with AOSC images."
 msgstr ""
 "כותב המדיה של AOSC מסוגל גם לכתוב דמויות ISO ניתנות לאתחול אחרות מהכונן "
 "המקומי, אך מוטב לזכור שהוא נבדק רק עם דמויות של AOSC."
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:43
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:16
+msgid "iso"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:17
+msgid "aosc"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:18
+msgid "usb"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:19
+#, fuzzy
+msgid "writer"
+msgstr "כתיבה"
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:20
+msgid "live"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:21
+msgid "spin"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:22
+msgid "creator"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:23
+msgid "media"
+msgstr ""
+
+#. (itstool) path: component/url
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:25
+msgid "https://github.com/AOSC-Dev/MediaWriter"
+msgstr ""
+
+#. (itstool) path: screenshot/image
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:27
+msgid ""
+"https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/"
+"linux_main.png"
+msgstr ""
+
+#. (itstool) path: screenshot/image
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:28
+msgid ""
+"https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/"
+"linux_select_release.png"
+msgstr ""
+
+#. (itstool) path: component/developer_name
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:30
+msgid "Jan Grulich"
+msgstr ""
+
+#. (itstool) path: component/update_contact
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:31
+msgid "jgrulich@redhat.com"
+msgstr ""
+
+#. (itstool) path: release/url
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:35
+msgid "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
+msgstr ""
+
+#: ../src/app/data/io.aosc.MediaWriter.desktop:45
 msgid "Write AOSC images to your portable drives"
 msgstr "כתיבת דמויות AOSC אל כוננים ניידים"
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:87
+#: ../src/app/data/io.aosc.MediaWriter.desktop:92
 msgid "fmw;usb;iso;bootable;"
 msgstr "fmw;usb;iso;אתחול;טעינה;הפעלה;איתחול;בוט;"
+
+#~ msgctxt "DownloadPage|"
+#~ msgid " KB left)"
+#~ msgstr " ק״ב נותרו)"
+
+#~ msgctxt "DownloadPage|"
+#~ msgid " MB left)"
+#~ msgstr " מ״ב נותרו)"
+
+#~ msgctxt "DownloadPage|"
+#~ msgid " GB left)"
+#~ msgstr " ג״ב נותרו)"
+
+#, qt-format
+#~ msgctxt "DownloadPage|"
+#~ msgid " (%1"
+#~ msgstr " (%1"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "ARM v7"
+#~ msgstr "ARM v7"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid ""
+#~ "LZMA-compressed raw image for ARM v7-A machines like the Raspberry Pi 2 "
+#~ "and 3"
+#~ msgstr ""
+#~ "דמות גולמית בדחיסת LZMA עבור מכונות ARM v7-A כגון Raspberry Pi 2 ו־3"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Select from:"
+#~ msgstr "בחירה מתוך:"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Official Editions"
+#~ msgstr "מהדורות רשמיות"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Atomic Desktops"
+#~ msgstr "שולחנות עבודה Atomic"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Spins"
+#~ msgstr "ערבובים"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Labs"
+#~ msgstr "מעבדות"
+
+#~ msgctxt "main|"
+#~ msgid "Cancel"
+#~ msgstr "ביטול"
 
 #~ msgctxt "Release|"
 #~ msgid "Emerging AOSC Editions"
@@ -916,10 +1318,6 @@ msgstr "fmw;usb;iso;אתחול;טעינה;הפעלה;איתחול;בוט;"
 #~ msgctxt "DownloadPage|"
 #~ msgid "Writing"
 #~ msgstr "מתבצעת כתיבה"
-
-#~ msgctxt "DownloadPage|"
-#~ msgid "Finish"
-#~ msgstr "סיום"
 
 #, fuzzy
 #~| msgctxt "DownloadPage|"
@@ -957,10 +1355,6 @@ msgstr "fmw;usb;iso;אתחול;טעינה;הפעלה;איתחול;בוט;"
 #~ msgstr "הכתיבה הצליחה"
 
 #~ msgctxt "DownloadPage|"
-#~ msgid "Failed verification no drives"
-#~ msgstr "הבדיקה נכשלה בהעדר בכוננים"
-
-#~ msgctxt "DownloadPage|"
 #~ msgid "Failed verification"
 #~ msgstr "הבדיקה נכשלה"
 
@@ -993,8 +1387,8 @@ msgstr "fmw;usb;iso;אתחול;טעינה;הפעלה;איתחול;בוט;"
 #~ "AOSC %1 was released! Check it out!<br>If you want a stable, finished "
 #~ "system, it's better to stay at version %2."
 #~ msgstr ""
-#~ "AOSC %1 שוחררה! בדקו אותה!<br>אם ברצונכם מערכת יציבה ומוגמרת, מוטב "
-#~ "להישאר בגרסה %2."
+#~ "AOSC %1 שוחררה! בדקו אותה!<br>אם ברצונכם מערכת יציבה ומוגמרת, מוטב להישאר "
+#~ "בגרסה %2."
 
 #~ msgctxt "ImageDetails|"
 #~ msgid ", released on %1"

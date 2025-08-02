@@ -14,11 +14,11 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-12 21:31+0100\n"
+"POT-Creation-Date: 2025-08-02 10:45+0800\n"
 "PO-Revision-Date: 2024-03-14 08:36+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
-"Language-Team: Turkish <https://translate.AOSCproject.org/projects/"
-"AOSC-media-writer/mediawriter/tr/>\n"
+"Language-Team: Turkish <https://translate.AOSCproject.org/projects/AOSC-"
+"media-writer/mediawriter/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,49 +27,49 @@ msgstr ""
 "X-Generator: Weblate 5.4\n"
 "X-Qt-Contexts: true\n"
 
-#: ../src/app/qml/AboutDialog.qml:50
+#: ../src/app/qml/AboutDialog.qml:49
 msgctxt "AboutDialog|"
 msgid "About AOSC Media Writer"
 msgstr "AOSC Ortam Yazıcı Hakkında"
 
-#: ../src/app/qml/AboutDialog.qml:59
+#: ../src/app/qml/AboutDialog.qml:58
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "Version %1"
 msgstr "Sürüm %1"
 
-#: ../src/app/qml/AboutDialog.qml:66
+#: ../src/app/qml/AboutDialog.qml:65
 msgctxt "AboutDialog|"
 msgid "AOSC Media Writer is now checking for new releases"
 msgstr "AOSC Ortam Yazıcı şimdi yeni sürümleri denetliyor"
 
-#: ../src/app/qml/AboutDialog.qml:72
+#: ../src/app/qml/AboutDialog.qml:71
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "Please report bugs or your suggestions on %1"
 msgstr "Lütfen %1 üzerinden hataları veya önerilerinizi bildirin"
 
-#: ../src/app/qml/AboutDialog.qml:95
+#: ../src/app/qml/AboutDialog.qml:94
 msgctxt "AboutDialog|"
 msgid "Close"
 msgstr "Kapat"
 
-#: ../src/app/qml/CancelDialog.qml:56
+#: ../src/app/qml/CancelDialog.qml:55
 msgctxt "CancelDialog|"
 msgid "Cancel Download?"
 msgstr "İndirme İptal Edilsin Mi?"
 
-#: ../src/app/qml/CancelDialog.qml:58
+#: ../src/app/qml/CancelDialog.qml:57
 msgctxt "CancelDialog|"
 msgid "Cancel Writing?"
 msgstr "Yazma İptal Edilsin Mi?"
 
-#: ../src/app/qml/CancelDialog.qml:60
+#: ../src/app/qml/CancelDialog.qml:59
 msgctxt "CancelDialog|"
 msgid "Cancel Verification?"
 msgstr "Doğrulama İptal Edilsin Mi?"
 
-#: ../src/app/qml/CancelDialog.qml:67
+#: ../src/app/qml/CancelDialog.qml:66
 msgctxt "CancelDialog|"
 msgid ""
 "Download and media writing will be aborted. This process can be resumed any "
@@ -78,7 +78,7 @@ msgstr ""
 "İndirme ve ortam yazma işlemi iptal edilecek. Bu işlem daha sonra herhangi "
 "bir zamanda sürdürülebilir."
 
-#: ../src/app/qml/CancelDialog.qml:69
+#: ../src/app/qml/CancelDialog.qml:68
 msgctxt "CancelDialog|"
 msgid ""
 "Writing process will be aborted and your drive will have to be restored "
@@ -86,174 +86,205 @@ msgid ""
 msgstr ""
 "Yazma işlemi iptal edilecek ve daha sonra sürücünüzün sıfırlanması gerekecek."
 
-#: ../src/app/qml/CancelDialog.qml:71
+#: ../src/app/qml/CancelDialog.qml:70
 msgctxt "CancelDialog|"
 msgid "This operation is safe to be cancelled."
 msgstr "Bu işlemin iptal edilmesi güvenlidir."
 
-#: ../src/app/qml/CancelDialog.qml:88
+#: ../src/app/qml/CancelDialog.qml:87
 msgctxt "CancelDialog|"
 msgid "Continue"
 msgstr "Sürdür"
 
-#: ../src/app/qml/CancelDialog.qml:111
+#: ../src/app/qml/CancelDialog.qml:110
 msgctxt "CancelDialog|"
 msgid "Cancel Download"
 msgstr "İndirmeyi İptal Et"
 
-#: ../src/app/qml/CancelDialog.qml:113
+#: ../src/app/qml/CancelDialog.qml:112
 msgctxt "CancelDialog|"
 msgid "Cancel Writing"
 msgstr "Yazmayı İptal Et"
 
-#: ../src/app/qml/CancelDialog.qml:115
+#: ../src/app/qml/CancelDialog.qml:114
 msgctxt "CancelDialog|"
 msgid "Cancel Verification"
 msgstr "Doğrulamayı İptal Et"
 
-#: ../src/app/qml/CancelDialog.qml:117
+#: ../src/app/qml/CancelDialog.qml:116
 msgctxt "CancelDialog|"
 msgid "Cancel"
 msgstr "İptal"
 
-#: ../src/app/downloadmanager.cpp:235
+#: ../src/app/qml/DeviceWarningDialog.qml:49
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Erase confirmation"
+msgstr "Kolay Yönetim"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:54
+#, qt-format
+msgctxt "DeviceWarningDialog|"
+msgid ""
+"The entire device (all of %1) will be erased and the selected image will be "
+"written to it. Do you want to continue?"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:69
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Cancel"
+msgstr "İptal"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:82
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Write"
+msgstr "Yaz"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:84
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Download && Write"
+msgstr "İndir ve Yaz"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:85
+#, fuzzy
+msgctxt "DeviceWarningDialog|"
+msgid "Download & Write"
+msgstr "İndir ve Yaz"
+
+#: ../src/app/qml/DeviceWarningDialog.qml:97
+msgctxt "DeviceWarningDialog|"
+msgid "GB"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:99
+msgctxt "DeviceWarningDialog|"
+msgid "MB"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:101
+msgctxt "DeviceWarningDialog|"
+msgid "KB"
+msgstr ""
+
+#: ../src/app/qml/DeviceWarningDialog.qml:103
+msgctxt "DeviceWarningDialog|"
+msgid "Bytes"
+msgstr ""
+
+#: ../src/app/downloadmanager.cpp:225
 msgctxt "Download|"
 msgid "Unable to fetch the requested image."
 msgstr "İstenen görüntü alınamıyor."
 
-#: ../src/app/downloadmanager.cpp:335
+#: ../src/app/downloadmanager.cpp:325
 msgctxt "Download|"
 msgid "You ran out of space in your Downloads folder."
 msgstr "İndirilenler klasörünüzdeki boş alan bitti."
 
-#: ../src/app/downloadmanager.cpp:337
+#: ../src/app/downloadmanager.cpp:327
 msgctxt "Download|"
 msgid "The download file is not writable."
 msgstr "İndirilen dosya yazılabilir değil."
 
-#: ../src/app/downloadmanager.cpp:425
+#: ../src/app/downloadmanager.cpp:416
 msgctxt "Download|"
 msgid "Connection timed out"
 msgstr "Bağlantı zaman aşımına uğradı"
 
-#: ../src/app/qml/DownloadPage.qml:52
+#: ../src/app/qml/DownloadPage.qml:36
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "%1 Successfully Written"
 msgstr "%1 Başarıyla Yazıldı"
 
-#: ../src/app/qml/DownloadPage.qml:54
+#: ../src/app/qml/DownloadPage.qml:38
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Writing %1"
 msgstr "%1 Yazılıyor"
 
-#: ../src/app/qml/DownloadPage.qml:56
+#: ../src/app/qml/DownloadPage.qml:40
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Downloading %1"
 msgstr "%1 İndiriliyor"
 
-#: ../src/app/qml/DownloadPage.qml:58
+#: ../src/app/qml/DownloadPage.qml:42
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Preparing %1"
 msgstr "%1 Hazırlanıyor"
 
-#: ../src/app/qml/DownloadPage.qml:60
+#: ../src/app/qml/DownloadPage.qml:44
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Ready to write %1"
 msgstr "%1 yazmaya hazır"
 
-#: ../src/app/qml/DownloadPage.qml:62
+#: ../src/app/qml/DownloadPage.qml:46
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Failed to download %1"
 msgstr "%1 indirilemedi"
 
-#: ../src/app/qml/DownloadPage.qml:76
-msgctxt "DownloadPage|"
-msgid " B left)"
-msgstr " B kaldı)"
-
-#: ../src/app/qml/DownloadPage.qml:77
-msgctxt "DownloadPage|"
-msgid " KB left)"
-msgstr " KB kaldı)"
-
-#: ../src/app/qml/DownloadPage.qml:78
-msgctxt "DownloadPage|"
-msgid " MB left)"
-msgstr " MB kaldı)"
-
-#: ../src/app/qml/DownloadPage.qml:79
-msgctxt "DownloadPage|"
-msgid " GB left)"
-msgstr " GB kaldı)"
-
-#: ../src/app/qml/DownloadPage.qml:82 ../src/app/qml/DownloadPage.qml:83
-#: ../src/app/qml/DownloadPage.qml:84 ../src/app/qml/DownloadPage.qml:85
-#, qt-format
-msgctxt "DownloadPage|"
-msgid " (%1"
-msgstr " (%1"
-
-#: ../src/app/qml/DownloadPage.qml:101
+#: ../src/app/qml/DownloadPage.qml:63
 msgctxt "DownloadPage|"
 msgid "Your drive was unplugged during the process"
 msgstr "İşlem sırasında sürücünüz çıkarıldı"
 
-#: ../src/app/qml/DownloadPage.qml:135
+#: ../src/app/qml/DownloadPage.qml:91
 msgctxt "DownloadPage|"
 msgid "Downloads are saved to the downloads folder."
 msgstr "İndirilenler, indirilenler klasörüne kaydedilir."
 
-#: ../src/app/qml/DownloadPage.qml:143
+#: ../src/app/qml/DownloadPage.qml:101
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "By writing, you will lose all of the data on %1."
 msgstr "Yazarak, %1 içindeki tüm veriyi yitireceksiniz."
 
-#: ../src/app/qml/DownloadPage.qml:151
+#: ../src/app/qml/DownloadPage.qml:109
 msgctxt "DownloadPage|"
 msgid "Please insert an USB drive."
 msgstr "Lütfen USB sürücü takın."
 
-#: ../src/app/qml/DownloadPage.qml:159
+#: ../src/app/qml/DownloadPage.qml:118
 msgctxt "DownloadPage|"
 msgid ""
 "Your drive will be resized to a smaller capacity. You may resize it back to "
-"normal by using AOSC Media Writer. This will remove installation media "
-"from your drive."
+"normal by using AOSC Media Writer. This will remove installation media from "
+"your drive."
 msgstr ""
 "Sürücünüz daha küçük bir kapasiteye boyutlandırılacak. Olağan boyutuna "
-"döndürmek için AOSC Ortam Yazıcı'yı kullanabilirsiniz. Bu, kurulum "
-"ortamını sürücüden kaldıracaktır."
+"döndürmek için AOSC Ortam Yazıcı'yı kullanabilirsiniz. Bu, kurulum ortamını "
+"sürücüden kaldıracaktır."
 
-#: ../src/app/qml/DownloadPage.qml:167
+#: ../src/app/qml/DownloadPage.qml:126
 msgctxt "DownloadPage|"
 msgid "Selected:"
 msgstr "Seçilen:"
 
-#: ../src/app/qml/DownloadPage.qml:167
+#: ../src/app/qml/DownloadPage.qml:126
 msgctxt "DownloadPage|"
 msgid "None"
 msgstr "Hiçbiri"
 
-#: ../src/app/qml/DownloadPage.qml:175
+#: ../src/app/qml/DownloadPage.qml:134
 #, qt-format
 msgctxt "DownloadPage|"
 msgid ""
-"Your board or device is not supported by AOSC Media Writer yet. Please "
-"check <a href=%1>this page</a> for more information about its compatibility "
-"with AOSC and how to create bootable media for it."
+"Your board or device is not supported by AOSC Media Writer yet. Please check "
+"<a href=%1>this page</a> for more information about its compatibility with "
+"AOSC and how to create bootable media for it."
 msgstr ""
 "Kartınız veya aygıtınız henüz AOSC Ortam Yazıcı tarafından desteklenmiyor. "
 "AOSC ile uyumluluğu ve nasıl önyüklenebilir ortam oluşturulacağıyla ilgili "
 "daha çok bilgi için lütfen <a href=%1>bu sayfaya</a> göz atın."
 
-#: ../src/app/qml/DownloadPage.qml:184
+#: ../src/app/qml/DownloadPage.qml:145
 #, qt-format
 msgctxt "DownloadPage|"
 msgid ""
@@ -262,76 +293,117 @@ msgid ""
 msgstr ""
 "Seçilen sürücünün boyutu %1. Yanlışlıkla dış sürücü seçmiş olabilirsiniz!"
 
-#: ../src/app/qml/DownloadPage.qml:193
+#: ../src/app/qml/DownloadPage.qml:153
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Restart and boot from %1 to start using %2."
 msgstr "%2 kullanmaya başlamak için yeniden başlatın ve %1'den önyükleyin."
+
+#: ../src/app/qml/DownloadPage.qml:222 ../src/app/qml/DownloadPage.qml:253
+#, fuzzy
+msgctxt "DownloadPage|"
+msgid "Cancel"
+msgstr "İptal"
+
+#: ../src/app/qml/DownloadPage.qml:255
+#, fuzzy
+msgctxt "DownloadPage|"
+msgid "Write"
+msgstr "Yaz"
+
+#: ../src/app/qml/DownloadPage.qml:257
+msgctxt "DownloadPage|"
+msgid "Finish"
+msgstr "Bitir"
+
+#: ../src/app/qml/DownloadPage.qml:259
+#, fuzzy
+msgctxt "DownloadPage|"
+msgid "Retry"
+msgstr "Yeniden Dene"
 
 #: ../src/app/drivemanager.cpp:317
 msgctxt "Drive|"
 msgid "This drive is not large enough."
 msgstr "Sürücü yeterince büyük değil."
 
-#: ../src/app/qml/DrivePage.qml:36
+#: ../src/app/qml/DrivePage.qml:30
 msgctxt "DrivePage|"
 msgid "Write Options"
 msgstr "Yazma Seçenekleri"
 
-#: ../src/app/qml/DrivePage.qml:45
+#: ../src/app/qml/DrivePage.qml:37
 msgctxt "DrivePage|"
 msgid "Version"
 msgstr "Sürüm"
 
-#: ../src/app/qml/DrivePage.qml:67
+#: ../src/app/qml/DrivePage.qml:59
 msgctxt "DrivePage|"
 msgid "Hardware Architecture"
 msgstr "Donanım Mimarisi"
 
-#: ../src/app/qml/DrivePage.qml:84
+#: ../src/app/qml/DrivePage.qml:76
 msgctxt "DrivePage|"
 msgid "Selected file"
 msgstr "Seçilen dosya"
 
-#: ../src/app/qml/DrivePage.qml:91
+#: ../src/app/qml/DrivePage.qml:83
 msgctxt "DrivePage|"
 msgid "None"
 msgstr "Hiçbiri"
 
-#: ../src/app/qml/DrivePage.qml:99
+#: ../src/app/qml/DrivePage.qml:91
 msgctxt "DrivePage|"
 msgid "Select..."
 msgstr "Seç..."
 
-#: ../src/app/qml/DrivePage.qml:116
+#: ../src/app/qml/DrivePage.qml:108
 msgctxt "DrivePage|"
 msgid "Image files"
 msgstr "Görüntü dosyaları"
 
-#: ../src/app/qml/DrivePage.qml:116
+#: ../src/app/qml/DrivePage.qml:108
 msgctxt "DrivePage|"
 msgid "All files (*)"
 msgstr "Tüm dosyalar (*)"
 
-#: ../src/app/qml/DrivePage.qml:127
+#: ../src/app/qml/DrivePage.qml:119
 msgctxt "DrivePage|"
 msgid "USB Drive"
 msgstr "USB Sürücü"
 
-#: ../src/app/qml/DrivePage.qml:135
+#: ../src/app/qml/DrivePage.qml:127
 msgctxt "DrivePage|"
 msgid "There are no portable drives connected"
 msgstr "Bağlı taşınabilir sürücü yok"
 
-#: ../src/app/qml/DrivePage.qml:155
+#: ../src/app/qml/DrivePage.qml:146
 msgctxt "DrivePage|"
 msgid "Download"
 msgstr "İndir"
 
-#: ../src/app/qml/DrivePage.qml:160
+#: ../src/app/qml/DrivePage.qml:151
 msgctxt "DrivePage|"
 msgid "Delete download after writing"
 msgstr "Yazdıktan sonra indirmeyi sil"
+
+#: ../src/app/qml/DrivePage.qml:169
+#, fuzzy
+msgctxt "DrivePage|"
+msgid "Write"
+msgstr "Yaz"
+
+#: ../src/app/qml/DrivePage.qml:171
+#, fuzzy
+msgctxt "DrivePage|"
+msgid "Download && Write"
+msgstr "İndir ve Yaz"
+
+#: ../src/app/qml/DrivePage.qml:172
+#, fuzzy
+msgctxt "DrivePage|"
+msgid "Download & Write"
+msgstr "İndir ve Yaz"
 
 #: ../src/app/linuxdrivemanager.cpp:199
 msgctxt "LinuxDrive|"
@@ -402,26 +474,44 @@ msgctxt "MacDrive|"
 msgid "Writing %1 was successful"
 msgstr "%1 yazımı başarılı"
 
-#: ../src/app/qml/MainPage.qml:43
+#: ../src/app/qml/MainPage.qml:29
 msgctxt "MainPage|"
 msgid "Select Image Source"
 msgstr "Görüntü Kaynağını Seç"
 
-#: ../src/app/qml/MainPage.qml:57
+#: ../src/app/qml/MainPage.qml:33
 msgctxt "MainPage|"
 msgid "Download automatically"
 msgstr "Kendiliğinden indir"
 
-#: ../src/app/qml/MainPage.qml:65
+#: ../src/app/qml/MainPage.qml:40
 msgctxt "MainPage|"
 msgid "Select .iso file"
 msgstr ".iso dosyası seç"
 
-#: ../src/app/qml/MainPage.qml:76
+#: ../src/app/qml/MainPage.qml:50
 #, qt-format
 msgctxt "MainPage|"
 msgid "Restore <b>%1</b>"
 msgstr "<b>%1</b> sürücüsünü sıfırla"
+
+#: ../src/app/qml/MainPage.qml:72
+#, fuzzy
+msgctxt "MainPage|"
+msgid "About"
+msgstr "Hakkında"
+
+#: ../src/app/qml/Page.qml:100
+#, fuzzy
+msgctxt "Page|"
+msgid "Previous"
+msgstr "Önceki"
+
+#: ../src/app/qml/Page.qml:110
+#, fuzzy
+msgctxt "Page|"
+msgid "Next"
+msgstr "Sonraki"
 
 #: ../src/app/portalfiledialog.cpp:143
 msgctxt "PortalFileDialog|"
@@ -438,193 +528,342 @@ msgctxt "PortalFileDialog|"
 msgid "Open File"
 msgstr "Dosya Aç"
 
-#: ../src/app/releasemanager.cpp:397
+#: ../src/app/utilities.cpp:117
+#, fuzzy, qt-format
+msgctxt "Progress|"
+msgid " (%1 %2 left)"
+msgstr " B kaldı)"
+
+#: ../src/helper/win/writejob.cpp:398
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 TB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:400
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 GB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:402
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 MB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:404
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 KB"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:407
+#, qt-format
+msgctxt "QFileSystemModel|"
+msgid "%1 byte(s)"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:395
 msgctxt "Release|"
 msgid "Pick a file from your drive(s)"
 msgstr "Sürücülerinizden dosya seçin"
 
-#: ../src/app/releasemanager.cpp:398
+#: ../src/app/releasemanager.cpp:396
 msgctxt "Release|"
 msgid ""
 "<p>Here you can choose a OS image from your hard drive to be written to your "
-"flash disk</p><p>Currently it is only supported to write raw disk images (."
-"iso or .bin)</p>"
+"flash disk</p><p>Currently it is only supported to write raw disk images "
+"(.iso or .bin)</p>"
 msgstr ""
 "<p>Burada sabit sürücünüzden flaş diskinize yazılacak bir İS görüntüsü "
 "seçebilirsiniz</p><p>Şimdilik yalnızca ham disk (.iso veya .bin) "
 "görüntülerin yazımı desteklenmektedir. </p>"
 
-#: ../src/app/releasemanager.cpp:428
+#: ../src/app/releasemanager.cpp:427
 msgctxt "Release|"
 msgid "AOSC Spins"
 msgstr "AOSC Spinleri"
 
-#: ../src/app/releasemanager.cpp:430
+#: ../src/app/releasemanager.cpp:429
 msgctxt "Release|"
 msgid "AOSC Labs"
 msgstr "AOSC Labları"
 
-#: ../src/app/releasemanager.cpp:432
+#: ../src/app/releasemanager.cpp:431
 msgctxt "Release|"
 msgid "AOSC Atomic Desktops"
 msgstr "AOSC Atomik Masaüstleri"
 
-#: ../src/app/releasemanager.cpp:434
+#: ../src/app/releasemanager.cpp:433
 msgctxt "Release|"
 msgid "Other"
 msgstr "Diğer"
 
-#: ../src/app/releasemanager.cpp:1074
+#: ../src/app/releasemanager.cpp:1066
 msgctxt "ReleaseArchitecture|"
 msgid "Intel/AMD 64bit"
 msgstr "Intel/AMD 64bit"
 
-#: ../src/app/releasemanager.cpp:1074
+#: ../src/app/releasemanager.cpp:1066
 msgctxt "ReleaseArchitecture|"
 msgid "ISO format image for Intel, AMD and other compatible PCs (64-bit)"
 msgstr "Intel, AMD ve diğer uyumlu PC'ler için ISO biçimi (64-bit)"
 
-#: ../src/app/releasemanager.cpp:1075
-msgctxt "ReleaseArchitecture|"
-msgid "Intel/AMD 32bit"
-msgstr "Intel/AMD 32bit"
-
-#: ../src/app/releasemanager.cpp:1075
-msgctxt "ReleaseArchitecture|"
-msgid "ISO format image for Intel, AMD and other compatible PCs (32-bit)"
-msgstr "Intel, AMD ve diğer uyumlu PC'ler için ISO biçimi (32-bit)"
-
-#: ../src/app/releasemanager.cpp:1076
-msgctxt "ReleaseArchitecture|"
-msgid "ARM v7"
-msgstr "ARM v7"
-
-#: ../src/app/releasemanager.cpp:1076
-msgctxt "ReleaseArchitecture|"
-msgid ""
-"LZMA-compressed raw image for ARM v7-A machines like the Raspberry Pi 2 and 3"
-msgstr ""
-"Raspberry Pi 2 ve 3 gibi ARM v7-A makineler için LZMA ile sıkıştırılmış ham "
-"görüntü"
-
-#: ../src/app/releasemanager.cpp:1077
+#: ../src/app/releasemanager.cpp:1067
 msgctxt "ReleaseArchitecture|"
 msgid "AArch64"
 msgstr "AArch64"
 
-#: ../src/app/releasemanager.cpp:1077
+#: ../src/app/releasemanager.cpp:1067
 msgctxt "ReleaseArchitecture|"
 msgid "LZMA-compressed raw image for AArch64 machines"
 msgstr "AArch64 makineleri için LZMA sıkıştırılmış ham görüntü"
 
-#: ../src/app/releasemanager.cpp:396
+#: ../src/app/releasemanager.cpp:1068
+msgctxt "ReleaseArchitecture|"
+msgid "LoongArch"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1068
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for LoongArch devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1069
+msgctxt "ReleaseArchitecture|"
+msgid "POWER 64bit"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1069
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for IBM POWER devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1070
+msgctxt "ReleaseArchitecture|"
+msgid "RISC-V (64bit)"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1070
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for 64-bit RISC-V devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1071
+msgctxt "ReleaseArchitecture|"
+msgid "MIPS-based Loongson 3"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1071
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for MIPS-based Loongson 3 devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1072
+msgctxt "ReleaseArchitecture|"
+msgid "Intel/AMD 32bit"
+msgstr "Intel/AMD 32bit"
+
+#: ../src/app/releasemanager.cpp:1072
+msgctxt "ReleaseArchitecture|"
+msgid "ISO format image for Intel, AMD and other compatible PCs (32-bit)"
+msgstr "Intel, AMD ve diğer uyumlu PC'ler için ISO biçimi (32-bit)"
+
+#: ../src/app/releasemanager.cpp:394
 msgctxt "ReleaseListModel|"
 msgid "Custom image"
 msgstr "Özel görüntü"
 
-#: ../src/app/releasemanager.cpp:933 ../src/app/releasemanager.cpp:945
+#: ../src/app/releasemanager.cpp:925 ../src/app/releasemanager.cpp:937
 msgctxt "ReleaseVariant|"
 msgid "The downloaded image is corrupted"
 msgstr "İndirilen görüntü bozulmuş"
 
-#: ../src/app/releasemanager.cpp:949
+#: ../src/app/releasemanager.cpp:941
 msgctxt "ReleaseVariant|"
 msgid "The downloaded file is not readable."
 msgstr "İndirilen dosya okunabilir değil."
 
-#: ../src/app/releasemanager.cpp:960
+#: ../src/app/releasemanager.cpp:952
 msgctxt "ReleaseVariant|"
 msgid "Unable to rename the temporary file."
 msgstr "Geçici dosya yeniden adlandırılamıyor."
 
-#: ../src/app/releasemanager.h:375
+#: ../src/app/releasemanager.h:380
 msgctxt "ReleaseVariant|"
 msgid "Preparing"
 msgstr "Hazırlanıyor"
 
-#: ../src/app/releasemanager.h:376
+#: ../src/app/releasemanager.h:381
 msgctxt "ReleaseVariant|"
 msgid "Downloading"
 msgstr "İndiriliyor"
 
-#: ../src/app/releasemanager.h:377
+#: ../src/app/releasemanager.h:382
 msgctxt "ReleaseVariant|"
 msgid "Checking the download"
 msgstr "İndirme denetleniyor"
 
-#: ../src/app/releasemanager.h:378
+#: ../src/app/releasemanager.h:383
 msgctxt "ReleaseVariant|"
 msgid "Ready to write"
 msgstr "Yazmaya hazır"
 
-#: ../src/app/releasemanager.h:379
+#: ../src/app/releasemanager.h:384
 msgctxt "ReleaseVariant|"
 msgid "Image file was saved to your downloads folder. Writing is not possible"
 msgstr "Görüntü dosyası indirilenler klasörünüze kaydedildi. Yazım olası değil"
 
-#: ../src/app/releasemanager.h:380
+#: ../src/app/releasemanager.h:385
 msgctxt "ReleaseVariant|"
 msgid "Writing"
 msgstr "Yazılıyor"
 
-#: ../src/app/releasemanager.h:381
+#: ../src/app/releasemanager.h:386
 msgctxt "ReleaseVariant|"
 msgid "Checking the written data"
 msgstr "Yazılan veri denetleniyor"
 
-#: ../src/app/releasemanager.h:382
+#: ../src/app/releasemanager.h:387
 msgctxt "ReleaseVariant|"
 msgid "Finished!"
 msgstr "Bitti!"
 
-#: ../src/app/releasemanager.h:383
+#: ../src/app/releasemanager.h:388
 msgctxt "ReleaseVariant|"
 msgid "The written data is corrupted"
 msgstr "Yazılı veri bozulmuş"
 
-#: ../src/app/releasemanager.h:384
+#: ../src/app/releasemanager.h:389
 msgctxt "ReleaseVariant|"
 msgid "Download failed"
 msgstr "İndirilemedi"
 
-#: ../src/app/releasemanager.h:385
+#: ../src/app/releasemanager.h:390
 msgctxt "ReleaseVariant|"
 msgid "Error"
 msgstr "Hata"
 
-#: ../src/app/releasemanager.cpp:706
+#: ../src/app/releasemanager.cpp:698
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Alpha"
 msgstr "%1 Alpha"
 
-#: ../src/app/releasemanager.cpp:708
+#: ../src/app/releasemanager.cpp:700
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Beta"
 msgstr "%1 Beta"
 
-#: ../src/app/releasemanager.cpp:710
+#: ../src/app/releasemanager.cpp:702
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Release Candidate"
 msgstr "%1 Sürüm Adayı"
 
-#: ../src/app/qml/RestorePage.qml:37
+#: ../src/helper/linux/restorejob.cpp:67
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Failed to open device for writing"
+msgstr "Yazmak için hedef açılamıyor"
+
+#: ../src/helper/linux/restorejob.cpp:82 ../src/helper/linux/restorejob.cpp:114
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Destination drive is not writable"
+msgstr "Hedef sürücü yazılabilir değil"
+
+#: ../src/helper/linux/restorejob.cpp:91
+msgctxt "RestoreJob|"
+msgid "Failed to get file size"
+msgstr ""
+
+#: ../src/helper/linux/restorejob.cpp:98
+msgctxt "RestoreJob|"
+msgid "File size is smaller than 128 blocks"
+msgstr ""
+
+#: ../src/helper/linux/restorejob.cpp:105
+msgctxt "RestoreJob|"
+msgid "Failed to move file pointer to the end region"
+msgstr ""
+
+#: ../src/helper/linux/restorejob.cpp:122
+msgctxt "RestoreJob|"
+msgid "Failed to sync data to disk"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:60
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Couldn't remove drive mountpoints"
+msgstr "%1 sürücüsü çıkarılamadı:"
+
+#: ../src/helper/win/restorejob.cpp:71
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Failed to remove partitions from the drive"
+msgstr "Doğrulanamadı, sürücü yok"
+
+#: ../src/helper/win/restorejob.cpp:80
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Failed to open the drive for formatting"
+msgstr "Sürücü yazım için açılamıyor"
+
+#: ../src/helper/win/restorejob.cpp:95
+#, fuzzy
+msgctxt "RestoreJob|"
+msgid "Couldn't lock the drive"
+msgstr "Sürücü kilitlenemiyor"
+
+#: ../src/helper/win/restorejob.cpp:112
+msgctxt "RestoreJob|"
+msgid "Failed to clear the partition table on the drive"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:123
+msgctxt "RestoreJob|"
+msgid "Failed to set the drive to RAW partition style"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:134
+msgctxt "RestoreJob|"
+msgid "Failed to create a GPT partition on the drive"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:150
+msgctxt "RestoreJob|"
+msgid "Failed to get GUID volume path on the drive"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:165
+msgctxt "RestoreJob|"
+msgid "Failed to mount the new partition"
+msgstr ""
+
+#: ../src/helper/win/restorejob.cpp:176
+msgctxt "RestoreJob|"
+msgid "Failed to format the partition to exFAT"
+msgstr ""
+
+#: ../src/app/qml/RestorePage.qml:28
 #, qt-format
 msgctxt "RestorePage|"
 msgid "Restore Drive <b>%1</b>"
 msgstr "<b>%1</b> Sürücüsünü Sıfırla"
 
-#: ../src/app/qml/RestorePage.qml:49
+#: ../src/app/qml/RestorePage.qml:36
+#, fuzzy
 msgctxt "RestorePage|"
 msgid ""
 "<p align=\"justify\"> To reclaim all space available on the drive, it has to "
 "be restored to its factory settings. The live system and all saved data will "
-"be deleted. </p> <p align=\"justify\"> You don't need to restore the drive "
-"if you want to write another live system to it. \n"
-"                </p> <p align=\"justify\"> Do you want to restore it to "
-"factory settings? </p>"
+"be deleted.</p> <p align=\"justify\"> You don't need to restore the drive if "
+"you want to write another live system to it.</p> <p align=\"justify\"> Do "
+"you want to restore it to factory settings? </p>"
 msgstr ""
 "<p align=\"justify\"> Sürücünün tüm alanının kullanılabilmesi için fabrika "
 "ayarlarına döndürülmesi gerekmektedir. Canlı sistem ve kaydedilen veriler "
@@ -633,7 +872,7 @@ msgstr ""
 "                </p> <p align=\"justify\"> Fabrika ayarlarına döndürmek "
 "istiyor musunuz? </p>"
 
-#: ../src/app/qml/RestorePage.qml:67
+#: ../src/app/qml/RestorePage.qml:53
 msgctxt "RestorePage|"
 msgid ""
 "<p align=\"justify\">Please wait while AOSC Media Writer restores your "
@@ -642,12 +881,12 @@ msgstr ""
 "<p align=\"justify\">AOSC Ortam Yazıcı taşınabilir sürücünüzü sıfırlarken "
 "lütfen bekleyin.</p>"
 
-#: ../src/app/qml/RestorePage.qml:84
+#: ../src/app/qml/RestorePage.qml:69
 msgctxt "RestorePage|"
 msgid "Your drive was successfully restored!"
 msgstr "Sürücünüz başarıyla sıfırlandı!"
 
-#: ../src/app/qml/RestorePage.qml:94
+#: ../src/app/qml/RestorePage.qml:78
 msgctxt "RestorePage|"
 msgid ""
 "Unfortunately, an error occurred during the process. Please try restoring "
@@ -656,109 +895,116 @@ msgstr ""
 "Ne yazık ki işlem sırasında hata oluştu. Lütfen sistem araçlarınızı "
 "kullanarak sürücünüzü onarmayı deneyin."
 
-#: ../src/app/qml/RestorePage.qml:143
+#: ../src/app/qml/RestorePage.qml:92
 msgctxt "RestorePage|"
 msgid "Restoring finished"
 msgstr "Sıfırlama tamamlandı"
 
-#: ../src/app/qml/VersionPage.qml:35
-msgctxt "VersionPage|"
-msgid "Select AOSC Release"
+#: ../src/app/qml/RestorePage.qml:110
+#, fuzzy
+msgctxt "RestorePage|"
+msgid "Finish"
+msgstr "Bitir"
+
+#: ../src/app/qml/RestorePage.qml:110
+#, fuzzy
+msgctxt "RestorePage|"
+msgid "Restore"
+msgstr "Sıfırla"
+
+#: ../src/app/qml/VersionLoadPage.qml:29
+#, fuzzy
+msgctxt "VersionLoadPage|"
+msgid "Fetching AOSC Release Data"
 msgstr "AOSC Sürümü Seç"
 
-#: ../src/app/qml/VersionPage.qml:48
-msgctxt "VersionPage|"
-msgid "Select from:"
-msgstr "Şuradan seç:"
+#: ../src/app/qml/VersionLoadPage.qml:46
+msgctxt "VersionLoadPage|"
+msgid ""
+"Please wait while AOSC Media Writer is fetching AOSC OS release "
+"information ..."
+msgstr ""
 
-#: ../src/app/qml/VersionPage.qml:53
-msgctxt "VersionPage|"
-msgid "Official Editions"
-msgstr "Resmi Sürümler"
+#: ../src/app/qml/VersionLoadPage.qml:72
+msgctxt "VersionLoadPage|"
+msgid "Failed to fetch AOSC OS release information. Please try again later."
+msgstr ""
 
-#: ../src/app/qml/VersionPage.qml:59
-msgctxt "VersionPage|"
-msgid "Atomic Desktops"
-msgstr "Atomik Masaüstleri"
-
-#: ../src/app/qml/VersionPage.qml:65
-msgctxt "VersionPage|"
-msgid "Spins"
-msgstr "Spinler"
-
-#: ../src/app/qml/VersionPage.qml:71
-msgctxt "VersionPage|"
-msgid "Labs"
-msgstr "Lablar"
-
-#: ../src/app/windrivemanager.cpp:319
+#: ../src/app/windrivemanager.cpp:149
 msgctxt "WinDrive|"
 msgid "Could not find the helper binary. Check your installation."
 msgstr "Yardımcı ikili dosyası bulunamadı. Kurulumunuzu denetleyin."
 
-#: ../src/app/windrivemanager.cpp:404 ../src/app/windrivemanager.cpp:455
+#: ../src/app/windrivemanager.cpp:239 ../src/app/windrivemanager.cpp:297
 msgctxt "WinDrive|"
 msgid "Finished!"
 msgstr "Bitti!"
 
-#: ../src/app/windrivemanager.cpp:404 ../src/app/windrivemanager.cpp:455
+#: ../src/app/windrivemanager.cpp:239 ../src/app/windrivemanager.cpp:297
 #, qt-format
 msgctxt "WinDrive|"
 msgid "Writing %1 was successful"
 msgstr "%1 yazımı başarılı"
 
-#: ../src/helper/linux/writejob.cpp:143 ../src/helper/mac/writejob.cpp:225
-#: ../src/helper/win/writejob.cpp:271
+#: ../src/app/windrivemanager.cpp:244
+#, fuzzy
+msgctxt "WinDrive|"
+msgid "Writing has been cancelled"
+msgstr "%1 yazımı başarısız"
+
+#: ../src/helper/linux/writejob.cpp:80 ../src/helper/mac/writejob.cpp:225
+#: ../src/helper/win/writejob.cpp:295
 msgctxt "WriteJob|"
 msgid "Failed to start decompressing."
 msgstr "Açmaya başlama başarısız."
 
-#: ../src/helper/linux/writejob.cpp:168 ../src/helper/linux/writejob.cpp:198
-#: ../src/helper/linux/writejob.cpp:236 ../src/helper/mac/writejob.cpp:185
+#: ../src/helper/linux/writejob.cpp:105 ../src/helper/linux/writejob.cpp:135
+#: ../src/helper/linux/writejob.cpp:173 ../src/helper/mac/writejob.cpp:185
 #: ../src/helper/mac/writejob.cpp:250 ../src/helper/mac/writejob.cpp:280
-#: ../src/helper/win/writejob.cpp:188 ../src/helper/win/writejob.cpp:195
+#: ../src/helper/win/writejob.cpp:327 ../src/helper/win/writejob.cpp:370
+#: ../src/helper/win/writejob.cpp:465
 msgctxt "WriteJob|"
 msgid "Destination drive is not writable"
 msgstr "Hedef sürücü yazılabilir değil"
 
-#: ../src/helper/linux/writejob.cpp:177 ../src/helper/mac/writejob.cpp:259
-#: ../src/helper/win/writejob.cpp:315
+#: ../src/helper/linux/writejob.cpp:114 ../src/helper/mac/writejob.cpp:259
+#: ../src/helper/win/writejob.cpp:345
 msgctxt "WriteJob|"
 msgid "There is not enough memory to decompress the file."
 msgstr "Dosyayı açacak yeterli bellek yok."
 
-#: ../src/helper/linux/writejob.cpp:182 ../src/helper/mac/writejob.cpp:264
-#: ../src/helper/win/writejob.cpp:320
+#: ../src/helper/linux/writejob.cpp:119 ../src/helper/mac/writejob.cpp:264
+#: ../src/helper/win/writejob.cpp:350
 msgctxt "WriteJob|"
 msgid "The downloaded compressed file is corrupted."
 msgstr "İndirilen sıkıştırılmış dosya bozuk."
 
-#: ../src/helper/linux/writejob.cpp:185 ../src/helper/mac/writejob.cpp:267
-#: ../src/helper/win/writejob.cpp:323
+#: ../src/helper/linux/writejob.cpp:122 ../src/helper/mac/writejob.cpp:267
+#: ../src/helper/win/writejob.cpp:353
 msgctxt "WriteJob|"
 msgid "Unsupported compression options."
 msgstr "Desteklenmeyen sıkıştırma seçenekleri."
 
-#: ../src/helper/linux/writejob.cpp:188 ../src/helper/mac/writejob.cpp:270
-#: ../src/helper/win/writejob.cpp:326
+#: ../src/helper/linux/writejob.cpp:125 ../src/helper/mac/writejob.cpp:270
+#: ../src/helper/win/writejob.cpp:356
 msgctxt "WriteJob|"
 msgid "Unknown decompression error."
 msgstr "Bilinmeyen açma hatası."
 
-#: ../src/helper/linux/writejob.cpp:214 ../src/helper/linux/writejob.cpp:229
-#: ../src/helper/win/writejob.cpp:361
+#: ../src/helper/linux/writejob.cpp:151 ../src/helper/linux/writejob.cpp:166
+#: ../src/helper/win/writejob.cpp:255 ../src/helper/win/writejob.cpp:420
 msgctxt "WriteJob|"
 msgid "Source image is not readable"
 msgstr "Kaynak görüntü okunabilir değil"
 
-#: ../src/helper/linux/writejob.cpp:266 ../src/helper/mac/writejob.cpp:304
-#: ../src/helper/win/writejob.cpp:406
+#: ../src/helper/linux/writejob.cpp:203 ../src/helper/mac/writejob.cpp:304
+#: ../src/helper/win/writejob.cpp:538
 msgctxt "WriteJob|"
 msgid "Your drive is probably damaged."
 msgstr "Sürücünüz büyük olasılıkla hasar görmüş."
 
-#: ../src/helper/linux/writejob.cpp:271 ../src/helper/mac/writejob.cpp:309
-#: ../src/helper/win/writejob.cpp:411
+#: ../src/helper/linux/writejob.cpp:208 ../src/helper/mac/writejob.cpp:309
+#: ../src/helper/win/writejob.cpp:543
 msgctxt "WriteJob|"
 msgid "Unexpected error occurred during media check."
 msgstr "Ortam denetimi sırasında beklenmedik hata oluştu."
@@ -773,113 +1019,141 @@ msgctxt "WriteJob|"
 msgid "Unable to open destination for writing"
 msgstr "Yazmak için hedef açılamıyor"
 
-#: ../src/helper/win/writejob.cpp:74
+#: ../src/helper/win/writejob.cpp:122
+#, fuzzy
 msgctxt "WriteJob|"
-msgid "Couldn't open the drive for writing"
+msgid "Couldn't remove drive mountpoints"
+msgstr "%1 sürücüsü çıkarılamadı:"
+
+#: ../src/helper/win/writejob.cpp:129
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to remove partitions from the drive"
+msgstr "Doğrulanamadı, sürücü yok"
+
+#: ../src/helper/win/writejob.cpp:140
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to open the drive for formatting"
 msgstr "Sürücü yazım için açılamıyor"
 
-#: ../src/helper/win/writejob.cpp:98
+#: ../src/helper/win/writejob.cpp:146
 msgctxt "WriteJob|"
 msgid "Couldn't lock the drive"
 msgstr "Sürücü kilitlenemiyor"
 
-#: ../src/helper/win/writejob.cpp:134
-#, qt-format
+#: ../src/helper/win/writejob.cpp:159
+#, fuzzy
 msgctxt "WriteJob|"
-msgid "Couldn't remove the drive %1:"
-msgstr "%1 sürücüsü çıkarılamadı:"
+msgid "Couldn't open the logical handle"
+msgstr "Sürücü yazım için açılamıyor"
 
-#: ../src/helper/win/writejob.cpp:209
+#: ../src/helper/win/writejob.cpp:165
+#, fuzzy
 msgctxt "WriteJob|"
-msgid "Couldn't unlock the drive"
+msgid "Couldn't lock the logical drive"
+msgstr "Sürücü kilitlenemiyor"
+
+#: ../src/helper/win/writejob.cpp:172
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Couldn't unmount drive"
 msgstr "Sürücü kilidi açılamıyor"
 
-#: ../src/app/qml/main.qml:116
+#: ../src/helper/win/writejob.cpp:268 ../src/helper/win/writejob.cpp:434
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to allocate the buffer"
+msgstr "Yuva çifti özgülenemiyor"
+
+#: ../src/helper/win/writejob.cpp:334 ../src/helper/win/writejob.cpp:377
+#: ../src/helper/win/writejob.cpp:473
+msgctxt "WriteJob|"
+msgid "The last block was not fully written"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:466
+#, qt-format
+msgctxt "WriteJob|"
+msgid "Wrote %1 out of %2"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:492
+#, fuzzy
+msgctxt "WriteJob|"
+msgid "Failed to read the image file: "
+msgstr "Geçici dosya yeniden adlandırılamıyor."
+
+#: ../src/helper/win/writejob.cpp:498
+#, qt-format
+msgctxt "WriteJob|"
+msgid "Failed to write entire image. Total written: %1 out of %2"
+msgstr ""
+
+#: ../src/helper/win/writejob.cpp:518
+#, fuzzy, qt-format
+msgctxt "WriteJob|"
+msgid "Couldn't open the drive for data verification for %1:"
+msgstr "Sürücü yazım için açılamıyor"
+
+#: ../src/app/qml/main.qml:81
 msgctxt "main|"
 msgid "AOSC Media Writer"
 msgstr "AOSC Ortam Yazıcı"
 
-#: ../src/app/qml/main.qml:154
+#: ../src/app/qml/main.qml:100
 msgctxt "main|"
 msgid "Select AOSC Version"
 msgstr "AOSC Sürümü Seç"
 
-#: ../src/app/qml/main.qml:170
+#: ../src/app/qml/main.qml:114
 msgctxt "main|"
 msgid "Select Drive"
 msgstr "Sürücü Seç"
 
-#: ../src/app/qml/main.qml:250 ../src/app/qml/main.qml:291
+#: ../src/app/qml/main.qml:139
 msgctxt "main|"
 msgid "Restore"
 msgstr "Sıfırla"
 
-#: ../src/app/qml/main.qml:290 ../src/app/qml/main.qml:304
-msgctxt "main|"
-msgid "Finish"
-msgstr "Bitir"
+#. (itstool) path: component/id
+#. (itstool) path: component/launchable
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:5
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:6
+msgid "io.aosc.MediaWriter.desktop"
+msgstr ""
 
-#: ../src/app/qml/main.qml:294 ../src/app/qml/main.qml:302
-msgctxt "main|"
-msgid "Write"
-msgstr "Yaz"
+#. (itstool) path: component/project_license
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:7
+msgid "GPL-2.0+"
+msgstr ""
 
-#: ../src/app/qml/main.qml:296
-msgctxt "main|"
-msgid "Download && Write"
-msgstr "İndir ve Yaz"
-
-#: ../src/app/qml/main.qml:297
-msgctxt "main|"
-msgid "Download & Write"
-msgstr "İndir ve Yaz"
-
-#: ../src/app/qml/main.qml:300 ../src/app/qml/main.qml:315
-msgctxt "main|"
-msgid "Cancel"
-msgstr "İptal"
-
-#: ../src/app/qml/main.qml:306
-msgctxt "main|"
-msgid "Retry"
-msgstr "Yeniden Dene"
-
-#: ../src/app/qml/main.qml:308
-msgctxt "main|"
-msgid "Next"
-msgstr "Sonraki"
-
-#: ../src/app/qml/main.qml:313
-msgctxt "main|"
-msgid "About"
-msgstr "Hakkında"
-
-#: ../src/app/qml/main.qml:316
-msgctxt "main|"
-msgid "Previous"
-msgstr "Önceki"
+#. (itstool) path: component/metadata_license
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:8
+msgid "CC0-1.0"
+msgstr ""
 
 #. #-#-#-#-#  appstream.pot (PACKAGE VERSION)  #-#-#-#-#
-#. (itstool) path: application/name
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:8
-#: ../src/app/data/io.aosc.MediaWriter.desktop:4
+#. (itstool) path: component/name
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
+#: ../src/app/data/io.aosc.MediaWriter.desktop:3
 msgid "AOSC Media Writer"
 msgstr "AOSC Ortam Yazıcı"
 
-#. (itstool) path: application/summary
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
+#. (itstool) path: component/summary
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:10
 msgid "A tool to create a live USB drive with an edition of AOSC"
 msgstr "AOSC sürümünü içeren canlı USB aygıtı yaratmanızı sağlayan araç"
 
 #. (itstool) path: description/p
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:11
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:12
 msgid ""
-"A tool to create a bootable live USB drive with an edition of AOSC. Not "
-"only can AOSC Media Writer write an image to your flash drive, it can also "
-"download it for you. It offers official editions (Server, Workstation), "
-"AOSC spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and "
-"AOSC Labs (Design Suite, Security Lab,...). It provides basic information "
-"about each of them to help you make the right choice."
+"A tool to create a bootable live USB drive with an edition of AOSC. Not only "
+"can AOSC Media Writer write an image to your flash drive, it can also "
+"download it for you. It offers official editions (Server, Workstation), AOSC "
+"spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and AOSC "
+"Labs (Design Suite, Security Lab,...). It provides basic information about "
+"each of them to help you make the right choice."
 msgstr ""
 "Bir AOSC sürümünü içeren canlı USB aygıtı yaratmanızı sağlayan bu araçla "
 "yalnızca görüntünün aygıtınıza yazılmasını değil aynı zamanda sizin için "
@@ -890,22 +1164,150 @@ msgstr ""
 "bulabilirsiniz."
 
 #. (itstool) path: description/p
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:12
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:13
 msgid ""
-"AOSC Media Writer can also write other bootable ISOs loaded from your "
-"local disk, but keep in mind that it's only tested with AOSC images."
+"AOSC Media Writer can also write other bootable ISOs loaded from your local "
+"disk, but keep in mind that it's only tested with AOSC images."
 msgstr ""
 "AOSC Ortam Yazıcı aygıtınızda yer alan önyüklenebilen diğer ISO "
 "görüntülerinin yazılmasında da kullanılabilir ama aracın yalnızca AOSC "
 "görüntüleri ile denendiğini lütfen aklınızda bulundurun."
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:43
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:16
+msgid "iso"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:17
+msgid "aosc"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:18
+msgid "usb"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:19
+#, fuzzy
+msgid "writer"
+msgstr "Yaz"
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:20
+msgid "live"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:21
+msgid "spin"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:22
+msgid "creator"
+msgstr ""
+
+#. (itstool) path: keywords/keyword
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:23
+msgid "media"
+msgstr ""
+
+#. (itstool) path: component/url
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:25
+msgid "https://github.com/AOSC-Dev/MediaWriter"
+msgstr ""
+
+#. (itstool) path: screenshot/image
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:27
+msgid ""
+"https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/"
+"linux_main.png"
+msgstr ""
+
+#. (itstool) path: screenshot/image
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:28
+msgid ""
+"https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/"
+"linux_select_release.png"
+msgstr ""
+
+#. (itstool) path: component/developer_name
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:30
+msgid "Jan Grulich"
+msgstr ""
+
+#. (itstool) path: component/update_contact
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:31
+msgid "jgrulich@redhat.com"
+msgstr ""
+
+#. (itstool) path: release/url
+#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:35
+msgid "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
+msgstr ""
+
+#: ../src/app/data/io.aosc.MediaWriter.desktop:45
 msgid "Write AOSC images to your portable drives"
 msgstr "AOSC görüntülerini taşınabilir aygıtlarınıza yazın"
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:87
+#: ../src/app/data/io.aosc.MediaWriter.desktop:92
 msgid "fmw;usb;iso;bootable;"
 msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
+
+#~ msgctxt "DownloadPage|"
+#~ msgid " KB left)"
+#~ msgstr " KB kaldı)"
+
+#~ msgctxt "DownloadPage|"
+#~ msgid " MB left)"
+#~ msgstr " MB kaldı)"
+
+#~ msgctxt "DownloadPage|"
+#~ msgid " GB left)"
+#~ msgstr " GB kaldı)"
+
+#, qt-format
+#~ msgctxt "DownloadPage|"
+#~ msgid " (%1"
+#~ msgstr " (%1"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "ARM v7"
+#~ msgstr "ARM v7"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid ""
+#~ "LZMA-compressed raw image for ARM v7-A machines like the Raspberry Pi 2 "
+#~ "and 3"
+#~ msgstr ""
+#~ "Raspberry Pi 2 ve 3 gibi ARM v7-A makineler için LZMA ile sıkıştırılmış "
+#~ "ham görüntü"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Select from:"
+#~ msgstr "Şuradan seç:"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Official Editions"
+#~ msgstr "Resmi Sürümler"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Atomic Desktops"
+#~ msgstr "Atomik Masaüstleri"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Spins"
+#~ msgstr "Spinler"
+
+#~ msgctxt "VersionPage|"
+#~ msgid "Labs"
+#~ msgstr "Lablar"
+
+#~ msgctxt "main|"
+#~ msgid "Cancel"
+#~ msgstr "İptal"
 
 #~ msgctxt "Release|"
 #~ msgid "Emerging AOSC Editions"
@@ -934,10 +1336,6 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ msgctxt "DownloadPage|"
 #~ msgid "Writing"
 #~ msgstr "Yazılıyor"
-
-#~ msgctxt "DownloadPage|"
-#~ msgid "Finish"
-#~ msgstr "Bitir"
 
 #~ msgctxt "DownloadPage|"
 #~ msgid "Successfully written"
@@ -970,10 +1368,6 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ msgctxt "DownloadPage|"
 #~ msgid "Write Successful"
 #~ msgstr "Yazıldı"
-
-#~ msgctxt "DownloadPage|"
-#~ msgid "Failed verification no drives"
-#~ msgstr "Doğrulanamadı, sürücü yok"
 
 #~ msgctxt "DownloadPage|"
 #~ msgid "Failed verification"
@@ -1113,8 +1507,8 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ "“The plethora of tools provided by<br /> AOSC allows me to get the job "
 #~ "done.<br /> It just works.”"
 #~ msgstr ""
-#~ "“AOSC tarafından sağlanan araçların<br /> bolluğu işimi halletmeme "
-#~ "olanak tanıyor.<br /> Sorunsuz bir şekilde çalışıyor.”"
+#~ "“AOSC tarafından sağlanan araçların<br /> bolluğu işimi halletmeme olanak "
+#~ "tanıyor.<br /> Sorunsuz bir şekilde çalışıyor.”"
 
 #~ msgctxt "Release|"
 #~ msgid "JVM performance engineer"
@@ -1140,11 +1534,11 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "Skip the drag of trying to find or build the tools you need. With "
-#~ "AOSC's complete set of open source languages, tools, and utilities, "
-#~ "everything is a click or command line away. There's even project hosting "
-#~ "and repositories like COPR to make your code and builds available quickly "
-#~ "to the community."
+#~ "Skip the drag of trying to find or build the tools you need. With AOSC's "
+#~ "complete set of open source languages, tools, and utilities, everything "
+#~ "is a click or command line away. There's even project hosting and "
+#~ "repositories like COPR to make your code and builds available quickly to "
+#~ "the community."
 #~ msgstr ""
 #~ "İhtiyacınız olan araçları bulmaya veya oluşturmaya çalışmanın "
 #~ "yoruculuğunu unutun. AOSC'nın eksiksiz açık kaynak dilleri, araçları ve "
@@ -1176,8 +1570,8 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ "on AOSC, using the latest technology like Docker."
 #~ msgstr ""
 #~ "Docker gibi en son teknolojileri kullanarak kendi uygulamalarınızı "
-#~ "konteynerleştirin veya AOSC'da konteynerleştirilmiş uygulamaları "
-#~ "sorunsuz bir şekilde dağıtın."
+#~ "konteynerleştirin veya AOSC'da konteynerleştirilmiş uygulamaları sorunsuz "
+#~ "bir şekilde dağıtın."
 
 #~ msgctxt "Release|"
 #~ msgid "server"
@@ -1203,8 +1597,8 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ msgstr ""
 #~ "“Rolekit ve cockpit ile sunulan basitlik, sunucu kurulumlarını çok basit "
 #~ "bir hale getirdi. Diğer işletim sistemlerinde birkaç günümü alan şey, "
-#~ "AOSC %(rel)s Server ile bir saatten daha kısa sürdü. Sorunsuz bir "
-#~ "şekilde çalışıyor.”"
+#~ "AOSC %(rel)s Server ile bir saatten daha kısa sürdü. Sorunsuz bir şekilde "
+#~ "çalışıyor.”"
 
 #~ msgctxt "Release|"
 #~ msgid "Systems Engineer"
@@ -1221,10 +1615,6 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ "sistem yöneticilerinin açık kaynak topluluğunda bulunan en son "
 #~ "teknolojileri kullanmasını sağlayan kısa ömürlü, topluluk destekli bir "
 #~ "sunucu işletim sistemidir."
-
-#~ msgctxt "Release|"
-#~ msgid "Easy Administration"
-#~ msgstr "Kolay Yönetim"
 
 #~ msgctxt "Release|"
 #~ msgid ""
@@ -1244,8 +1634,8 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ msgid ""
 #~ "There's no need to set up your server from scratch when you use server "
 #~ "roles. Server roles plug into your AOSC Server system, providing a well-"
-#~ "integrated service on top of the AOSC Server platform. Deploy and "
-#~ "manage these prepared roles simply using the Rolekit tool."
+#~ "integrated service on top of the AOSC Server platform. Deploy and manage "
+#~ "these prepared roles simply using the Rolekit tool."
 #~ msgstr ""
 #~ "Sunucu rollerini kullanırken sunucunuzu sıfırdan kurmanıza gerek yoktur. "
 #~ "Sunucu rolleri, AOSC Server sisteminize bağlanarak, AOSC Server "
@@ -1258,8 +1648,8 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "AOSC Server brings with it an enterprise-class, scalable database "
-#~ "server powered by the open-source PostgreSQL project."
+#~ "AOSC Server brings with it an enterprise-class, scalable database server "
+#~ "powered by the open-source PostgreSQL project."
 #~ msgstr ""
 #~ "AOSC Server, açık kaynaklı PostgreSQL projesi tarafından desteklenen "
 #~ "kurumsal sınıfta, ölçeklenebilir bir veri tabanı sunucusuyla birlikte "
@@ -1322,9 +1712,9 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "Silverblue is a variant of AOSC Workstation. It looks, feels and "
-#~ "behaves like a regular desktop operating system, and the experience is "
-#~ "similar to what you find with using a standard AOSC Workstation."
+#~ "Silverblue is a variant of AOSC Workstation. It looks, feels and behaves "
+#~ "like a regular desktop operating system, and the experience is similar to "
+#~ "what you find with using a standard AOSC Workstation."
 #~ msgstr ""
 #~ "Silverblue, AOSC Workstation'ın bir çeşididir. Normal bir masaüstü "
 #~ "işletim sistemi gibi görünür, hissettirir ve davranır; ve standart bir "
@@ -1387,9 +1777,8 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "The AOSC KDE Plasma Desktop Edition is a powerful AOSC-based "
-#~ "operating system utilizing the KDE Plasma Desktop as the main user "
-#~ "interface."
+#~ "The AOSC KDE Plasma Desktop Edition is a powerful AOSC-based operating "
+#~ "system utilizing the KDE Plasma Desktop as the main user interface."
 #~ msgstr ""
 #~ "AOSC KDE Plasma Masaüstü Sürümü, ana kullanıcı arabirimi olarak KDE "
 #~ "Plasma Masaüstü'nü kullanan güçlü bir AOSC tabanlı işletim sistemidir."
@@ -1433,11 +1822,11 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "The AOSC Xfce spin showcases the Xfce desktop, which aims to be fast "
-#~ "and lightweight, while still being visually appealing and user friendly."
+#~ "The AOSC Xfce spin showcases the Xfce desktop, which aims to be fast and "
+#~ "lightweight, while still being visually appealing and user friendly."
 #~ msgstr ""
-#~ "AOSC Xfce spini, görsel olarak çekici ve kullanıcı dostu olmakla "
-#~ "birlikte hızlı ve hafif olmayı amaçlayan Xfce masaüstünü sunmaktadır."
+#~ "AOSC Xfce spini, görsel olarak çekici ve kullanıcı dostu olmakla birlikte "
+#~ "hızlı ve hafif olmayı amaçlayan Xfce masaüstünü sunmaktadır."
 
 #~ msgctxt "Release|"
 #~ msgid ""
@@ -1571,9 +1960,9 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ "interface, multi-language support, standard keyboard shortcuts and "
 #~ "additional features like tabbed file browsing."
 #~ msgstr ""
-#~ "LXDE, \"Lightweight X11 Desktop Environment (Hafif X11 Masaüstü "
-#~ "Ortamı)\", son derece hızlı, performanslı ve enerji tasarruflu bir "
-#~ "masaüstü ortamıdır. Uluslararası bir geliştiriciler topluluğu tarafından "
+#~ "LXDE, \"Lightweight X11 Desktop Environment (Hafif X11 Masaüstü Ortamı)"
+#~ "\", son derece hızlı, performanslı ve enerji tasarruflu bir masaüstü "
+#~ "ortamıdır. Uluslararası bir geliştiriciler topluluğu tarafından "
 #~ "yürütülmekte ve güzel bir arayüz, çoklu dil desteği, standart klavye "
 #~ "kısayolları ve sekmeli dosya tarama gibi ek özellikler ile birlikte "
 #~ "gelmektedir."
@@ -1665,15 +2054,15 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ "It makes i3 accessible and appealing to both novices and advanced users "
 #~ "who prefer not to use a mouse, touchpad, or other pointing device to "
 #~ "interact with their environment. Featuring lightweight applications for "
-#~ "web browsing, text editing, and media playback, the AOSC i3 Spin offers "
-#~ "a complete experience with a minimalist user interface."
+#~ "web browsing, text editing, and media playback, the AOSC i3 Spin offers a "
+#~ "complete experience with a minimalist user interface."
 #~ msgstr ""
 #~ "Bu spin, ortamlarıyla etkileşim kurmak için fare, dokunmatik yüzey veya "
 #~ "başka bir gösterme aygıtı kullanmayı tercih etmeyen hem acemi hem de "
 #~ "ileri düzey kullanıcılar için i3'yi erişilebilir ve çekici kılmaktadır. "
 #~ "İnternette gezinme, metin düzenleme ve medya oynatma için hafif "
-#~ "uygulamalar içeren AOSC i3 Spini, sade bir kullanıcı arayüzü ile "
-#~ "eksiksiz bir deneyim sunmaktadır."
+#~ "uygulamalar içeren AOSC i3 Spini, sade bir kullanıcı arayüzü ile eksiksiz "
+#~ "bir deneyim sunmaktadır."
 
 #~ msgctxt "Release|"
 #~ msgid "astronomy"
@@ -1714,12 +2103,12 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ "final results."
 #~ msgstr ""
 #~ "Spin, eksiksiz bir bilimsel Python ortamı ve veri analizi için AstrOmatic "
-#~ "yazılımı ile geliştirilmiş AOSC KDE masaüstünü sunmaktadır. Tam "
-#~ "donanımlı bir astrofotografi aracı sağlamak için KStars eklenmiştir. "
-#~ "KStars ekipmanı denetlemek için INDI kütüphanesini kullandığından, "
-#~ "çeşitli teleskoplar, kameralar vs. desteklenmektedir. Özetle, AOSC "
-#~ "Astronomy, gözlem planlamasından nihai sonuçlara kadar eksiksiz bir "
-#~ "yazılım seti sağlamaktadır."
+#~ "yazılımı ile geliştirilmiş AOSC KDE masaüstünü sunmaktadır. Tam donanımlı "
+#~ "bir astrofotografi aracı sağlamak için KStars eklenmiştir. KStars "
+#~ "ekipmanı denetlemek için INDI kütüphanesini kullandığından, çeşitli "
+#~ "teleskoplar, kameralar vs. desteklenmektedir. Özetle, AOSC Astronomy, "
+#~ "gözlem planlamasından nihai sonuçlara kadar eksiksiz bir yazılım seti "
+#~ "sağlamaktadır."
 
 #~ msgctxt "Release|"
 #~ msgid "design_suite"
@@ -1752,17 +2141,17 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ msgid ""
 #~ "The Design Suite includes the favorite tools of the AOSC Design Team. "
 #~ "These are the same programs we use to create all the artwork that you see "
-#~ "within the AOSC Project, from desktop backgrounds to CD sleeves, web "
-#~ "page designs, application interfaces, flyers, posters and more. From "
-#~ "document publication to vector and bitmap editing or 3D modeling to photo "
+#~ "within the AOSC Project, from desktop backgrounds to CD sleeves, web page "
+#~ "designs, application interfaces, flyers, posters and more. From document "
+#~ "publication to vector and bitmap editing or 3D modeling to photo "
 #~ "management, the Design Suite has an application for you — and you can "
 #~ "install thousands more from the AOSC universe of packages."
 #~ msgstr ""
 #~ "Design Suite, AOSC Tasarım Ekibinin favori araçlarını içermektedir. "
 #~ "Bunlar, masaüstü arka planlarından CD kılıflarına, web sayfası "
 #~ "tasarımlarına, uygulama arayüzlerine, el ilanlarına, posterlere ve daha "
-#~ "fazlasına kadar AOSC Projesi'nde gördüğünüz tüm çizimleri oluşturmak "
-#~ "için kullandığımız programlardır. Belge yayınlamadan vektör ve bitmap "
+#~ "fazlasına kadar AOSC Projesi'nde gördüğünüz tüm çizimleri oluşturmak için "
+#~ "kullandığımız programlardır. Belge yayınlamadan vektör ve bitmap "
 #~ "düzenlemeye veya 3B modellemeden fotoğraf yönetimine kadar, Design "
 #~ "Suite'in sizin için bir uygulaması vardır — ve AOSC paket evreninden "
 #~ "binlercesini daha kurabilirsiniz."
@@ -1778,15 +2167,13 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ msgid ""
 #~ "A collection and perfect show-case of the best games available in AOSC."
 #~ msgstr ""
-#~ "AOSC'da bulunan en iyi oyunların bir koleksiyonu ve mükemmel bir "
-#~ "vitrini."
+#~ "AOSC'da bulunan en iyi oyunların bir koleksiyonu ve mükemmel bir vitrini."
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "The AOSC Games spin offers a perfect showcase of the best games "
-#~ "available in AOSC. The included games span several genres, from first-"
-#~ "person shooters to real-time and turn-based strategy games to puzzle "
-#~ "games."
+#~ "The AOSC Games spin offers a perfect showcase of the best games available "
+#~ "in AOSC. The included games span several genres, from first-person "
+#~ "shooters to real-time and turn-based strategy games to puzzle games."
 #~ msgstr ""
 #~ "AOSC Games spini, AOSC'da bulunan en iyi oyunların mükemmel bir "
 #~ "gösterimini sunar. Dahil edilen oyunlar, birinci şahıs nişancı "
@@ -1795,13 +2182,13 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "Not all the games available in AOSC are included on this spin, but "
-#~ "trying out this spin will give you a fair impression of AOSC's ability "
-#~ "to run great games."
+#~ "Not all the games available in AOSC are included on this spin, but trying "
+#~ "out this spin will give you a fair impression of AOSC's ability to run "
+#~ "great games."
 #~ msgstr ""
 #~ "AOSC'da bulunan tüm oyunlar bu spine dahil edilmemiştir, ancak bu spini "
-#~ "denemek size AOSC'nın harika oyunlar çalıştırma yeteneği hakkında iyi "
-#~ "bir izlenim verecektir."
+#~ "denemek size AOSC'nın harika oyunlar çalıştırma yeteneği hakkında iyi bir "
+#~ "izlenim verecektir."
 
 #~ msgctxt "Release|"
 #~ msgid "python"
@@ -1819,14 +2206,14 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "One of the benefits of AOSC for Python developers is the ease of "
-#~ "setting up Python development. The AOSC Python Classroom Lab makes it "
-#~ "even easier for teachers and instructors to use AOSC in their "
-#~ "classrooms or workshops. Ready to use operating system with important "
-#~ "stuff pre-installed - either with GNOME or as a headless environment for "
-#~ "Docker or Vagrant. Teach Python on AOSC, with AOSC, using the stuff "
-#~ "you love: IPython, Jupyter Notebook, multiple Pythons, virtualenvs, tox, "
-#~ "git and more"
+#~ "One of the benefits of AOSC for Python developers is the ease of setting "
+#~ "up Python development. The AOSC Python Classroom Lab makes it even easier "
+#~ "for teachers and instructors to use AOSC in their classrooms or "
+#~ "workshops. Ready to use operating system with important stuff pre-"
+#~ "installed - either with GNOME or as a headless environment for Docker or "
+#~ "Vagrant. Teach Python on AOSC, with AOSC, using the stuff you love: "
+#~ "IPython, Jupyter Notebook, multiple Pythons, virtualenvs, tox, git and "
+#~ "more"
 #~ msgstr ""
 #~ "AOSC'nın Python geliştiricileri için avantajlarından biri, Python "
 #~ "geliştirme ortamının kurulum kolaylığıdır. AOSC Python Classroom Labı, "
@@ -1834,13 +2221,13 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ "kullanmasını daha da kolaylaştırmaktadır. GNOME ile ya da Docker veya "
 #~ "Vagrant için başsız bir ortam olarak önemli şeyler önceden kurulmuş "
 #~ "şekilde kullanıma hazır işletim sistemi. Sevdiğiniz şeyleri kullanarak "
-#~ "AOSC ile AOSC'da Python öğretin: IPython, Jupyter Notebook, birden "
-#~ "fazla Python sürümü, virtualenv'ler, tox, git ve daha fazlası"
+#~ "AOSC ile AOSC'da Python öğretin: IPython, Jupyter Notebook, birden fazla "
+#~ "Python sürümü, virtualenv'ler, tox, git ve daha fazlası"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "The AOSC Python Classroom Lab comes in 3 variants. Either you can run "
-#~ "it in graphical mode with GNOME, or you can virtualize it with Vagrant or "
+#~ "The AOSC Python Classroom Lab comes in 3 variants. Either you can run it "
+#~ "in graphical mode with GNOME, or you can virtualize it with Vagrant or "
 #~ "run it in a Docker container. You choose what fits your teaching "
 #~ "environment the best."
 #~ msgstr ""
@@ -1867,14 +2254,13 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "The AOSC Robotics spin provides a wide variety of free and open "
-#~ "robotics software packages. These range from hardware accessory libraries "
-#~ "for the Hokuyo laser scanners or Katana robotic arm to software "
-#~ "frameworks like Fawkes or Player and simulation environments such as "
-#~ "Stage and RoboCup Soccer Simulation Server 2D/3D. It also provides a "
-#~ "ready to use development environment for robotics including useful "
-#~ "libraries such as OpenCV computer vision library, Festival text to speech "
-#~ "system and MRPT."
+#~ "The AOSC Robotics spin provides a wide variety of free and open robotics "
+#~ "software packages. These range from hardware accessory libraries for the "
+#~ "Hokuyo laser scanners or Katana robotic arm to software frameworks like "
+#~ "Fawkes or Player and simulation environments such as Stage and RoboCup "
+#~ "Soccer Simulation Server 2D/3D. It also provides a ready to use "
+#~ "development environment for robotics including useful libraries such as "
+#~ "OpenCV computer vision library, Festival text to speech system and MRPT."
 #~ msgstr ""
 #~ "AOSC Robotics labı, çok çeşitli özgür ve açık kaynaklı robotik yazılım "
 #~ "paketleri sağlar. Bunlar, Hokuyo lazer tarayıcıları veya Katana robotik "
@@ -1916,9 +2302,9 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 #~ msgctxt "Release|"
 #~ msgid ""
 #~ "Wary of reinstalling all the essential tools for your scientific and "
-#~ "numerical work? The answer is here. AOSC Scientific Spin brings "
-#~ "together the most useful open source scientific and numerical tools atop "
-#~ "the goodness of the KDE desktop environment."
+#~ "numerical work? The answer is here. AOSC Scientific Spin brings together "
+#~ "the most useful open source scientific and numerical tools atop the "
+#~ "goodness of the KDE desktop environment."
 #~ msgstr ""
 #~ "Bilimsel ve sayısal çalışmalarınız için gerekli tüm araçları yeniden "
 #~ "kurmaktan çekiniyor musunuz? Cevap burada. AOSC Scientific Spini, KDE "
@@ -1927,14 +2313,14 @@ msgstr "fmw;usb;iso;bootable;önyüklenebilir;"
 
 #~ msgctxt "Release|"
 #~ msgid ""
-#~ "AOSC Scientific currently ships with numerous applications and "
-#~ "libraries. These range from libraries such as the GNU Scientific library, "
-#~ "the SciPy libraries, tools like Octave and xfig to typesetting tools like "
-#~ "Kile and graphics programs such as Inkscape. The current set of packages "
-#~ "include an IDE, tools and libraries for programming in C, C++, Python, "
-#~ "Java and R. Also included along with are libraries for parallel computing "
-#~ "such as the OpenMPI and OpenMP. Tools for typesetting, writing and "
-#~ "publishing are included."
+#~ "AOSC Scientific currently ships with numerous applications and libraries. "
+#~ "These range from libraries such as the GNU Scientific library, the SciPy "
+#~ "libraries, tools like Octave and xfig to typesetting tools like Kile and "
+#~ "graphics programs such as Inkscape. The current set of packages include "
+#~ "an IDE, tools and libraries for programming in C, C++, Python, Java and "
+#~ "R. Also included along with are libraries for parallel computing such as "
+#~ "the OpenMPI and OpenMP. Tools for typesetting, writing and publishing are "
+#~ "included."
 #~ msgstr ""
 #~ "AOSC Scientific şu anda çok sayıda uygulama ve kütüphane ile birlikte "
 #~ "gelmektedir. Bunlar, GNU Scientific kütüphanesi, SciPy kütüphaneleri, "
