@@ -1066,7 +1066,7 @@ ReleaseArchitecture ReleaseArchitecture::m_all[] = {
     {{"amd64", "x86_64"}, QT_TR_NOOP("Intel/AMD 64bit"), QT_TR_NOOP("ISO format image for Intel, AMD and other compatible PCs (64-bit)")},
     {{"arm64", "aarch64"}, QT_TR_NOOP("AArch64"), QT_TR_NOOP("LZMA-compressed raw image for AArch64 machines")},
     {{"loongarch64"}, QT_TR_NOOP("LoongArch"), QT_TR_NOOP("System releases for LoongArch devices")},
-    {{"ppc64el"}, QT_TR_NOOP("Power (64-bit, Little Endian"), QT_TR_NOOP("System releases for Power ISA v2.07 (and above) devices")},
+    {{"ppc64el"}, QT_TR_NOOP("Power (64-bit, Little Endian)"), QT_TR_NOOP("System releases for Power ISA v2.07 (and above) devices")},
     {{"riscv64"}, QT_TR_NOOP("RISC-V (64-bit)"), QT_TR_NOOP("System releases for 64-bit RISC-V devices")},
     {{"loongson3"}, QT_TR_NOOP("Loongson 3 (MIPS)"), QT_TR_NOOP("System releases for MIPS-based Loongson 3 devices")},
 };
