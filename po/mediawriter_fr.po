@@ -22,7 +22,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 12:06+0800\n"
+"POT-Creation-Date: 2025-08-02 13:01+0800\n"
 "PO-Revision-Date: 2024-10-23 12:38+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.AOSCproject.org/projects/AOSC-media-"
@@ -267,9 +267,9 @@ msgstr "Veuillez insérer un lecteur USB."
 #, fuzzy
 msgctxt "DownloadPage|"
 msgid ""
-"Your drive will be resized to a smaller capacity. You may resize it back to "
-"normal later with this Wizard. This will remove the system media from your "
-"portable drive."
+"Your portable drive will be resized to a smaller capacity. You may resize it "
+"back to normal later with this Wizard. This will remove the system media "
+"from your portable drive."
 msgstr ""
 "Votre lecteur sera redimensionné à une taille plus petite. Vous pourrez le "
 "ramener à sa taille normale en utilisant AOSC Media Writer. Cela supprimera "
@@ -654,17 +654,17 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
-msgid "POWER 64bit"
+msgid "Power (64-bit, Little Endian"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
-msgid "System releases for IBM POWER devices"
+msgid "System releases for Power ISA v2.07 (and above) devices"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1070
 msgctxt "ReleaseArchitecture|"
-msgid "RISC-V (64bit)"
+msgid "RISC-V (64-bit)"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1070
@@ -674,24 +674,13 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1071
 msgctxt "ReleaseArchitecture|"
-msgid "MIPS-based Loongson 3"
+msgid "Loongson 3 (MIPS)"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1071
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for MIPS-based Loongson 3 devices"
 msgstr ""
-
-#: ../src/app/releasemanager.cpp:1072
-msgctxt "ReleaseArchitecture|"
-msgid "Intel/AMD 32bit"
-msgstr "Intel/AMD 32 bits"
-
-#: ../src/app/releasemanager.cpp:1072
-msgctxt "ReleaseArchitecture|"
-msgid "ISO format image for Intel, AMD and other compatible PCs (32-bit)"
-msgstr ""
-"Image au format ISO pour les PC Intel, AMD et autres PC compatibles (32 bits)"
 
 #: ../src/app/releasemanager.cpp:394
 msgctxt "ReleaseListModel|"
@@ -914,8 +903,8 @@ msgstr "Votre lecteur a été restauré avec succès !"
 #, fuzzy
 msgctxt "RestorePage|"
 msgid ""
-"An error occured while attemptinmg to restore your portable drive. Please "
-"try restoring the drive using your system tools."
+"An error occured while attempting to restore your portable drive. Please try "
+"restoring the drive using your system tools."
 msgstr ""
 "Malheureusement, une erreur est survenue durant le processus. Essayez de "
 "restaurer le disque en utilisant vos outils système."
@@ -1281,6 +1270,16 @@ msgstr "Écrivez des images AOSC sur vos lecteurs amovibles"
 #: ../src/app/data/io.aosc.MediaWriter.desktop:92
 msgid "fmw;usb;iso;bootable;"
 msgstr "fmw;usb;iso;bootable;"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "Intel/AMD 32bit"
+#~ msgstr "Intel/AMD 32 bits"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "ISO format image for Intel, AMD and other compatible PCs (32-bit)"
+#~ msgstr ""
+#~ "Image au format ISO pour les PC Intel, AMD et autres PC compatibles (32 "
+#~ "bits)"
 
 #~ msgctxt "DrivePage|"
 #~ msgid "USB Drive"

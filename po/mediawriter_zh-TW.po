@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 12:06+0800\n"
+"POT-Creation-Date: 2025-08-02 13:01+0800\n"
 "PO-Revision-Date: 2023-06-30 23:20+0000\n"
 "Last-Translator: yangyangdaji <1504305527@qq.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.AOSCproject.org/"
@@ -253,9 +253,9 @@ msgstr "請插入 USB 驅動器。"
 #, fuzzy
 msgctxt "DownloadPage|"
 msgid ""
-"Your drive will be resized to a smaller capacity. You may resize it back to "
-"normal later with this Wizard. This will remove the system media from your "
-"portable drive."
+"Your portable drive will be resized to a smaller capacity. You may resize it "
+"back to normal later with this Wizard. This will remove the system media "
+"from your portable drive."
 msgstr ""
 "您的裝置將調整成較小的容量。您可以利用 AOSC 媒體寫入器調整回正常大小。這個動"
 "作會從您的裝置中移除安裝媒體。"
@@ -631,17 +631,17 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
-msgid "POWER 64bit"
+msgid "Power (64-bit, Little Endian"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
-msgid "System releases for IBM POWER devices"
+msgid "System releases for Power ISA v2.07 (and above) devices"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1070
 msgctxt "ReleaseArchitecture|"
-msgid "RISC-V (64bit)"
+msgid "RISC-V (64-bit)"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1070
@@ -651,23 +651,13 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1071
 msgctxt "ReleaseArchitecture|"
-msgid "MIPS-based Loongson 3"
+msgid "Loongson 3 (MIPS)"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1071
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for MIPS-based Loongson 3 devices"
 msgstr ""
-
-#: ../src/app/releasemanager.cpp:1072
-msgctxt "ReleaseArchitecture|"
-msgid "Intel/AMD 32bit"
-msgstr "Intel/AMD 32 位元"
-
-#: ../src/app/releasemanager.cpp:1072
-msgctxt "ReleaseArchitecture|"
-msgid "ISO format image for Intel, AMD and other compatible PCs (32-bit)"
-msgstr "適合 Intel、AMD 和其他相容 PC 的 ISO 映像檔格式（32 位元）"
 
 #: ../src/app/releasemanager.cpp:394
 msgctxt "ReleaseListModel|"
@@ -883,8 +873,8 @@ msgstr "您的裝置已成功還原！"
 #, fuzzy
 msgctxt "RestorePage|"
 msgid ""
-"An error occured while attemptinmg to restore your portable drive. Please "
-"try restoring the drive using your system tools."
+"An error occured while attempting to restore your portable drive. Please try "
+"restoring the drive using your system tools."
 msgstr "不幸地，我們在過程中遭遇錯誤。<br>請嘗試使用您的系統工具復原該裝置。"
 
 #: ../src/app/qml/RestorePage.qml:92
@@ -1242,6 +1232,14 @@ msgstr "將 AOSC 映像檔寫入您的卸除式裝置中"
 #: ../src/app/data/io.aosc.MediaWriter.desktop:92
 msgid "fmw;usb;iso;bootable;"
 msgstr "fmw;usb;iso;bootable;可開機;"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "Intel/AMD 32bit"
+#~ msgstr "Intel/AMD 32 位元"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "ISO format image for Intel, AMD and other compatible PCs (32-bit)"
+#~ msgstr "適合 Intel、AMD 和其他相容 PC 的 ISO 映像檔格式（32 位元）"
 
 #~ msgctxt "DrivePage|"
 #~ msgid "USB Drive"
