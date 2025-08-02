@@ -14,16 +14,16 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 12:06+0800\n"
-"PO-Revision-Date: 2022-08-13 16:19+0000\n"
-"Last-Translator: yangyangdaji <1504305527@qq.com>\n"
-"Language-Team: Chinese (Simplified) <https://translate.AOSCproject.org/"
-"projects/AOSC-media-writer/mediawriter/zh_CN/>\n"
+"PO-Revision-Date: 2025-08-02 04:28+0000\n"
+"Last-Translator: 白铭骢 <jeffbai@aosc.io>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.aosc.io/"
+"projects/mediawriter/ui/zh_Hans/>\n"
 "Language: zh-CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 5.10.3\n"
 "X-Qt-Contexts: true\n"
 
 #: ../src/app/qml/AboutDialog.qml:49
@@ -116,7 +116,7 @@ msgstr "取消"
 #: ../src/app/qml/DeviceWarningDialog.qml:49
 msgctxt "DeviceWarningDialog|"
 msgid "Confirmation"
-msgstr ""
+msgstr "确认"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:54
 #, qt-format
@@ -124,7 +124,7 @@ msgctxt "DeviceWarningDialog|"
 msgid ""
 "The entire portable drive (all of %1) will be erased and the selected system "
 "media will be written to it. Do you want to continue?"
-msgstr ""
+msgstr "您的可移动磁盘 (%1) 将被清空并用于写入系统镜像。您确定要继续吗？"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:69
 #, fuzzy
@@ -151,24 +151,27 @@ msgid "Download & Write"
 msgstr "下载并写入"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:97
+#, fuzzy
 msgctxt "DeviceWarningDialog|"
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:99
+#, fuzzy
 msgctxt "DeviceWarningDialog|"
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:101
+#, fuzzy
 msgctxt "DeviceWarningDialog|"
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:103
 msgctxt "DeviceWarningDialog|"
 msgid "Bytes"
-msgstr ""
+msgstr "字节"
 
 #: ../src/app/downloadmanager.cpp:225
 msgctxt "Download|"
@@ -227,28 +230,25 @@ msgid "Failed to download %1"
 msgstr "下载 %1 失败"
 
 #: ../src/app/qml/DownloadPage.qml:63
-#, fuzzy
 msgctxt "DownloadPage|"
 msgid "Your portable drive was unplugged during the process"
-msgstr "你的驱动器在这个过程中被拔掉了"
+msgstr "您的可移动磁盘被中途移除"
 
 #: ../src/app/qml/DownloadPage.qml:91
-#, fuzzy
 msgctxt "DownloadPage|"
 msgid "Downloaded system release is saved to the Downloads folder."
-msgstr "下载的文件已保存到“下载”文件夹中。"
+msgstr "系统镜像将被保存到“下载”文件夹中。"
 
 #: ../src/app/qml/DownloadPage.qml:101
-#, fuzzy, qt-format
+#, qt-format
 msgctxt "DownloadPage|"
 msgid "By writing, you will lose all data on %1."
-msgstr "一旦开始写入，%1 上所有的数据便会丢失。"
+msgstr "写入系统镜像须清空 %1 上的所有数据。"
 
 #: ../src/app/qml/DownloadPage.qml:109
-#, fuzzy
 msgctxt "DownloadPage|"
 msgid "Please insert a portable drive."
-msgstr "请插入一个USB驱动器。"
+msgstr "请插入可移动磁盘。"
 
 #: ../src/app/qml/DownloadPage.qml:118
 #, fuzzy
