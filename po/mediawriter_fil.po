@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 13:01+0800\n"
+"POT-Creation-Date: 2025-08-02 13:06+0800\n"
 "PO-Revision-Date: 2024-09-12 23:56+0000\n"
 "Last-Translator: Carlo Gutierrez <jcgutierrez0102@live.com.ph>\n"
 "Language-Team: Filipino <https://translate.AOSCproject.org/projects/AOSC-"
@@ -639,7 +639,7 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
-msgid "Power (64-bit, Little Endian"
+msgid "Power (64-bit, Little Endian)"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 13:01+0800\n"
+"POT-Creation-Date: 2025-08-02 13:06+0800\n"
 "PO-Revision-Date: 2023-12-26 19:02+0000\n"
 "Last-Translator: Eyad Mahmoud "
 "<eyadmahm0ud@users.noreply.translate.AOSCproject.org>\n"
@@ -629,7 +629,7 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
-msgid "Power (64-bit, Little Endian"
+msgid "Power (64-bit, Little Endian)"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069

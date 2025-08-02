@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 13:01+0800\n"
+"POT-Creation-Date: 2025-08-02 13:06+0800\n"
 "PO-Revision-Date: 2023-06-30 23:20+0000\n"
 "Last-Translator: yangyangdaji <1504305527@qq.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.AOSCproject.org/"
@@ -631,7 +631,7 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
-msgid "Power (64-bit, Little Endian"
+msgid "Power (64-bit, Little Endian)"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069

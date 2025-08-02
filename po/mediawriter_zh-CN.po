@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 13:01+0800\n"
+"POT-Creation-Date: 2025-08-02 13:06+0800\n"
 "PO-Revision-Date: 2025-08-02 05:06+0000\n"
 "Last-Translator: 白铭骢 <jeffbai@aosc.io>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.aosc.io/"
@@ -248,7 +248,8 @@ msgid ""
 "Your portable drive will be resized to a smaller capacity. You may resize it "
 "back to normal later with this Wizard. This will remove the system media "
 "from your portable drive."
-msgstr "您的可移动磁盘容量将被缩小。您可以使用本向导恢复容量，但恢复过程中将清除您可"
+msgstr ""
+"您的可移动磁盘容量将被缩小。您可以使用本向导恢复容量，但恢复过程中将清除您可"
 "移动磁盘上的启动盘数据。"
 
 #: ../src/app/qml/DownloadPage.qml:126
@@ -609,7 +610,7 @@ msgstr "用于龙架构 (LoongArch) 的系统镜像"
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
-msgid "Power (64-bit, Little Endian"
+msgid "Power (64-bit, Little Endian)"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
