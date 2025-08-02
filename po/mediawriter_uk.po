@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 10:45+0800\n"
+"POT-Creation-Date: 2025-08-02 12:06+0800\n"
 "PO-Revision-Date: 2024-03-15 11:36+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.AOSCproject.org/projects/AOSC-"
@@ -118,15 +118,15 @@ msgstr "Скасувати"
 #: ../src/app/qml/DeviceWarningDialog.qml:49
 #, fuzzy
 msgctxt "DeviceWarningDialog|"
-msgid "Erase confirmation"
+msgid "Confirmation"
 msgstr "Просте адміністрування"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:54
 #, qt-format
 msgctxt "DeviceWarningDialog|"
 msgid ""
-"The entire device (all of %1) will be erased and the selected image will be "
-"written to it. Do you want to continue?"
+"The entire portable drive (all of %1) will be erased and the selected system "
+"media will be written to it. Do you want to continue?"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:69
@@ -155,17 +155,17 @@ msgstr "Отримати і записати"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:97
 msgctxt "DeviceWarningDialog|"
-msgid "GB"
+msgid "GiB"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:99
 msgctxt "DeviceWarningDialog|"
-msgid "MB"
+msgid "MiB"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:101
 msgctxt "DeviceWarningDialog|"
-msgid "KB"
+msgid "KiB"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:103
@@ -230,32 +230,36 @@ msgid "Failed to download %1"
 msgstr "Не вдалося отримати %1"
 
 #: ../src/app/qml/DownloadPage.qml:63
+#, fuzzy
 msgctxt "DownloadPage|"
-msgid "Your drive was unplugged during the process"
+msgid "Your portable drive was unplugged during the process"
 msgstr "Ваш диск було від'єднано під час виконання процедури"
 
 #: ../src/app/qml/DownloadPage.qml:91
+#, fuzzy
 msgctxt "DownloadPage|"
-msgid "Downloads are saved to the downloads folder."
+msgid "Downloaded system release is saved to the Downloads folder."
 msgstr "Отримані дані буде збережено до теки «Завантаження»."
 
 #: ../src/app/qml/DownloadPage.qml:101
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "DownloadPage|"
-msgid "By writing, you will lose all of the data on %1."
+msgid "By writing, you will lose all data on %1."
 msgstr "Запис образу призведе до втрати усіх поточних даних на %1."
 
 #: ../src/app/qml/DownloadPage.qml:109
+#, fuzzy
 msgctxt "DownloadPage|"
-msgid "Please insert an USB drive."
+msgid "Please insert a portable drive."
 msgstr "Будь ласка, вставте флешку USB."
 
 #: ../src/app/qml/DownloadPage.qml:118
+#, fuzzy
 msgctxt "DownloadPage|"
 msgid ""
 "Your drive will be resized to a smaller capacity. You may resize it back to "
-"normal by using AOSC Media Writer. This will remove installation media from "
-"your drive."
+"normal later with this Wizard. This will remove the system media from your "
+"portable drive."
 msgstr ""
 "Місткість вашого диска буде зменшено. Ви можете відновити параметри "
 "місткості до нормальних за допомогою AOSC Media Writer. У результаті "
@@ -272,12 +276,12 @@ msgid "None"
 msgstr "Немає"
 
 #: ../src/app/qml/DownloadPage.qml:134
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "DownloadPage|"
 msgid ""
-"Your board or device is not supported by AOSC Media Writer yet. Please check "
-"<a href=%1>this page</a> for more information about its compatibility with "
-"AOSC and how to create bootable media for it."
+"Your board or device is not supported by Fedora Media Writer yet. Please "
+"check <a href=%1>this page</a> for more information about its compatibility "
+"with Fedora and how to create bootable media for it."
 msgstr ""
 "Підтримки вашої плати або диска у AOSC Media Writer ще не передбачено. Будь "
 "ласка, ознайомтеся із <a href=%1>цією сторінкою</a>, щоб дізнатися більше "
@@ -285,11 +289,11 @@ msgstr ""
 "даних з цією операційною системою."
 
 #: ../src/app/qml/DownloadPage.qml:145
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "DownloadPage|"
 msgid ""
-"The selected drive's size is %1. It's possible you have selected an external "
-"drive by accident!"
+"The selected portable drive's size is %1. It's possible you have selected an "
+"external drive by accident!"
 msgstr ""
 "Об'єм вибраного диска дорівнює %1. Ймовірно, ви випадково вибрали зовнішній "
 "диск!"
@@ -371,9 +375,10 @@ msgid "All files (*)"
 msgstr "усі файли (*)"
 
 #: ../src/app/qml/DrivePage.qml:119
+#, fuzzy
 msgctxt "DrivePage|"
-msgid "USB Drive"
-msgstr "USB-флешка"
+msgid "Portable Drive"
+msgstr "Виберіть носій"
 
 #: ../src/app/qml/DrivePage.qml:127
 msgctxt "DrivePage|"
@@ -386,8 +391,9 @@ msgid "Download"
 msgstr "Отримати"
 
 #: ../src/app/qml/DrivePage.qml:151
+#, fuzzy
 msgctxt "DrivePage|"
-msgid "Delete download after writing"
+msgid "Delete downloaded system release after writing"
 msgstr "Вилучити отримані дані після записування"
 
 #: ../src/app/qml/DrivePage.qml:169
@@ -487,14 +493,15 @@ msgid "Select Image Source"
 msgstr "Вибір джерела образу"
 
 #: ../src/app/qml/MainPage.qml:33
+#, fuzzy
 msgctxt "MainPage|"
-msgid "Download automatically"
-msgstr "Отримати автоматично"
+msgid "Download and create system media"
+msgstr "Пошук образу операційної системи"
 
 #: ../src/app/qml/MainPage.qml:40
 msgctxt "MainPage|"
-msgid "Select .iso file"
-msgstr "Виберіть файл .iso"
+msgid "Create system media from an .iso file"
+msgstr ""
 
 #: ../src/app/qml/MainPage.qml:50
 #, qt-format
@@ -870,10 +877,8 @@ msgstr "Відновити носій <b>%1</b>"
 msgctxt "RestorePage|"
 msgid ""
 "<p align=\"justify\"> To reclaim all space available on the drive, it has to "
-"be restored to its factory settings. The live system and all saved data will "
-"be deleted.</p> <p align=\"justify\"> You don't need to restore the drive if "
-"you want to write another live system to it.</p> <p align=\"justify\"> Do "
-"you want to restore it to factory settings? </p>"
+"be reformatted. All data will be removed.</p> <p align=\"justify\"> Would "
+"you like to restore your portable drive?</p>"
 msgstr ""
 "<p align=\"justify\">  Щоб отримати у розпорядження увесь можливий простір "
 "для зберігання даних на диску, слід відновити його стан до початкового. При "
@@ -884,32 +889,33 @@ msgstr ""
 "відновити початкові параметри носія?</p>"
 
 #: ../src/app/qml/RestorePage.qml:53
+#, fuzzy
 msgctxt "RestorePage|"
-msgid ""
-"<p align=\"justify\">Please wait while AOSC Media Writer restores your "
-"portable drive.</p>"
+msgid "<p align=\"justify\">Restoring your portable drive, please wait…</p>"
 msgstr ""
 "<p align=\"justify\">Будь ласка, зачекайте, доки AOSC Media Writer відновити "
 "вміст вашого портативного диска.</p>"
 
 #: ../src/app/qml/RestorePage.qml:69
+#, fuzzy
 msgctxt "RestorePage|"
-msgid "Your drive was successfully restored!"
+msgid "Your portable drive has been successfully restored!"
 msgstr "Вміст вашого диска успішно відновлено!"
 
 #: ../src/app/qml/RestorePage.qml:78
+#, fuzzy
 msgctxt "RestorePage|"
 msgid ""
-"Unfortunately, an error occurred during the process. Please try restoring "
-"the drive using your system tools."
+"An error occured while attemptinmg to restore your portable drive. Please "
+"try restoring the drive using your system tools."
 msgstr ""
 "На жаль, під час виконання дій сталася помилка. Будь ласка, спробуйте "
 "відновити ваш диск за допомогою інших інструментів системи."
 
 #: ../src/app/qml/RestorePage.qml:92
 msgctxt "RestorePage|"
-msgid "Restoring finished"
-msgstr "Відновлення завершено"
+msgid "Restoration Complete"
+msgstr ""
 
 #: ../src/app/qml/RestorePage.qml:110
 #, fuzzy
@@ -926,15 +932,14 @@ msgstr "Відновити"
 #: ../src/app/qml/VersionLoadPage.qml:29
 #, fuzzy
 msgctxt "VersionLoadPage|"
-msgid "Fetching AOSC Release Data"
+msgid "Fetching System Release Data"
 msgstr "Виберіть випуск AOSC"
 
 #: ../src/app/qml/VersionLoadPage.qml:46
+#, fuzzy
 msgctxt "VersionLoadPage|"
-msgid ""
-"Please wait while AOSC Media Writer is fetching AOSC OS release "
-"information ..."
-msgstr ""
+msgid "Fetching AOSC OS release information, please wait…"
+msgstr "Виберіть випуск AOSC"
 
 #: ../src/app/qml/VersionLoadPage.qml:72
 msgctxt "VersionLoadPage|"
@@ -1111,13 +1116,13 @@ msgstr "Не вдалося відкрити диск для запису"
 
 #: ../src/app/qml/main.qml:81
 msgctxt "main|"
-msgid "AOSC Media Writer"
-msgstr "AOSC Media Writer"
+msgid "System Media Creator"
+msgstr ""
 
 #: ../src/app/qml/main.qml:100
 msgctxt "main|"
-msgid "Select AOSC Version"
-msgstr "Виберіть версію AOSC"
+msgid "Select a System Release"
+msgstr ""
 
 #: ../src/app/qml/main.qml:114
 msgctxt "main|"
@@ -1269,6 +1274,30 @@ msgstr "Запис образів AOSC на портативні пристро�
 #: ../src/app/data/io.aosc.MediaWriter.desktop:92
 msgid "fmw;usb;iso;bootable;"
 msgstr "fmw;usb;iso;bootable;юесбі;флешка;ізо;образ;завантажувальний;завантаження;"
+
+#~ msgctxt "DrivePage|"
+#~ msgid "USB Drive"
+#~ msgstr "USB-флешка"
+
+#~ msgctxt "MainPage|"
+#~ msgid "Download automatically"
+#~ msgstr "Отримати автоматично"
+
+#~ msgctxt "MainPage|"
+#~ msgid "Select .iso file"
+#~ msgstr "Виберіть файл .iso"
+
+#~ msgctxt "RestorePage|"
+#~ msgid "Restoring finished"
+#~ msgstr "Відновлення завершено"
+
+#~ msgctxt "main|"
+#~ msgid "AOSC Media Writer"
+#~ msgstr "AOSC Media Writer"
+
+#~ msgctxt "main|"
+#~ msgid "Select AOSC Version"
+#~ msgstr "Виберіть версію AOSC"
 
 #~ msgctxt "DownloadPage|"
 #~ msgid " KB left)"
@@ -1430,10 +1459,6 @@ msgstr "fmw;usb;iso;bootable;юесбі;флешка;ізо;образ;зава�
 #~ msgctxt "ImageDetails|"
 #~ msgid "Other variants..."
 #~ msgstr "Інші варіанти…"
-
-#~ msgctxt "ImageList|"
-#~ msgid "Find an operating system image"
-#~ msgstr "Пошук образу операційної системи"
 
 #~ msgctxt "ImageList|"
 #~ msgid "Checking for new releases"

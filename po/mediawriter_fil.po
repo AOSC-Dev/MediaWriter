@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 10:45+0800\n"
+"POT-Creation-Date: 2025-08-02 12:06+0800\n"
 "PO-Revision-Date: 2024-09-12 23:56+0000\n"
 "Last-Translator: Carlo Gutierrez <jcgutierrez0102@live.com.ph>\n"
 "Language-Team: Filipino <https://translate.AOSCproject.org/projects/AOSC-"
@@ -116,15 +116,15 @@ msgstr "Kanselahin"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:49
 msgctxt "DeviceWarningDialog|"
-msgid "Erase confirmation"
+msgid "Confirmation"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:54
 #, qt-format
 msgctxt "DeviceWarningDialog|"
 msgid ""
-"The entire device (all of %1) will be erased and the selected image will be "
-"written to it. Do you want to continue?"
+"The entire portable drive (all of %1) will be erased and the selected system "
+"media will be written to it. Do you want to continue?"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:69
@@ -153,17 +153,17 @@ msgstr "MagDownload & Magsulat"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:97
 msgctxt "DeviceWarningDialog|"
-msgid "GB"
+msgid "GiB"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:99
 msgctxt "DeviceWarningDialog|"
-msgid "MB"
+msgid "MiB"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:101
 msgctxt "DeviceWarningDialog|"
-msgid "KB"
+msgid "KiB"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:103
@@ -228,33 +228,36 @@ msgid "Failed to download %1"
 msgstr "Nabigo sa pag-download %1"
 
 #: ../src/app/qml/DownloadPage.qml:63
+#, fuzzy
 msgctxt "DownloadPage|"
-msgid "Your drive was unplugged during the process"
+msgid "Your portable drive was unplugged during the process"
 msgstr "Ang iyong drive ay natanggal habang nasa proseso"
 
 #: ../src/app/qml/DownloadPage.qml:91
+#, fuzzy
 msgctxt "DownloadPage|"
-msgid "Downloads are saved to the downloads folder."
+msgid "Downloaded system release is saved to the Downloads folder."
 msgstr "Ang mga na-download ay nai-save sa folder ng mga download."
 
 #: ../src/app/qml/DownloadPage.qml:101
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "DownloadPage|"
-msgid "By writing, you will lose all of the data on %1."
+msgid "By writing, you will lose all data on %1."
 msgstr "Sa pamamagitan ng pagsulat, mawawala ang lahat ng data sa %1."
 
 #: ../src/app/qml/DownloadPage.qml:109
 #, fuzzy
 msgctxt "DownloadPage|"
-msgid "Please insert an USB drive."
+msgid "Please insert a portable drive."
 msgstr "Paki pasok ang USB drive"
 
 #: ../src/app/qml/DownloadPage.qml:118
+#, fuzzy
 msgctxt "DownloadPage|"
 msgid ""
 "Your drive will be resized to a smaller capacity. You may resize it back to "
-"normal by using AOSC Media Writer. This will remove installation media from "
-"your drive."
+"normal later with this Wizard. This will remove the system media from your "
+"portable drive."
 msgstr ""
 "Ire-resize ang iyong drive sa mas maliit na kapasidad. Maaari mong baguhin "
 "ang laki nito pabalik sa normal sa pamamagitan ng paggamit ng AOSC Media "
@@ -271,12 +274,12 @@ msgid "None"
 msgstr "Wala"
 
 #: ../src/app/qml/DownloadPage.qml:134
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "DownloadPage|"
 msgid ""
-"Your board or device is not supported by AOSC Media Writer yet. Please check "
-"<a href=%1>this page</a> for more information about its compatibility with "
-"AOSC and how to create bootable media for it."
+"Your board or device is not supported by Fedora Media Writer yet. Please "
+"check <a href=%1>this page</a> for more information about its compatibility "
+"with Fedora and how to create bootable media for it."
 msgstr ""
 "Ang iyong board o device ay hindi pa sinusuportahan ng AOSC Media Writer. "
 "Pakitingnan ang <a href=%1>pahinang ito</a> para sa higit pang impormasyon "
@@ -284,11 +287,11 @@ msgstr ""
 "media para dito."
 
 #: ../src/app/qml/DownloadPage.qml:145
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "DownloadPage|"
 msgid ""
-"The selected drive's size is %1. It's possible you have selected an external "
-"drive by accident!"
+"The selected portable drive's size is %1. It's possible you have selected an "
+"external drive by accident!"
 msgstr ""
 "Ang laki ng napiling drive ay %1. Posibleng nakapili ka ng external na drive "
 "nang hindi sinasadya!"
@@ -368,9 +371,10 @@ msgid "All files (*)"
 msgstr "lahat ng mga file (*)"
 
 #: ../src/app/qml/DrivePage.qml:119
+#, fuzzy
 msgctxt "DrivePage|"
-msgid "USB Drive"
-msgstr "USB Drive"
+msgid "Portable Drive"
+msgstr "Pumili ng Drive"
 
 #: ../src/app/qml/DrivePage.qml:127
 msgctxt "DrivePage|"
@@ -383,8 +387,9 @@ msgid "Download"
 msgstr "Pag-Download"
 
 #: ../src/app/qml/DrivePage.qml:151
+#, fuzzy
 msgctxt "DrivePage|"
-msgid "Delete download after writing"
+msgid "Delete downloaded system release after writing"
 msgstr "Tanggalin ang na-download pagkatapos magsulat"
 
 #: ../src/app/qml/DrivePage.qml:169
@@ -482,13 +487,13 @@ msgstr "Piliin ang Pinagmulan ng Imahe"
 
 #: ../src/app/qml/MainPage.qml:33
 msgctxt "MainPage|"
-msgid "Download automatically"
-msgstr "Awtomatikong i-download"
+msgid "Download and create system media"
+msgstr ""
 
 #: ../src/app/qml/MainPage.qml:40
 msgctxt "MainPage|"
-msgid "Select .iso file"
-msgstr "Piliin ang .iso file"
+msgid "Create system media from an .iso file"
+msgstr ""
 
 #: ../src/app/qml/MainPage.qml:50
 #, qt-format
@@ -865,10 +870,8 @@ msgstr "I-restore ang Drive <b>%1</b>"
 msgctxt "RestorePage|"
 msgid ""
 "<p align=\"justify\"> To reclaim all space available on the drive, it has to "
-"be restored to its factory settings. The live system and all saved data will "
-"be deleted.</p> <p align=\"justify\"> You don't need to restore the drive if "
-"you want to write another live system to it.</p> <p align=\"justify\"> Do "
-"you want to restore it to factory settings? </p>"
+"be reformatted. All data will be removed.</p> <p align=\"justify\"> Would "
+"you like to restore your portable drive?</p>"
 msgstr ""
 "<p align=\"justify\"> Upang mabawi ang lahat ng espasyong available sa "
 "drive, kailangan itong ibalik sa mga factory setting nito. Ang live na "
@@ -879,32 +882,33 @@ msgstr ""
 "factory setting? </p>"
 
 #: ../src/app/qml/RestorePage.qml:53
+#, fuzzy
 msgctxt "RestorePage|"
-msgid ""
-"<p align=\"justify\">Please wait while AOSC Media Writer restores your "
-"portable drive.</p>"
+msgid "<p align=\"justify\">Restoring your portable drive, please wait…</p>"
 msgstr ""
 "<p align=\"justify\">Mangyaring maghintay habang nire-restore ng AOSC Media "
 "Writer ang iyong portable drive.</p>"
 
 #: ../src/app/qml/RestorePage.qml:69
+#, fuzzy
 msgctxt "RestorePage|"
-msgid "Your drive was successfully restored!"
+msgid "Your portable drive has been successfully restored!"
 msgstr "Matagumpay na naibalik ang iyong drive!"
 
 #: ../src/app/qml/RestorePage.qml:78
+#, fuzzy
 msgctxt "RestorePage|"
 msgid ""
-"Unfortunately, an error occurred during the process. Please try restoring "
-"the drive using your system tools."
+"An error occured while attemptinmg to restore your portable drive. Please "
+"try restoring the drive using your system tools."
 msgstr ""
 "Sa kasamaang palad, may naganap na error sa proseso. Pakisubukang ibalik ang "
 "drive gamit ang iyong mga tool sa system."
 
 #: ../src/app/qml/RestorePage.qml:92
 msgctxt "RestorePage|"
-msgid "Restoring finished"
-msgstr "Tapos na ang Pag-restore"
+msgid "Restoration Complete"
+msgstr ""
 
 #: ../src/app/qml/RestorePage.qml:110
 #, fuzzy
@@ -921,15 +925,14 @@ msgstr "Ibalik"
 #: ../src/app/qml/VersionLoadPage.qml:29
 #, fuzzy
 msgctxt "VersionLoadPage|"
-msgid "Fetching AOSC Release Data"
+msgid "Fetching System Release Data"
 msgstr "Piliin ang AOSC Release"
 
 #: ../src/app/qml/VersionLoadPage.qml:46
+#, fuzzy
 msgctxt "VersionLoadPage|"
-msgid ""
-"Please wait while AOSC Media Writer is fetching AOSC OS release "
-"information ..."
-msgstr ""
+msgid "Fetching AOSC OS release information, please wait…"
+msgstr "Piliin ang AOSC Release"
 
 #: ../src/app/qml/VersionLoadPage.qml:72
 msgctxt "VersionLoadPage|"
@@ -1111,13 +1114,13 @@ msgstr "Hindi mabuksan ang drive para sa pagsusulat"
 
 #: ../src/app/qml/main.qml:81
 msgctxt "main|"
-msgid "AOSC Media Writer"
-msgstr "AOSC Media Writer"
+msgid "System Media Creator"
+msgstr ""
 
 #: ../src/app/qml/main.qml:100
 msgctxt "main|"
-msgid "Select AOSC Version"
-msgstr "Piliin ang Bersyon ng AOSC"
+msgid "Select a System Release"
+msgstr ""
 
 #: ../src/app/qml/main.qml:114
 msgctxt "main|"
@@ -1268,6 +1271,30 @@ msgstr "Sumulat ng mga imahe ng AOSC sa iyong mga portable drive"
 #: ../src/app/data/io.aosc.MediaWriter.desktop:92
 msgid "fmw;usb;iso;bootable;"
 msgstr "fmw;usb;iso;bootable;"
+
+#~ msgctxt "DrivePage|"
+#~ msgid "USB Drive"
+#~ msgstr "USB Drive"
+
+#~ msgctxt "MainPage|"
+#~ msgid "Download automatically"
+#~ msgstr "Awtomatikong i-download"
+
+#~ msgctxt "MainPage|"
+#~ msgid "Select .iso file"
+#~ msgstr "Piliin ang .iso file"
+
+#~ msgctxt "RestorePage|"
+#~ msgid "Restoring finished"
+#~ msgstr "Tapos na ang Pag-restore"
+
+#~ msgctxt "main|"
+#~ msgid "AOSC Media Writer"
+#~ msgstr "AOSC Media Writer"
+
+#~ msgctxt "main|"
+#~ msgid "Select AOSC Version"
+#~ msgstr "Piliin ang Bersyon ng AOSC"
 
 #~ msgctxt "DownloadPage|"
 #~ msgid " KB left)"

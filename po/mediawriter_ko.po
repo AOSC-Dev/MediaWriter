@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 10:45+0800\n"
+"POT-Creation-Date: 2025-08-02 12:06+0800\n"
 "PO-Revision-Date: 2024-09-15 09:32+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.AOSCproject.org/projects/AOSC-media-"
@@ -108,15 +108,15 @@ msgstr "취소"
 #: ../src/app/qml/DeviceWarningDialog.qml:49
 #, fuzzy
 msgctxt "DeviceWarningDialog|"
-msgid "Erase confirmation"
+msgid "Confirmation"
 msgstr "쉬운 관리"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:54
 #, qt-format
 msgctxt "DeviceWarningDialog|"
 msgid ""
-"The entire device (all of %1) will be erased and the selected image will be "
-"written to it. Do you want to continue?"
+"The entire portable drive (all of %1) will be erased and the selected system "
+"media will be written to it. Do you want to continue?"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:69
@@ -145,17 +145,17 @@ msgstr "내려받기 & 작성"
 
 #: ../src/app/qml/DeviceWarningDialog.qml:97
 msgctxt "DeviceWarningDialog|"
-msgid "GB"
+msgid "GiB"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:99
 msgctxt "DeviceWarningDialog|"
-msgid "MB"
+msgid "MiB"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:101
 msgctxt "DeviceWarningDialog|"
-msgid "KB"
+msgid "KiB"
 msgstr ""
 
 #: ../src/app/qml/DeviceWarningDialog.qml:103
@@ -220,32 +220,36 @@ msgid "Failed to download %1"
 msgstr "%1 내려받기가 실패함"
 
 #: ../src/app/qml/DownloadPage.qml:63
+#, fuzzy
 msgctxt "DownloadPage|"
-msgid "Your drive was unplugged during the process"
+msgid "Your portable drive was unplugged during the process"
 msgstr "당신의 드라이브가 처리 진행 할 때에 분리되었습니다"
 
 #: ../src/app/qml/DownloadPage.qml:91
+#, fuzzy
 msgctxt "DownloadPage|"
-msgid "Downloads are saved to the downloads folder."
+msgid "Downloaded system release is saved to the Downloads folder."
 msgstr "내려받기는 다운로드 폴더에 저장됩니다."
 
 #: ../src/app/qml/DownloadPage.qml:101
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "DownloadPage|"
-msgid "By writing, you will lose all of the data on %1."
+msgid "By writing, you will lose all data on %1."
 msgstr "작성시에, %1에서 모든 자료가 소실 될 것입니다."
 
 #: ../src/app/qml/DownloadPage.qml:109
+#, fuzzy
 msgctxt "DownloadPage|"
-msgid "Please insert an USB drive."
+msgid "Please insert a portable drive."
 msgstr "USB 드라이브를 넣어주세요."
 
 #: ../src/app/qml/DownloadPage.qml:118
+#, fuzzy
 msgctxt "DownloadPage|"
 msgid ""
 "Your drive will be resized to a smaller capacity. You may resize it back to "
-"normal by using AOSC Media Writer. This will remove installation media from "
-"your drive."
+"normal later with this Wizard. This will remove the system media from your "
+"portable drive."
 msgstr ""
 "당신의 드라이브가 더 작은 공간으로 크기가 조정 될 것입니다. 페도라 미디어 작"
 "성기를 사용 할 때에 정상적으로 크기가 재 조정 될 것입니다. 당신의 드라이브에"
@@ -262,23 +266,23 @@ msgid "None"
 msgstr "없음"
 
 #: ../src/app/qml/DownloadPage.qml:134
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "DownloadPage|"
 msgid ""
-"Your board or device is not supported by AOSC Media Writer yet. Please check "
-"<a href=%1>this page</a> for more information about its compatibility with "
-"AOSC and how to create bootable media for it."
+"Your board or device is not supported by Fedora Media Writer yet. Please "
+"check <a href=%1>this page</a> for more information about its compatibility "
+"with Fedora and how to create bootable media for it."
 msgstr ""
 "보드 또는 장치가 아직 페도라 미디어 작성기를 지원하지 않습니다. 페도라의 호환"
 "성과 이 부팅 미디어 생성 방법에 대해서 보다 더 자세히 <a href=%1>이 부분</a>"
 "을 확인해 주세요."
 
 #: ../src/app/qml/DownloadPage.qml:145
-#, qt-format
+#, fuzzy, qt-format
 msgctxt "DownloadPage|"
 msgid ""
-"The selected drive's size is %1. It's possible you have selected an external "
-"drive by accident!"
+"The selected portable drive's size is %1. It's possible you have selected an "
+"external drive by accident!"
 msgstr ""
 "선택된 드라이버 크기가 %1입니다. 사고로 외부(외장) 드라이브를 선택 할 수 도 "
 "있습니다!"
@@ -358,9 +362,10 @@ msgid "All files (*)"
 msgstr "모든 파일 (*)"
 
 #: ../src/app/qml/DrivePage.qml:119
+#, fuzzy
 msgctxt "DrivePage|"
-msgid "USB Drive"
-msgstr "USB 드라이브"
+msgid "Portable Drive"
+msgstr "선택된 드라이브"
 
 #: ../src/app/qml/DrivePage.qml:127
 msgctxt "DrivePage|"
@@ -373,8 +378,9 @@ msgid "Download"
 msgstr "내려받기"
 
 #: ../src/app/qml/DrivePage.qml:151
+#, fuzzy
 msgctxt "DrivePage|"
-msgid "Delete download after writing"
+msgid "Delete downloaded system release after writing"
 msgstr "작성 후에 내려받은 이미지를 삭제합니다"
 
 #: ../src/app/qml/DrivePage.qml:169
@@ -470,14 +476,15 @@ msgid "Select Image Source"
 msgstr "선택 이미지 원천"
 
 #: ../src/app/qml/MainPage.qml:33
+#, fuzzy
 msgctxt "MainPage|"
-msgid "Download automatically"
-msgstr "자동으로 내려받기"
+msgid "Download and create system media"
+msgstr "운영 체제 이미지 찾기"
 
 #: ../src/app/qml/MainPage.qml:40
 msgctxt "MainPage|"
-msgid "Select .iso file"
-msgstr ".iso 파일 선택"
+msgid "Create system media from an .iso file"
+msgstr ""
 
 #: ../src/app/qml/MainPage.qml:50
 #, qt-format
@@ -851,10 +858,8 @@ msgstr "드라이브 복구 <b>%1</b>"
 msgctxt "RestorePage|"
 msgid ""
 "<p align=\"justify\"> To reclaim all space available on the drive, it has to "
-"be restored to its factory settings. The live system and all saved data will "
-"be deleted.</p> <p align=\"justify\"> You don't need to restore the drive if "
-"you want to write another live system to it.</p> <p align=\"justify\"> Do "
-"you want to restore it to factory settings? </p>"
+"be reformatted. All data will be removed.</p> <p align=\"justify\"> Would "
+"you like to restore your portable drive?</p>"
 msgstr ""
 "<p align=\"justify\"> 드라이브에서 사용 할 수 있는 모든 공간을 확보 할 때에, "
 "공장 설정 값으로 복구됩니다. 실시간 시스템과 모든 저장된 자료는 삭제 됩니다. "
@@ -863,32 +868,33 @@ msgstr ""
 "                </p> <p align=\"justify\"> 공장 설정 값으로 복구 할까요? </p>"
 
 #: ../src/app/qml/RestorePage.qml:53
+#, fuzzy
 msgctxt "RestorePage|"
-msgid ""
-"<p align=\"justify\">Please wait while AOSC Media Writer restores your "
-"portable drive.</p>"
+msgid "<p align=\"justify\">Restoring your portable drive, please wait…</p>"
 msgstr ""
 "<p align=\"justify\">페도라 미디어 작성기가 이동식 드라이브를 복구 할 때에 기"
 "다려 주세요.</p>"
 
 #: ../src/app/qml/RestorePage.qml:69
+#, fuzzy
 msgctxt "RestorePage|"
-msgid "Your drive was successfully restored!"
+msgid "Your portable drive has been successfully restored!"
 msgstr "드라이브가 성공적으로 복구되었습니다!"
 
 #: ../src/app/qml/RestorePage.qml:78
+#, fuzzy
 msgctxt "RestorePage|"
 msgid ""
-"Unfortunately, an error occurred during the process. Please try restoring "
-"the drive using your system tools."
+"An error occured while attemptinmg to restore your portable drive. Please "
+"try restoring the drive using your system tools."
 msgstr ""
 "안타깝게도, 처리 중에 오류가 발생했습니다. 시스템 도구를 사용하여 드라이브 복"
 "구를 시도해주세요."
 
 #: ../src/app/qml/RestorePage.qml:92
 msgctxt "RestorePage|"
-msgid "Restoring finished"
-msgstr "복구하기가 종료됨"
+msgid "Restoration Complete"
+msgstr ""
 
 #: ../src/app/qml/RestorePage.qml:110
 #, fuzzy
@@ -905,15 +911,14 @@ msgstr "복구"
 #: ../src/app/qml/VersionLoadPage.qml:29
 #, fuzzy
 msgctxt "VersionLoadPage|"
-msgid "Fetching AOSC Release Data"
+msgid "Fetching System Release Data"
 msgstr "페도라 출시를 선택합니다"
 
 #: ../src/app/qml/VersionLoadPage.qml:46
+#, fuzzy
 msgctxt "VersionLoadPage|"
-msgid ""
-"Please wait while AOSC Media Writer is fetching AOSC OS release "
-"information ..."
-msgstr ""
+msgid "Fetching AOSC OS release information, please wait…"
+msgstr "페도라 출시를 선택합니다"
 
 #: ../src/app/qml/VersionLoadPage.qml:72
 msgctxt "VersionLoadPage|"
@@ -1088,13 +1093,13 @@ msgstr "쓰기를 위해 드라이브를 열 수 없습니다"
 
 #: ../src/app/qml/main.qml:81
 msgctxt "main|"
-msgid "AOSC Media Writer"
-msgstr "페도라 미디어 작성기"
+msgid "System Media Creator"
+msgstr ""
 
 #: ../src/app/qml/main.qml:100
 msgctxt "main|"
-msgid "Select AOSC Version"
-msgstr "페도라 버전을 선택합니다"
+msgid "Select a System Release"
+msgstr ""
 
 #: ../src/app/qml/main.qml:114
 msgctxt "main|"
@@ -1244,6 +1249,30 @@ msgstr "사용자의 이동식 드라이브에 페도라 이미지를 작성합�
 #: ../src/app/data/io.aosc.MediaWriter.desktop:92
 msgid "fmw;usb;iso;bootable;"
 msgstr "fmw;usb;iso;부팅가능;"
+
+#~ msgctxt "DrivePage|"
+#~ msgid "USB Drive"
+#~ msgstr "USB 드라이브"
+
+#~ msgctxt "MainPage|"
+#~ msgid "Download automatically"
+#~ msgstr "자동으로 내려받기"
+
+#~ msgctxt "MainPage|"
+#~ msgid "Select .iso file"
+#~ msgstr ".iso 파일 선택"
+
+#~ msgctxt "RestorePage|"
+#~ msgid "Restoring finished"
+#~ msgstr "복구하기가 종료됨"
+
+#~ msgctxt "main|"
+#~ msgid "AOSC Media Writer"
+#~ msgstr "페도라 미디어 작성기"
+
+#~ msgctxt "main|"
+#~ msgid "Select AOSC Version"
+#~ msgstr "페도라 버전을 선택합니다"
 
 #~ msgctxt "DownloadPage|"
 #~ msgid " KB left)"
@@ -1404,10 +1433,6 @@ msgstr "fmw;usb;iso;부팅가능;"
 #~ msgctxt "ImageDetails|"
 #~ msgid "Other variants..."
 #~ msgstr "기타 변형..."
-
-#~ msgctxt "ImageList|"
-#~ msgid "Find an operating system image"
-#~ msgstr "운영 체제 이미지 찾기"
 
 #~ msgctxt "ImageList|"
 #~ msgid "Checking for new releases"
