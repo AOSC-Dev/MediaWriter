@@ -115,7 +115,7 @@ Page {
             id: messageRestore
             visible: currentStatus === Units.DownloadStatus.Write_Verifying ||
                      currentStatus === Units.DownloadStatus.Writing
-            text: qsTr("Your drive will be resized to a smaller capacity. You may resize it back to normal later with this Wizard. This will remove the system media from your portable drive.")
+            text: qsTr("Your portable drive will be resized to a smaller capacity. You may resize it back to normal later with this Wizard. This will remove the system media from your portable drive.")
             width: infoColumn.width
             wrapMode: QQC2.Label.Wrap
         }

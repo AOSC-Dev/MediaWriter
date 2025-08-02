@@ -75,7 +75,7 @@ Page {
         visible: lastRestoreable.restoreStatus == Units.RestoreStatus.Restore_Error
         Layout.alignment: Qt.AlignHCenter
         Layout.fillWidth: true
-        text: qsTr("An error occured while attemptinmg to restore your portable drive. Please try restoring the drive using your system tools.")
+        text: qsTr("An error occured while attempting to restore your portable drive. Please try restoring the drive using your system tools.")
         wrapMode: QQC2.Label.Wrap
     }
     
