@@ -77,7 +77,7 @@ QString DownloadManager::downloadFile(DownloadReceiver *receiver, const QUrl &ur
 
     m_mirrorCache.clear();
     // prepare mirror list (will be handled in onStringDownloaded)
-    constexpr const char* mirrors[] {"https://repo.aosc.io/anthon/aosc-os/", "https://mirrors.cernet.edu.cn/anthon/aosc-os/", "https://repo-hk.aosc.io/anthon/aosc-os/"};
+    constexpr const char* mirrors[] {"https://releases.aosc.io/"};
     for (auto mirror : mirrors) {
         m_mirrorCache << QString(mirror) + url.toString();
     }
