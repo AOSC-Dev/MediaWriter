@@ -26,7 +26,7 @@ Page {
     id: versionPage
     property int prevSource: 0
 
-    text: qsTr("Select AOSC Release")
+    text: qsTr("Select an AOSC OS Release")
 
     QQC2.Label {
         text: qsTr("Select from:")

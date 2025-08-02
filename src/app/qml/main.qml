@@ -78,7 +78,7 @@ ApplicationWindow {
                 when: selectedPage == Units.Page.MainPage
                 PropertyChanges { 
                     target: mainWindow
-                    title: qsTr("AOSC Media Writer") 
+                    title: qsTr("System Media Creator")
                 }
 
                 StateChangeScript {
@@ -97,7 +97,7 @@ ApplicationWindow {
             State {
                 name: "versionLoadPage"
                 when: selectedPage == Units.Page.VersionLoadPage
-                PropertyChanges { target: mainWindow; title: qsTr("Select AOSC Version") }
+                PropertyChanges { target: mainWindow; title: qsTr("Select a System Release") }
                 StateChangeScript {
                     script: {
                         //state was pushing same page when returing from drivePage

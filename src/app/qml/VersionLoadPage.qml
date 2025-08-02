@@ -26,7 +26,7 @@ Page {
     property int prevSource: 0
     nextButtonVisible: false
 
-    text: qsTr("Fetching AOSC Release Data")
+    text: qsTr("Fetching System Release Data")
 
     ColumnLayout {
         id: infoColumn
@@ -43,7 +43,7 @@ Page {
             Layout.alignment: Qt.AlignCenter
 
             id: messageDownload
-            text: qsTr("Please wait while AOSC Media Writer is fetching AOSC OS release information ...")
+            text: qsTr("Fetching AOSC OS release information, please wait…")
             wrapMode: QQC2.Label.Wrap
         }
 

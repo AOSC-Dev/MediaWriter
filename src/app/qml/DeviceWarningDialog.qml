@@ -46,12 +46,12 @@ ApplicationWindow {
         Heading {
             level: 2
             Layout.fillWidth: true
-            text: qsTr("Erase confirmation")
+            text: qsTr("Confirmation")
         }
 
         Label {
             Layout.fillWidth: true
-            text: qsTr("The entire device (all of %1) will be erased and the selected image will be written to it. Do you want to continue?").arg(formatSize(drives.selected.size))
+            text: qsTr("The entire portable drive (all of %1) will be erased and the selected system media will be written to it. Do you want to continue?").arg(formatSize(drives.selected.size))
             wrapMode: Label.Wrap
         }
 

@@ -33,7 +33,7 @@ Page {
         visible: lastRestoreable.restoreStatus == Units.RestoreStatus.Contains_Live
         Layout.alignment: Qt.AlignHCenter
         Layout.fillWidth: true
-        text: qsTr("<p align=\"justify\"> To reclaim all space available on the drive, it has to be restored to its factory settings. The live system and all saved data will be deleted.</p> <p align=\"justify\"> You don't need to restore the drive if you want to write another live system to it.</p> <p align=\"justify\"> Do you want to restore it to factory settings? </p>" )
+        text: qsTr("<p align=\"justify\"> To reclaim all space available on the drive, it has to be reformatted. All data will be removed.</p> <p align=\"justify\"> Would you like to restore your portable drive?</p>" )
         textFormat: Text.RichText
         wrapMode: QQC2.Label.Wrap
     }
@@ -50,7 +50,7 @@ Page {
             Layout.fillWidth: true
             horizontalAlignment: QQC2.Label.AlignHCenter
             wrapMode: QQC2.Label.Wrap
-            text: qsTr("<p align=\"justify\">Please wait while AOSC Media Writer restores your portable drive.</p>")
+            text: qsTr("<p align=\"justify\">Restoring your portable drive, please wait…</p>")
         }
 
         QQC2.ProgressBar {
@@ -66,7 +66,7 @@ Page {
         visible: lastRestoreable.restoreStatus == Units.RestoreStatus.Restored
         Layout.alignment: Qt.AlignHCenter
         Layout.fillWidth: true
-        text: qsTr("Your drive was successfully restored!")
+        text: qsTr("Your portable drive has been successfully restored!")
         wrapMode: QQC2.Label.Wrap
     }
 
@@ -75,7 +75,7 @@ Page {
         visible: lastRestoreable.restoreStatus == Units.RestoreStatus.Restore_Error
         Layout.alignment: Qt.AlignHCenter
         Layout.fillWidth: true
-        text: qsTr("Unfortunately, an error occurred during the process. Please try restoring the drive using your system tools.")
+        text: qsTr("An error occured while attemptinmg to restore your portable drive. Please try restoring the drive using your system tools.")
         wrapMode: QQC2.Label.Wrap
     }
     
@@ -89,7 +89,7 @@ Page {
             when: lastRestoreable.restoreStatus == Units.RestoreStatus.Restored
             PropertyChanges {
                 target: mainWindow;
-                title: qsTr("Restoring finished")
+                title: qsTr("Restoration Complete")
             }
             StateChangeScript {
                 script: drives.lastRestoreable = null

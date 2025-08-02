@@ -116,7 +116,7 @@ Page {
 
     ColumnLayout {
         Heading {
-            text: qsTr("USB Drive")
+            text: qsTr("Portable Drive")
         }
 
         QQC2.ComboBox {
@@ -148,7 +148,7 @@ Page {
         }
 
         QQC2.CheckBox {
-            text: qsTr("Delete download after writing")
+            text: qsTr("Delete downloaded system release after writing")
             onCheckedChanged: mainWindow.eraseVariant = !mainWindow.eraseVariant
         }
     }

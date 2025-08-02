@@ -60,7 +60,7 @@ Page {
             text: {
                 if ((currentStatus == Units.DownloadStatus.Failed_Verification ||
                      currentStatus == Units.DownloadStatus.Failed) && !availableDrives)
-                    qsTr("Your drive was unplugged during the process")
+                    qsTr("Your portable drive was unplugged during the process")
                 else
                     releases.variant.statusString
             }
@@ -88,7 +88,7 @@ Page {
             id: messageDownload
             visible: currentStatus === Units.DownloadStatus.Downloading ||
                      currentStatus === Units.DownloadStatus.Download_Verifying
-            text: qsTr("Downloads are saved to the downloads folder.")
+            text: qsTr("Downloaded system release is saved to the Downloads folder.")
             width: infoColumn.width
             wrapMode: QQC2.Label.Wrap
         }
@@ -98,7 +98,7 @@ Page {
             visible: availableDrives && (currentStatus === Units.DownloadStatus.Failed ||
                                          currentStatus === Units.DownloadStatus.Failed_Verification ||
                                          currentStatus === Units.DownloadStatus.Ready)
-            text: qsTr("By writing, you will lose all of the data on %1.").arg(drives.selected.name)
+            text: qsTr("By writing, you will lose all data on %1.").arg(drives.selected.name)
             width: infoColumn.width
             wrapMode: QQC2.Label.Wrap
         }
@@ -106,7 +106,7 @@ Page {
         QQC2.Label {
             id: messageInsertDrive
             visible: currentStatus === Units.DownloadStatus.Ready && !availableDrives
-            text: qsTr("Please insert an USB drive.")
+            text: qsTr("Please insert a portable drive.")
             width: infoColumn.width
             wrapMode: QQC2.Label.Wrap
         }
@@ -115,7 +115,7 @@ Page {
             id: messageRestore
             visible: currentStatus === Units.DownloadStatus.Write_Verifying ||
                      currentStatus === Units.DownloadStatus.Writing
-            text: qsTr("Your drive will be resized to a smaller capacity. You may resize it back to normal by using AOSC Media Writer. This will remove installation media from your drive.")
+            text: qsTr("Your drive will be resized to a smaller capacity. You may resize it back to normal later with this Wizard. This will remove the system media from your portable drive.")
             width: infoColumn.width
             wrapMode: QQC2.Label.Wrap
         }
@@ -131,7 +131,7 @@ Page {
         QQC2.Label {
             id: messageArmBoard
             visible: false //boardCombo.otherSelected
-            text: qsTr("Your board or device is not supported by AOSC Media Writer yet. Please check <a href=%1>this page</a> for more information about its compatibility with AOSC and how to create bootable media for it.").arg("https://AOSCproject.org/wiki/Architectures/ARM")
+            text: qsTr("Your board or device is not supported by Fedora Media Writer yet. Please check <a href=%1>this page</a> for more information about its compatibility with Fedora and how to create bootable media for it.").arg("https://fedoraproject.org/wiki/Architectures/ARM")
             width: infoColumn.width
             wrapMode: QQC2.Label.Wrap
         }
@@ -142,7 +142,7 @@ Page {
                      currentStatus != Units.DownloadStatus.Write_Verifying &&
                      currentStatus != Units.DownloadStatus.Finished
             visible: enabled && drives.selected && drives.selected.size > 160 * 1024 * 1024 * 1024 // warn when it's more than 160GB
-            text: qsTr("The selected drive's size is %1. It's possible you have selected an external drive by accident!").arg(drives.selected ? drives.selected.readableSize : "N/A")
+            text: qsTr("The selected portable drive's size is %1. It's possible you have selected an external drive by accident!").arg(drives.selected ? drives.selected.readableSize : "N/A")
             width: infoColumn.width
             wrapMode: QQC2.Label.Wrap
         }

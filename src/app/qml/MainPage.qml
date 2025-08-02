@@ -30,14 +30,14 @@ Page {
 
     QQC2.RadioButton {
         checked: selectedOption == Units.MainSelect.Download
-        text: qsTr("Download automatically")
+        text: qsTr("Download and create system media")
         onClicked: {
             selectedOption = Units.MainSelect.Download
         }
     }
 
     QQC2.RadioButton {
-        text: qsTr("Select .iso file")
+        text: qsTr("Create system media from an .iso file")
         onClicked: {
             selectedOption = Units.MainSelect.Write
             releases.selectLocalFile("")
