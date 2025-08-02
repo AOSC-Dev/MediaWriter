@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 13:01+0800\n"
-"PO-Revision-Date: 2025-08-02 05:01+0000\n"
+"PO-Revision-Date: 2025-08-02 05:06+0000\n"
 "Last-Translator: 白铭骢 <jeffbai@aosc.io>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.aosc.io/"
 "projects/mediawriter/ui/zh_Hans/>\n"
@@ -243,15 +243,13 @@ msgid "Please insert a portable drive."
 msgstr "请插入可移动磁盘。"
 
 #: ../src/app/qml/DownloadPage.qml:118
-#, fuzzy
 msgctxt "DownloadPage|"
 msgid ""
 "Your portable drive will be resized to a smaller capacity. You may resize it "
 "back to normal later with this Wizard. This will remove the system media "
 "from your portable drive."
-msgstr ""
-"您的可移动磁盘容量将被缩小。您可以使用本向导恢复容量，但恢复过程中将再次清空"
-"您的可移动磁盘。"
+msgstr "您的可移动磁盘容量将被缩小。您可以使用本向导恢复容量，但恢复过程中将清除您可"
+"移动磁盘上的启动盘数据。"
 
 #: ../src/app/qml/DownloadPage.qml:126
 msgctxt "DownloadPage|"
@@ -572,7 +570,7 @@ msgstr "AOSC 实验室"
 #: ../src/app/releasemanager.cpp:431
 msgctxt "Release|"
 msgid "AOSC Atomic Desktops"
-msgstr ""
+msgstr "AOSC Atomic Desktops"
 
 #: ../src/app/releasemanager.cpp:433
 msgctxt "Release|"
@@ -615,13 +613,11 @@ msgid "Power (64-bit, Little Endian"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
-#, fuzzy
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for Power ISA v2.07 (and above) devices"
-msgstr "用于龙架构 (LoongArch) 的系统镜像"
+msgstr "用于 Power ISA v2.07（或更高）设备的系统镜像"
 
 #: ../src/app/releasemanager.cpp:1070
-#, fuzzy
 msgctxt "ReleaseArchitecture|"
 msgid "RISC-V (64-bit)"
 msgstr "RISC-V（64 位）"
@@ -634,12 +630,12 @@ msgstr "用于 64 位 RISC-V 设备的系统镜像"
 #: ../src/app/releasemanager.cpp:1071
 msgctxt "ReleaseArchitecture|"
 msgid "Loongson 3 (MIPS)"
-msgstr ""
+msgstr "龙芯三号 (MIPS)"
 
 #: ../src/app/releasemanager.cpp:1071
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for MIPS-based Loongson 3 devices"
-msgstr ""
+msgstr "用于基于 MIPS 的龙芯三号设备的系统镜像"
 
 #: ../src/app/releasemanager.cpp:394
 msgctxt "ReleaseListModel|"
@@ -841,12 +837,11 @@ msgid "Your portable drive has been successfully restored!"
 msgstr "已成功恢复您的可移动磁盘！"
 
 #: ../src/app/qml/RestorePage.qml:78
-#, fuzzy
 msgctxt "RestorePage|"
 msgid ""
 "An error occured while attempting to restore your portable drive. Please try "
 "restoring the drive using your system tools."
-msgstr "很不幸，此过程中发生了错误。请使用系统工具重置此驱动器。"
+msgstr "在恢复可移动磁盘的过程中发生错误，请尝试使用系统工具恢复。"
 
 #: ../src/app/qml/RestorePage.qml:92
 msgctxt "RestorePage|"
