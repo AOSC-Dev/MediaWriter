@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 13:06+0800\n"
-"PO-Revision-Date: 2025-08-03 06:23+0000\n"
-"Last-Translator: Mcxiaowei <2321662584@qq.com>\n"
+"PO-Revision-Date: 2025-08-03 09:02+0000\n"
+"Last-Translator: 白铭骢 <jeffbai@aosc.io>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.aosc.io/"
 "projects/mediawriter/ui/zh_Hans/>\n"
 "Language: zh-CN\n"
@@ -80,7 +80,7 @@ msgctxt "CancelDialog|"
 msgid ""
 "Writing process will be aborted and your drive will have to be restored "
 "afterwards."
-msgstr "写入程序将会中止且你的驱动器需要重置。"
+msgstr "写入程序将会中止且您的磁盘将需要重置。"
 
 #: ../src/app/qml/CancelDialog.qml:70
 msgctxt "CancelDialog|"
@@ -279,7 +279,7 @@ msgctxt "DownloadPage|"
 msgid ""
 "The selected portable drive's size is %1. It's possible you have selected an "
 "external drive by accident!"
-msgstr "您选择了一个容量为 %1 的可移动磁盘，您可能不小心选择了一个外部硬盘！"
+msgstr "您选择了可移动磁盘的容量为 %1，您可能不小心选择了一个外部硬盘！"
 
 #: ../src/app/qml/DownloadPage.qml:153
 #, qt-format
@@ -310,7 +310,7 @@ msgstr "重试"
 #: ../src/app/drivemanager.cpp:317
 msgctxt "Drive|"
 msgid "This drive is not large enough."
-msgstr "此驱动器容量不足。"
+msgstr "此磁盘容量不足。"
 
 #: ../src/app/qml/DrivePage.qml:30
 msgctxt "DrivePage|"
@@ -370,7 +370,7 @@ msgstr "下载"
 #: ../src/app/qml/DrivePage.qml:151
 msgctxt "DrivePage|"
 msgid "Delete downloaded system release after writing"
-msgstr "写入完成后，删除先前下载的系统镜像"
+msgstr "在写入完成后删除先前下载的系统镜像"
 
 #: ../src/app/qml/DrivePage.qml:169
 msgctxt "DrivePage|"
@@ -390,7 +390,7 @@ msgstr "下载并写入"
 #: ../src/app/linuxdrivemanager.cpp:199
 msgctxt "LinuxDrive|"
 msgid "The drive was removed while it was written to."
-msgstr "此驱动器在写入过程中被移除。"
+msgstr "磁盘在写入过程中被移除。"
 
 #: ../src/app/linuxdrivemanager.cpp:224
 msgctxt "LinuxDrive|"
@@ -400,7 +400,7 @@ msgstr "找不到 helper 二进制文件，请检查是否已安装。"
 #: ../src/app/linuxdrivemanager.cpp:259
 msgctxt "LinuxDrive|"
 msgid "Stopped before writing has finished."
-msgstr "在写入完成前已被停止。"
+msgstr "在写入完成前被停止。"
 
 #: ../src/app/linuxdrivemanager.cpp:327
 msgctxt "LinuxDrive|"
@@ -546,7 +546,7 @@ msgstr "%1 字节"
 #: ../src/app/releasemanager.cpp:395
 msgctxt "Release|"
 msgid "Pick a file from your drive(s)"
-msgstr "从驱动器中选择一个文件"
+msgstr "从磁盘中选择一个文件"
 
 #: ../src/app/releasemanager.cpp:396
 msgctxt "Release|"
@@ -554,8 +554,7 @@ msgid ""
 "<p>Here you can choose a OS image from your hard drive to be written to your "
 "flash disk</p><p>Currently it is only supported to write raw disk images "
 "(.iso or .bin)</p>"
-msgstr ""
-"<p>在这里你可以从硬盘上选择一个想要写入优盘的操作系统镜像</p><p>当前只支持写"
+msgstr "<p>在这里你可以从硬盘上选中要写入可移动磁盘的操作系统镜像</p><p>目前仅支持写"
 "入原始磁盘镜像（.iso 或 .bin 文件）</p>"
 
 #: ../src/app/releasemanager.cpp:427
@@ -681,7 +680,7 @@ msgstr "写入准备就绪"
 #: ../src/app/releasemanager.h:384
 msgctxt "ReleaseVariant|"
 msgid "Image file was saved to your downloads folder. Writing is not possible"
-msgstr "镜像文件已经保存到下载文件夹。无法写入"
+msgstr "镜像文件已保存到“下载”文件夹。无法写入"
 
 #: ../src/app/releasemanager.h:385
 msgctxt "ReleaseVariant|"
@@ -815,7 +814,7 @@ msgstr "无法将分区格式化为 exFAT"
 #, qt-format
 msgctxt "RestorePage|"
 msgid "Restore Drive <b>%1</b>"
-msgstr "重置驱动器 <b>%1</b>"
+msgstr "重置磁盘 <b>%1</b>"
 
 #: ../src/app/qml/RestorePage.qml:36
 msgctxt "RestorePage|"
@@ -824,8 +823,9 @@ msgid ""
 "be reformatted. All data will be removed.</p> <p align=\"justify\"> Would "
 "you like to restore your portable drive?</p>"
 msgstr ""
-"<p align=\"justify\"> 要恢复磁盘容量，本向导需要重新格式化该磁盘并将移除所有"
-"数据。</p><p align=\"justify\">您确认要恢复该可移动磁盘吗？</p>"
+"<p align=\"justify\"> "
+"要恢复磁盘容量，本向导需要重新格式化该磁盘。所有数据都将被删除。</p><p align="
+"\"justify\">您确定要恢复该可移动磁盘吗？</p>"
 
 #: ../src/app/qml/RestorePage.qml:53
 msgctxt "RestorePage|"
@@ -944,7 +944,7 @@ msgstr "源文件不可读"
 #: ../src/helper/win/writejob.cpp:538
 msgctxt "WriteJob|"
 msgid "Your drive is probably damaged."
-msgstr "您的驱动器可能已被损坏。"
+msgstr "您的磁盘可能存在故障。"
 
 #: ../src/helper/linux/writejob.cpp:208 ../src/helper/mac/writejob.cpp:309
 #: ../src/helper/win/writejob.cpp:543
@@ -1006,7 +1006,7 @@ msgstr "无法分配缓冲区"
 #: ../src/helper/win/writejob.cpp:473
 msgctxt "WriteJob|"
 msgid "The last block was not fully written"
-msgstr "最后一个块未成功完成写入"
+msgstr "最后一个块未完全写入"
 
 #: ../src/helper/win/writejob.cpp:466
 #, qt-format
@@ -1044,7 +1044,7 @@ msgstr "请选择系统镜像"
 #: ../src/app/qml/main.qml:114
 msgctxt "main|"
 msgid "Select Drive"
-msgstr "选择驱动器"
+msgstr "选择磁盘"
 
 #: ../src/app/qml/main.qml:139
 msgctxt "main|"
@@ -1090,19 +1090,19 @@ msgid ""
 "Labs (Design Suite, Security Lab,...). It provides basic information about "
 "each of them to help you make the right choice."
 msgstr ""
-"一个为各种 AOSC 版本制作可启动 Live USB 设备的工具。AOSC Media Writer 不仅能"
-"将镜像写入优盘中，还能为你下载镜像。它提供官方版（Server、Workstation）、"
-"AOSC 定制版（KDE Plasma 桌面、Xfce 桌面、Cinnamon 桌面等）以及 AOSC 实验室"
-"（设计套件、安全实验室等）。它还提供各版本的基本信息来帮助你做选择。"
+"一个为各种 AOSC 版本制作可启动 Live USB 设备的工具。AOSC Media Writer "
+"不仅能将镜像写入到可移动磁盘中，还能为你下载镜像。它提供官方版（Server、Works"
+"tation）、AOSC 定制版（KDE Plasma 桌面、Xfce 桌面、Cinnamon 桌面等）以及 "
+"AOSC "
+"实验室版（设计套件、安全实验室等）。它还提供各版本的基本信息来帮助你做选择。"
 
 #. (itstool) path: description/p
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:13
 msgid ""
 "AOSC Media Writer can also write other bootable ISOs loaded from your local "
 "disk, but keep in mind that it's only tested with AOSC images."
-msgstr ""
-"AOSC Media Writer 也可以从你本地磁盘载入可启动的 ISO 文件，但请注意这个工具只"
-"测试过 AOSC 镜像。"
+msgstr "启动盘制作向导也可以从您的本地磁盘加载其他的可启动的 ISO 文件，"
+"但请注意这个工具只测试过安同 OS 镜像。"
 
 #. (itstool) path: keywords/keyword
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:16
@@ -1184,7 +1184,7 @@ msgstr "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
 
 #: ../src/app/data/io.aosc.MediaWriter.desktop:45
 msgid "Write AOSC images to your portable drives"
-msgstr "将 AOSC 镜像写入到可移动驱动器中"
+msgstr "将安同 OS 镜像写入到可移动磁盘中"
 
 #: ../src/app/data/io.aosc.MediaWriter.desktop:92
 msgid "fmw;usb;iso;bootable;"
