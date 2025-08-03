@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-02 13:06+0800\n"
-"PO-Revision-Date: 2025-08-03 09:06+0000\n"
+"PO-Revision-Date: 2025-08-03 09:08+0000\n"
 "Last-Translator: 白铭骢 <jeffbai@aosc.io>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.aosc.io/"
 "projects/mediawriter/ui/zh_Hans/>\n"
@@ -1073,7 +1073,7 @@ msgstr "CC0-1.0"
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
 #: ../src/app/data/io.aosc.MediaWriter.desktop:3
 msgid "AOSC Media Writer"
-msgstr "AOSC Media Writer"
+msgstr "AOSC 启动盘制作向导"
 
 #. (itstool) path: component/summary
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:10
@@ -1188,7 +1188,7 @@ msgstr "将安同 OS 镜像写入到可移动磁盘中"
 
 #: ../src/app/data/io.aosc.MediaWriter.desktop:92
 msgid "fmw;usb;iso;bootable;"
-msgstr "fmw;usb;iso;bootable;"
+msgstr "fmw;usb;iso;bootable;启动盘;"
 
 #~ msgctxt "ReleaseArchitecture|"
 #~ msgid "Intel/AMD 32bit"
