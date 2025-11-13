@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 13:06+0800\n"
+"POT-Creation-Date: 2025-11-13 18:53+0800\n"
 "PO-Revision-Date: 2024-03-14 10:56+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.AOSCproject.org/projects/AOSC-media-"
@@ -617,10 +617,8 @@ msgstr "64-bitowe firmy Intel/AMD"
 
 #: ../src/app/releasemanager.cpp:1066
 msgctxt "ReleaseArchitecture|"
-msgid "ISO format image for Intel, AMD and other compatible PCs (64-bit)"
+msgid "System releases for x86-64 (AMD64 or Intel 64) compatible devices"
 msgstr ""
-"Obraz płyty formatu ISO dla komputerów zgodnych z procesorami firmy Intel, "
-"AMD i innymi (64-bitowymi)"
 
 #: ../src/app/releasemanager.cpp:1067
 msgctxt "ReleaseArchitecture|"
@@ -629,8 +627,8 @@ msgstr "AArch64"
 
 #: ../src/app/releasemanager.cpp:1067
 msgctxt "ReleaseArchitecture|"
-msgid "LZMA-compressed raw image for AArch64 machines"
-msgstr "Surowy obraz skompresowany za pomocą LZMA dla komputerów AArch64"
+msgid "System releases for AArch64 (Armv8-A or above) machines"
+msgstr ""
 
 #: ../src/app/releasemanager.cpp:1068
 msgctxt "ReleaseArchitecture|"
@@ -639,7 +637,9 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1068
 msgctxt "ReleaseArchitecture|"
-msgid "System releases for LoongArch devices"
+msgid ""
+"System releases for 64-bit LoongArch devices with support for 128-bit vector "
+"instructions (LSX)"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
@@ -649,7 +649,8 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
-msgid "System releases for Power ISA v2.07 (and above) devices"
+msgid ""
+"System releases for little endian, 64-bit Power ISA v2.07 (and above) devices"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1070
@@ -659,7 +660,7 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1070
 msgctxt "ReleaseArchitecture|"
-msgid "System releases for 64-bit RISC-V devices"
+msgid "System releases for 64-bit RISC-V (RVA20 or above) devices"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1071
@@ -670,6 +671,16 @@ msgstr ""
 #: ../src/app/releasemanager.cpp:1071
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for MIPS-based Loongson 3 devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1072
+msgctxt "ReleaseArchitecture|"
+msgid "x86 (32-bit)"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1072
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for x86 (32-bit, Intel486 or above) devices"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:394
@@ -1135,10 +1146,8 @@ msgstr ""
 msgid "CC0-1.0"
 msgstr ""
 
-#. #-#-#-#-#  appstream.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: component/name
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
-#: ../src/app/data/io.aosc.MediaWriter.desktop:3
 msgid "AOSC Media Writer"
 msgstr "AOSC Media Writer"
 
@@ -1248,13 +1257,31 @@ msgstr ""
 msgid "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
 msgstr ""
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:45
-msgid "Write AOSC images to your portable drives"
-msgstr "Zapisywanie obrazów Fedory na dyskach USB"
+#: ../src/app/data/io.aosc.MediaWriter.desktop:3
+#, fuzzy
+msgid "System Media Writer"
+msgstr "AOSC Media Writer"
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:92
+#: ../src/app/data/io.aosc.MediaWriter.desktop:4
+msgid "Utility to create AOSC OS (and other) system installation media"
+msgstr ""
+
+#: ../src/app/data/io.aosc.MediaWriter.desktop:9
 msgid "fmw;usb;iso;bootable;"
 msgstr "fmw;usb;iso;bootable;uruchamianie;zapisywanie;nośnik;media;live;"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "ISO format image for Intel, AMD and other compatible PCs (64-bit)"
+#~ msgstr ""
+#~ "Obraz płyty formatu ISO dla komputerów zgodnych z procesorami firmy "
+#~ "Intel, AMD i innymi (64-bitowymi)"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "LZMA-compressed raw image for AArch64 machines"
+#~ msgstr "Surowy obraz skompresowany za pomocą LZMA dla komputerów AArch64"
+
+#~ msgid "Write AOSC images to your portable drives"
+#~ msgstr "Zapisywanie obrazów Fedory na dyskach USB"
 
 #~ msgctxt "ReleaseArchitecture|"
 #~ msgid "Intel/AMD 32bit"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 13:06+0800\n"
+"POT-Creation-Date: 2025-11-13 18:53+0800\n"
 "PO-Revision-Date: 2021-07-11 17:14+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Kannada <https://translate.AOSCproject.org/projects/AOSC-"
@@ -571,7 +571,7 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1066
 msgctxt "ReleaseArchitecture|"
-msgid "ISO format image for Intel, AMD and other compatible PCs (64-bit)"
+msgid "System releases for x86-64 (AMD64 or Intel 64) compatible devices"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1067
@@ -581,7 +581,7 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1067
 msgctxt "ReleaseArchitecture|"
-msgid "LZMA-compressed raw image for AArch64 machines"
+msgid "System releases for AArch64 (Armv8-A or above) machines"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1068
@@ -591,7 +591,9 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1068
 msgctxt "ReleaseArchitecture|"
-msgid "System releases for LoongArch devices"
+msgid ""
+"System releases for 64-bit LoongArch devices with support for 128-bit vector "
+"instructions (LSX)"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
@@ -601,7 +603,8 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
-msgid "System releases for Power ISA v2.07 (and above) devices"
+msgid ""
+"System releases for little endian, 64-bit Power ISA v2.07 (and above) devices"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1070
@@ -611,7 +614,7 @@ msgstr ""
 
 #: ../src/app/releasemanager.cpp:1070
 msgctxt "ReleaseArchitecture|"
-msgid "System releases for 64-bit RISC-V devices"
+msgid "System releases for 64-bit RISC-V (RVA20 or above) devices"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:1071
@@ -622,6 +625,16 @@ msgstr ""
 #: ../src/app/releasemanager.cpp:1071
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for MIPS-based Loongson 3 devices"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1072
+msgctxt "ReleaseArchitecture|"
+msgid "x86 (32-bit)"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1072
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for x86 (32-bit, Intel486 or above) devices"
 msgstr ""
 
 #: ../src/app/releasemanager.cpp:394
@@ -1052,10 +1065,8 @@ msgstr ""
 msgid "CC0-1.0"
 msgstr ""
 
-#. #-#-#-#-#  appstream.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: component/name
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
-#: ../src/app/data/io.aosc.MediaWriter.desktop:3
 msgid "AOSC Media Writer"
 msgstr "ಫೆಡೋರ ಮಾಧ್ಯಮ"
 
@@ -1156,11 +1167,16 @@ msgstr ""
 msgid "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
 msgstr ""
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:45
-msgid "Write AOSC images to your portable drives"
+#: ../src/app/data/io.aosc.MediaWriter.desktop:3
+#, fuzzy
+msgid "System Media Writer"
+msgstr "ಫೆಡೋರ ಮಾಧ್ಯಮ"
+
+#: ../src/app/data/io.aosc.MediaWriter.desktop:4
+msgid "Utility to create AOSC OS (and other) system installation media"
 msgstr ""
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:92
+#: ../src/app/data/io.aosc.MediaWriter.desktop:9
 msgid "fmw;usb;iso;bootable;"
 msgstr ""
 

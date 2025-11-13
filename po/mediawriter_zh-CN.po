@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 13:06+0800\n"
+"POT-Creation-Date: 2025-11-13 18:53+0800\n"
 "PO-Revision-Date: 2025-08-03 09:08+0000\n"
 "Last-Translator: 白铭骢 <jeffbai@aosc.io>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.aosc.io/"
@@ -554,7 +554,8 @@ msgid ""
 "<p>Here you can choose a OS image from your hard drive to be written to your "
 "flash disk</p><p>Currently it is only supported to write raw disk images "
 "(.iso or .bin)</p>"
-msgstr "<p>在这里你可以从硬盘上选中要写入可移动磁盘的操作系统镜像</p><p>目前仅支持写"
+msgstr ""
+"<p>在这里你可以从硬盘上选中要写入可移动磁盘的操作系统镜像</p><p>目前仅支持写"
 "入原始磁盘镜像（.iso 或 .bin 文件）</p>"
 
 #: ../src/app/releasemanager.cpp:427
@@ -583,9 +584,10 @@ msgid "Intel/AMD 64bit"
 msgstr "Intel/AMD 64 位"
 
 #: ../src/app/releasemanager.cpp:1066
+#, fuzzy
 msgctxt "ReleaseArchitecture|"
-msgid "ISO format image for Intel, AMD and other compatible PCs (64-bit)"
-msgstr "适用于 Intel、AMD 和其他兼容 PC（64 位）的 ISO 格式的镜像"
+msgid "System releases for x86-64 (AMD64 or Intel 64) compatible devices"
+msgstr "用于 Power ISA v2.07（或更高）设备的系统镜像"
 
 #: ../src/app/releasemanager.cpp:1067
 msgctxt "ReleaseArchitecture|"
@@ -593,9 +595,10 @@ msgid "AArch64"
 msgstr "AArch64"
 
 #: ../src/app/releasemanager.cpp:1067
+#, fuzzy
 msgctxt "ReleaseArchitecture|"
-msgid "LZMA-compressed raw image for AArch64 machines"
-msgstr "适用于 AArch64 架构的 LZMA 压缩 raw 镜像"
+msgid "System releases for AArch64 (Armv8-A or above) machines"
+msgstr "用于 Power ISA v2.07（或更高）设备的系统镜像"
 
 #: ../src/app/releasemanager.cpp:1068
 msgctxt "ReleaseArchitecture|"
@@ -604,8 +607,10 @@ msgstr "龙架构 (LoongArch)"
 
 #: ../src/app/releasemanager.cpp:1068
 msgctxt "ReleaseArchitecture|"
-msgid "System releases for LoongArch devices"
-msgstr "用于龙架构 (LoongArch) 的系统镜像"
+msgid ""
+"System releases for 64-bit LoongArch devices with support for 128-bit vector "
+"instructions (LSX)"
+msgstr ""
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
@@ -613,8 +618,10 @@ msgid "Power (64-bit, Little Endian)"
 msgstr "Power（64 位，小端序）"
 
 #: ../src/app/releasemanager.cpp:1069
+#, fuzzy
 msgctxt "ReleaseArchitecture|"
-msgid "System releases for Power ISA v2.07 (and above) devices"
+msgid ""
+"System releases for little endian, 64-bit Power ISA v2.07 (and above) devices"
 msgstr "用于 Power ISA v2.07（或更高）设备的系统镜像"
 
 #: ../src/app/releasemanager.cpp:1070
@@ -623,8 +630,9 @@ msgid "RISC-V (64-bit)"
 msgstr "RISC-V（64 位）"
 
 #: ../src/app/releasemanager.cpp:1070
+#, fuzzy
 msgctxt "ReleaseArchitecture|"
-msgid "System releases for 64-bit RISC-V devices"
+msgid "System releases for 64-bit RISC-V (RVA20 or above) devices"
 msgstr "用于 64 位 RISC-V 设备的系统镜像"
 
 #: ../src/app/releasemanager.cpp:1071
@@ -636,6 +644,17 @@ msgstr "龙芯三号 (MIPS)"
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for MIPS-based Loongson 3 devices"
 msgstr "用于基于 MIPS 的龙芯三号设备的系统镜像"
+
+#: ../src/app/releasemanager.cpp:1072
+msgctxt "ReleaseArchitecture|"
+msgid "x86 (32-bit)"
+msgstr ""
+
+#: ../src/app/releasemanager.cpp:1072
+#, fuzzy
+msgctxt "ReleaseArchitecture|"
+msgid "System releases for x86 (32-bit, Intel486 or above) devices"
+msgstr "用于 64 位 RISC-V 设备的系统镜像"
 
 #: ../src/app/releasemanager.cpp:394
 msgctxt "ReleaseListModel|"
@@ -823,9 +842,8 @@ msgid ""
 "be reformatted. All data will be removed.</p> <p align=\"justify\"> Would "
 "you like to restore your portable drive?</p>"
 msgstr ""
-"<p align=\"justify\"> "
-"要恢复磁盘容量，本向导需要重新格式化该磁盘。所有数据都将被删除。</p><p align="
-"\"justify\">您确定要恢复该可移动磁盘吗？</p>"
+"<p align=\"justify\"> 要恢复磁盘容量，本向导需要重新格式化该磁盘。所有数据都"
+"将被删除。</p><p align=\"justify\">您确定要恢复该可移动磁盘吗？</p>"
 
 #: ../src/app/qml/RestorePage.qml:53
 msgctxt "RestorePage|"
@@ -1068,10 +1086,8 @@ msgstr "GPL-2.0+"
 msgid "CC0-1.0"
 msgstr "CC0-1.0"
 
-#. #-#-#-#-#  appstream.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: component/name
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
-#: ../src/app/data/io.aosc.MediaWriter.desktop:3
 msgid "AOSC Media Writer"
 msgstr "AOSC 启动盘制作向导"
 
@@ -1090,19 +1106,20 @@ msgid ""
 "Labs (Design Suite, Security Lab,...). It provides basic information about "
 "each of them to help you make the right choice."
 msgstr ""
-"一个为各种 AOSC 版本制作可启动 Live USB 设备的工具。AOSC Media Writer "
-"不仅能将镜像写入到可移动磁盘中，还能为你下载镜像。它提供官方版（Server、Works"
-"tation）、AOSC 定制版（KDE Plasma 桌面、Xfce 桌面、Cinnamon 桌面等）以及 "
-"AOSC "
-"实验室版（设计套件、安全实验室等）。它还提供各版本的基本信息来帮助你做选择。"
+"一个为各种 AOSC 版本制作可启动 Live USB 设备的工具。AOSC Media Writer 不仅能"
+"将镜像写入到可移动磁盘中，还能为你下载镜像。它提供官方版（Server、"
+"Workstation）、AOSC 定制版（KDE Plasma 桌面、Xfce 桌面、Cinnamon 桌面等）以"
+"及 AOSC 实验室版（设计套件、安全实验室等）。它还提供各版本的基本信息来帮助你"
+"做选择。"
 
 #. (itstool) path: description/p
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:13
 msgid ""
 "AOSC Media Writer can also write other bootable ISOs loaded from your local "
 "disk, but keep in mind that it's only tested with AOSC images."
-msgstr "启动盘制作向导也可以从您的本地磁盘加载其他的可启动的 ISO 文件，"
-"但请注意这个工具只测试过安同 OS 镜像。"
+msgstr ""
+"启动盘制作向导也可以从您的本地磁盘加载其他的可启动的 ISO 文件，但请注意这个工"
+"具只测试过安同 OS 镜像。"
 
 #. (itstool) path: keywords/keyword
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:16
@@ -1182,13 +1199,33 @@ msgstr "jgrulich@redhat.com"
 msgid "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
 msgstr "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:45
-msgid "Write AOSC images to your portable drives"
-msgstr "将安同 OS 镜像写入到可移动磁盘中"
+#: ../src/app/data/io.aosc.MediaWriter.desktop:3
+#, fuzzy
+msgid "System Media Writer"
+msgstr "启动盘制作向导"
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:92
+#: ../src/app/data/io.aosc.MediaWriter.desktop:4
+msgid "Utility to create AOSC OS (and other) system installation media"
+msgstr ""
+
+#: ../src/app/data/io.aosc.MediaWriter.desktop:9
 msgid "fmw;usb;iso;bootable;"
 msgstr "fmw;usb;iso;bootable;启动盘;"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "ISO format image for Intel, AMD and other compatible PCs (64-bit)"
+#~ msgstr "适用于 Intel、AMD 和其他兼容 PC（64 位）的 ISO 格式的镜像"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "LZMA-compressed raw image for AArch64 machines"
+#~ msgstr "适用于 AArch64 架构的 LZMA 压缩 raw 镜像"
+
+#~ msgctxt "ReleaseArchitecture|"
+#~ msgid "System releases for LoongArch devices"
+#~ msgstr "用于龙架构 (LoongArch) 的系统镜像"
+
+#~ msgid "Write AOSC images to your portable drives"
+#~ msgstr "将安同 OS 镜像写入到可移动磁盘中"
 
 #~ msgctxt "ReleaseArchitecture|"
 #~ msgid "Intel/AMD 32bit"

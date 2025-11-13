@@ -14,7 +14,7 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "#-#-#-#-#  appstream.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-13 18:47+0800\n"
+"POT-Creation-Date: 2025-11-13 18:53+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "#-#-#-#-#  desktop.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-02 13:18+0800\n"
+"POT-Creation-Date: 2025-11-13 18:52+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1080,10 +1080,8 @@ msgstr ""
 msgid "CC0-1.0"
 msgstr ""
 
-#. #-#-#-#-#  appstream.pot (PACKAGE VERSION)  #-#-#-#-#
 #. (itstool) path: component/name
 #: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
-#: ../src/app/data/io.aosc.MediaWriter.desktop:3
 msgid "AOSC Media Writer"
 msgstr ""
 
@@ -1184,10 +1182,14 @@ msgstr ""
 msgid "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
 msgstr ""
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:44
-msgid "Write AOSC images to your portable drives"
+#: ../src/app/data/io.aosc.MediaWriter.desktop:3
+msgid "System Media Writer"
 msgstr ""
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:90
+#: ../src/app/data/io.aosc.MediaWriter.desktop:4
+msgid "Utility to create AOSC OS (and other) system installation media"
+msgstr ""
+
+#: ../src/app/data/io.aosc.MediaWriter.desktop:9
 msgid "fmw;usb;iso;bootable;"
 msgstr ""
