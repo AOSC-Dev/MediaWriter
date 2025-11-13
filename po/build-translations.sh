@@ -15,17 +15,6 @@ for i in `ls mediawriter_*.po`; do
 done
 echo -e '\t</qresource>\n</RCC>' >> ../src/translations/translations.qrc
 
-####### Appstream metadata
-for i in `ls mediawriter_*.po`; do
-    echo $i
-    LANGCODE=$(sed 's/mediawriter_\([^.]*\).po/\1/' <<< "$i")
-    msgfmt $i -o "${LANGCODE}.mo"
-done
-
-itstool -i as-metainfo.its -j ../src/app/data/io.aosc.MediaWriter.appdata.xml.in -o ../src/app/data/io.aosc.MediaWriter.appdata.xml *.mo
-
-rm -f *.mo
-
 ####### Desktop file
 mkdir -p desktop-file
 cp -r *.po desktop-file

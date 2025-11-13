@@ -12,19 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
-"#-#-#-#-#  appstream.pot (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-13 18:53+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "#-#-#-#-#  desktop.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-13 18:52+0800\n"
+"POT-Creation-Date: 2025-11-13 19:01+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1063,133 +1054,14 @@ msgctxt "main|"
 msgid "Restore"
 msgstr ""
 
-#. (itstool) path: component/id
-#. (itstool) path: component/launchable
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:5
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:6
-msgid "io.aosc.MediaWriter.desktop"
-msgstr ""
-
-#. (itstool) path: component/project_license
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:7
-msgid "GPL-2.0+"
-msgstr ""
-
-#. (itstool) path: component/metadata_license
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:8
-msgid "CC0-1.0"
-msgstr ""
-
-#. (itstool) path: component/name
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:9
-msgid "AOSC Media Writer"
-msgstr ""
-
-#. (itstool) path: component/summary
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:10
-msgid "A tool to create a live USB drive with an edition of AOSC"
-msgstr ""
-
-#. (itstool) path: description/p
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:12
-msgid ""
-"A tool to create a bootable live USB drive with an edition of AOSC. Not only "
-"can AOSC Media Writer write an image to your flash drive, it can also "
-"download it for you. It offers official editions (Server, Workstation), AOSC "
-"spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and AOSC "
-"Labs (Design Suite, Security Lab,...). It provides basic information about "
-"each of them to help you make the right choice."
-msgstr ""
-
-#. (itstool) path: description/p
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:13
-msgid ""
-"AOSC Media Writer can also write other bootable ISOs loaded from your local "
-"disk, but keep in mind that it's only tested with AOSC images."
-msgstr ""
-
-#. (itstool) path: keywords/keyword
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:16
-msgid "iso"
-msgstr ""
-
-#. (itstool) path: keywords/keyword
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:17
-msgid "aosc"
-msgstr ""
-
-#. (itstool) path: keywords/keyword
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:18
-msgid "usb"
-msgstr ""
-
-#. (itstool) path: keywords/keyword
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:19
-msgid "writer"
-msgstr ""
-
-#. (itstool) path: keywords/keyword
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:20
-msgid "live"
-msgstr ""
-
-#. (itstool) path: keywords/keyword
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:21
-msgid "spin"
-msgstr ""
-
-#. (itstool) path: keywords/keyword
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:22
-msgid "creator"
-msgstr ""
-
-#. (itstool) path: keywords/keyword
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:23
-msgid "media"
-msgstr ""
-
-#. (itstool) path: component/url
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:25
-msgid "https://github.com/AOSC-Dev/MediaWriter"
-msgstr ""
-
-#. (itstool) path: screenshot/image
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:27
-msgid ""
-"https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/"
-"linux_main.png"
-msgstr ""
-
-#. (itstool) path: screenshot/image
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:28
-msgid ""
-"https://github.com/AOSC-Dev/MediaWriter/raw/main/dist/screenshots/"
-"linux_select_release.png"
-msgstr ""
-
-#. (itstool) path: component/developer_name
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:30
-msgid "Jan Grulich"
-msgstr ""
-
-#. (itstool) path: component/update_contact
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:31
-msgid "jgrulich@redhat.com"
-msgstr ""
-
-#. (itstool) path: release/url
-#: ../src/app/data/io.aosc.MediaWriter.appdata.xml.in:35
-msgid "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
-msgstr ""
-
 #: ../src/app/data/io.aosc.MediaWriter.desktop:3
 msgid "System Media Writer"
 msgstr ""
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:4
+#: ../src/app/data/io.aosc.MediaWriter.desktop:5
 msgid "Utility to create AOSC OS (and other) system installation media"
 msgstr ""
 
-#: ../src/app/data/io.aosc.MediaWriter.desktop:9
+#: ../src/app/data/io.aosc.MediaWriter.desktop:11
 msgid "fmw;usb;iso;bootable;"
 msgstr ""
