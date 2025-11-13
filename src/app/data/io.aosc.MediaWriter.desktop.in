@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
-_Name=AOSC Media Writer
-_Comment=Write AOSC images to your portable drives
+_Name=System Media Writer
+_Comment=Utility to create AOSC OS (and other) system installation media
 Icon=io.aosc.MediaWriter
 Exec=mediawriter
 Terminal=false
