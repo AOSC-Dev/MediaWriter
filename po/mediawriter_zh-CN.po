@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-13 18:53+0800\n"
-"PO-Revision-Date: 2025-08-03 09:08+0000\n"
+"PO-Revision-Date: 2025-11-13 11:00+0000\n"
 "Last-Translator: 白铭骢 <jeffbai@aosc.io>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.aosc.io/"
 "projects/mediawriter/ui/zh_Hans/>\n"
@@ -584,10 +584,9 @@ msgid "Intel/AMD 64bit"
 msgstr "Intel/AMD 64 位"
 
 #: ../src/app/releasemanager.cpp:1066
-#, fuzzy
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for x86-64 (AMD64 or Intel 64) compatible devices"
-msgstr "用于 Power ISA v2.07（或更高）设备的系统镜像"
+msgstr "用于兼容 x86-64 设备（AMD64 或 Intel 64）的系统镜像"
 
 #: ../src/app/releasemanager.cpp:1067
 msgctxt "ReleaseArchitecture|"
@@ -595,10 +594,9 @@ msgid "AArch64"
 msgstr "AArch64"
 
 #: ../src/app/releasemanager.cpp:1067
-#, fuzzy
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for AArch64 (Armv8-A or above) machines"
-msgstr "用于 Power ISA v2.07（或更高）设备的系统镜像"
+msgstr "用于兼容 Armv8-A 及以上版本的 64 位 Arm 设备的系统镜像"
 
 #: ../src/app/releasemanager.cpp:1068
 msgctxt "ReleaseArchitecture|"
@@ -610,7 +608,8 @@ msgctxt "ReleaseArchitecture|"
 msgid ""
 "System releases for 64-bit LoongArch devices with support for 128-bit vector "
 "instructions (LSX)"
-msgstr ""
+msgstr "用于兼容龙架构 (LoongArch) 指令集及 128 位向量扩展 (LSX) 的 64 "
+"位设备的系统镜像"
 
 #: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
@@ -618,11 +617,10 @@ msgid "Power (64-bit, Little Endian)"
 msgstr "Power（64 位，小端序）"
 
 #: ../src/app/releasemanager.cpp:1069
-#, fuzzy
 msgctxt "ReleaseArchitecture|"
 msgid ""
 "System releases for little endian, 64-bit Power ISA v2.07 (and above) devices"
-msgstr "用于 Power ISA v2.07（或更高）设备的系统镜像"
+msgstr "用于 64 位、小端序 Power ISA v2.07（或更高）设备的系统镜像"
 
 #: ../src/app/releasemanager.cpp:1070
 msgctxt "ReleaseArchitecture|"
@@ -630,10 +628,9 @@ msgid "RISC-V (64-bit)"
 msgstr "RISC-V（64 位）"
 
 #: ../src/app/releasemanager.cpp:1070
-#, fuzzy
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for 64-bit RISC-V (RVA20 or above) devices"
-msgstr "用于 64 位 RISC-V 设备的系统镜像"
+msgstr "用于 64 位 RISC-V 设备（兼容 RVA20 或更高）的系统镜像"
 
 #: ../src/app/releasemanager.cpp:1071
 msgctxt "ReleaseArchitecture|"
@@ -648,13 +645,12 @@ msgstr "用于基于 MIPS 的龙芯三号设备的系统镜像"
 #: ../src/app/releasemanager.cpp:1072
 msgctxt "ReleaseArchitecture|"
 msgid "x86 (32-bit)"
-msgstr ""
+msgstr "x86（32 位）"
 
 #: ../src/app/releasemanager.cpp:1072
-#, fuzzy
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for x86 (32-bit, Intel486 or above) devices"
-msgstr "用于 64 位 RISC-V 设备的系统镜像"
+msgstr "用于 x86（32 位，Intel486 或更高）设备的系统镜像"
 
 #: ../src/app/releasemanager.cpp:394
 msgctxt "ReleaseListModel|"
@@ -1200,13 +1196,12 @@ msgid "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
 msgstr "https://github.com/AOSC-Dev/MediaWriter/releases/tag/5.2.5"
 
 #: ../src/app/data/io.aosc.MediaWriter.desktop:3
-#, fuzzy
 msgid "System Media Writer"
 msgstr "启动盘制作向导"
 
 #: ../src/app/data/io.aosc.MediaWriter.desktop:4
 msgid "Utility to create AOSC OS (and other) system installation media"
-msgstr ""
+msgstr "用于创建 AOSC OS 及其他系统启动盘的实用工具"
 
 #: ../src/app/data/io.aosc.MediaWriter.desktop:9
 msgid "fmw;usb;iso;bootable;"
