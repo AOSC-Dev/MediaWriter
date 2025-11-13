@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-13 18:53+0800\n"
-"PO-Revision-Date: 2025-11-13 11:22+0000\n"
+"PO-Revision-Date: 2025-11-13 11:29+0000\n"
 "Last-Translator: 白铭骢 <jeffbai@aosc.io>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.aosc.io/"
 "projects/mediawriter/ui/zh_Hans/>\n"
@@ -285,7 +285,7 @@ msgstr "您选择了可移动磁盘的容量为 %1，您可能不小心选择了
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Restart and boot from %1 to start using %2."
-msgstr "重启并从 %1 引导，开始使用 %2。"
+msgstr "重启并从 %1 引导，即可开始使用 %2。"
 
 #: ../src/app/qml/DownloadPage.qml:222 ../src/app/qml/DownloadPage.qml:253
 msgctxt "DownloadPage|"
