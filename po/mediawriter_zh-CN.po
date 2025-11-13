@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-13 18:53+0800\n"
-"PO-Revision-Date: 2025-11-13 11:00+0000\n"
+"PO-Revision-Date: 2025-11-13 11:22+0000\n"
 "Last-Translator: 白铭骢 <jeffbai@aosc.io>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.aosc.io/"
 "projects/mediawriter/ui/zh_Hans/>\n"
@@ -195,7 +195,7 @@ msgstr "已成功写入 %1"
 #, qt-format
 msgctxt "DownloadPage|"
 msgid "Writing %1"
-msgstr "写入中 %1"
+msgstr "正在写入 %1"
 
 #: ../src/app/qml/DownloadPage.qml:40
 #, qt-format
