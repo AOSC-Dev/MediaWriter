@@ -1063,12 +1063,13 @@ void ReleaseVariant::setErrorString(const QString &o)
 }
 
 ReleaseArchitecture ReleaseArchitecture::m_all[] = {
-    {{"amd64", "x86_64"}, QT_TR_NOOP("Intel/AMD 64bit"), QT_TR_NOOP("ISO format image for Intel, AMD and other compatible PCs (64-bit)")},
-    {{"arm64", "aarch64"}, QT_TR_NOOP("AArch64"), QT_TR_NOOP("LZMA-compressed raw image for AArch64 machines")},
-    {{"loongarch64"}, QT_TR_NOOP("LoongArch"), QT_TR_NOOP("System releases for LoongArch devices")},
-    {{"ppc64el"}, QT_TR_NOOP("Power (64-bit, Little Endian)"), QT_TR_NOOP("System releases for Power ISA v2.07 (and above) devices")},
-    {{"riscv64"}, QT_TR_NOOP("RISC-V (64-bit)"), QT_TR_NOOP("System releases for 64-bit RISC-V devices")},
+    {{"amd64", "x86_64"}, QT_TR_NOOP("Intel/AMD 64bit"), QT_TR_NOOP("System releases for x86-64 (AMD64 or Intel 64) compatible devices")},
+    {{"arm64", "aarch64"}, QT_TR_NOOP("AArch64"), QT_TR_NOOP("System releases for AArch64 (Armv8-A or above) machines")},
+    {{"loongarch64"}, QT_TR_NOOP("LoongArch"), QT_TR_NOOP("System releases for 64-bit LoongArch devices with support for 128-bit vector instructions (LSX)")},
+    {{"ppc64el"}, QT_TR_NOOP("Power (64-bit, Little Endian)"), QT_TR_NOOP("System releases for little endian, 64-bit Power ISA v2.07 (and above) devices")},
+    {{"riscv64"}, QT_TR_NOOP("RISC-V (64-bit)"), QT_TR_NOOP("System releases for 64-bit RISC-V (RVA20 or above) devices")},
     {{"loongson3"}, QT_TR_NOOP("Loongson 3 (MIPS)"), QT_TR_NOOP("System releases for MIPS-based Loongson 3 devices")},
+    {{"i486"}, QT_TR_NOOP("x86 (32-bit)"), QT_TR_NOOP("System releases for x86 (32-bit, Intel486 or above) devices")},
 };
 
 ReleaseArchitecture::ReleaseArchitecture(const QStringList &abbreviation, const char *description, const char *details)
