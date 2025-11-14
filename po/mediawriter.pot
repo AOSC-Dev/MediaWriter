@@ -15,7 +15,7 @@ msgstr ""
 "#-#-#-#-#  desktop.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-13 19:01+0800\n"
+"POT-Creation-Date: 2025-11-13 19:03+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -537,12 +537,12 @@ msgctxt "QFileSystemModel|"
 msgid "%1 byte(s)"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:395
+#: ../src/app/releasemanager.cpp:398
 msgctxt "Release|"
 msgid "Pick a file from your drive(s)"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:396
+#: ../src/app/releasemanager.cpp:399
 msgctxt "Release|"
 msgid ""
 "<p>Here you can choose a OS image from your hard drive to be written to your "
@@ -550,115 +550,115 @@ msgid ""
 "(.iso or .bin)</p>"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:427
+#: ../src/app/releasemanager.cpp:430
 msgctxt "Release|"
 msgid "AOSC Spins"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:429
+#: ../src/app/releasemanager.cpp:432
 msgctxt "Release|"
 msgid "AOSC Labs"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:431
+#: ../src/app/releasemanager.cpp:434
 msgctxt "Release|"
 msgid "AOSC Atomic Desktops"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:433
+#: ../src/app/releasemanager.cpp:436
 msgctxt "Release|"
 msgid "Other"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1066
+#: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
 msgid "Intel/AMD 64bit"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1066
+#: ../src/app/releasemanager.cpp:1069
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for x86-64 (AMD64 or Intel 64) compatible devices"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1067
+#: ../src/app/releasemanager.cpp:1070
 msgctxt "ReleaseArchitecture|"
 msgid "AArch64"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1067
+#: ../src/app/releasemanager.cpp:1070
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for AArch64 (Armv8-A or above) machines"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1068
+#: ../src/app/releasemanager.cpp:1071
 msgctxt "ReleaseArchitecture|"
 msgid "LoongArch"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1068
+#: ../src/app/releasemanager.cpp:1071
 msgctxt "ReleaseArchitecture|"
 msgid ""
 "System releases for 64-bit LoongArch devices with support for 128-bit vector "
 "instructions (LSX)"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1069
+#: ../src/app/releasemanager.cpp:1072
 msgctxt "ReleaseArchitecture|"
 msgid "Power (64-bit, Little Endian)"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1069
+#: ../src/app/releasemanager.cpp:1072
 msgctxt "ReleaseArchitecture|"
 msgid ""
 "System releases for little endian, 64-bit Power ISA v2.07 (and above) devices"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1070
+#: ../src/app/releasemanager.cpp:1073
 msgctxt "ReleaseArchitecture|"
 msgid "RISC-V (64-bit)"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1070
+#: ../src/app/releasemanager.cpp:1073
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for 64-bit RISC-V (RVA20 or above) devices"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1071
+#: ../src/app/releasemanager.cpp:1074
 msgctxt "ReleaseArchitecture|"
 msgid "Loongson 3 (MIPS)"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1071
+#: ../src/app/releasemanager.cpp:1074
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for MIPS-based Loongson 3 devices"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1072
+#: ../src/app/releasemanager.cpp:1075
 msgctxt "ReleaseArchitecture|"
 msgid "x86 (32-bit)"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:1072
+#: ../src/app/releasemanager.cpp:1075
 msgctxt "ReleaseArchitecture|"
 msgid "System releases for x86 (32-bit, Intel486 or above) devices"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:394
+#: ../src/app/releasemanager.cpp:397
 msgctxt "ReleaseListModel|"
 msgid "Custom image"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:925 ../src/app/releasemanager.cpp:937
+#: ../src/app/releasemanager.cpp:928 ../src/app/releasemanager.cpp:940
 msgctxt "ReleaseVariant|"
 msgid "The downloaded image is corrupted"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:941
+#: ../src/app/releasemanager.cpp:944
 msgctxt "ReleaseVariant|"
 msgid "The downloaded file is not readable."
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:952
+#: ../src/app/releasemanager.cpp:955
 msgctxt "ReleaseVariant|"
 msgid "Unable to rename the temporary file."
 msgstr ""
@@ -718,19 +718,19 @@ msgctxt "ReleaseVariant|"
 msgid "Error"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:698
+#: ../src/app/releasemanager.cpp:701
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Alpha"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:700
+#: ../src/app/releasemanager.cpp:703
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Beta"
 msgstr ""
 
-#: ../src/app/releasemanager.cpp:702
+#: ../src/app/releasemanager.cpp:705
 #, qt-format
 msgctxt "ReleaseVersion|"
 msgid "%1 Release Candidate"

@@ -525,32 +525,32 @@
 <context>
     <name>Release</name>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="395"/>
+        <location filename="../src/app/releasemanager.cpp" line="398"/>
         <source>Pick a file from your drive(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="396"/>
+        <location filename="../src/app/releasemanager.cpp" line="399"/>
         <source>&lt;p&gt;Here you can choose a OS image from your hard drive to be written to your flash disk&lt;/p&gt;&lt;p&gt;Currently it is only supported to write raw disk images (.iso or .bin)&lt;/p&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="427"/>
+        <location filename="../src/app/releasemanager.cpp" line="430"/>
         <source>AOSC Spins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="429"/>
+        <location filename="../src/app/releasemanager.cpp" line="432"/>
         <source>AOSC Labs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="431"/>
+        <location filename="../src/app/releasemanager.cpp" line="434"/>
         <source>AOSC Atomic Desktops</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="433"/>
+        <location filename="../src/app/releasemanager.cpp" line="436"/>
         <source>Other</source>
         <translation type="unfinished"></translation>
     </message>
@@ -558,72 +558,72 @@
 <context>
     <name>ReleaseArchitecture</name>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1066"/>
+        <location filename="../src/app/releasemanager.cpp" line="1069"/>
         <source>Intel/AMD 64bit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1066"/>
+        <location filename="../src/app/releasemanager.cpp" line="1069"/>
         <source>System releases for x86-64 (AMD64 or Intel 64) compatible devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1067"/>
+        <location filename="../src/app/releasemanager.cpp" line="1070"/>
         <source>AArch64</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1067"/>
+        <location filename="../src/app/releasemanager.cpp" line="1070"/>
         <source>System releases for AArch64 (Armv8-A or above) machines</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1068"/>
+        <location filename="../src/app/releasemanager.cpp" line="1071"/>
         <source>LoongArch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1068"/>
+        <location filename="../src/app/releasemanager.cpp" line="1071"/>
         <source>System releases for 64-bit LoongArch devices with support for 128-bit vector instructions (LSX)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1069"/>
+        <location filename="../src/app/releasemanager.cpp" line="1072"/>
         <source>Power (64-bit, Little Endian)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1069"/>
+        <location filename="../src/app/releasemanager.cpp" line="1072"/>
         <source>System releases for little endian, 64-bit Power ISA v2.07 (and above) devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1070"/>
+        <location filename="../src/app/releasemanager.cpp" line="1073"/>
         <source>RISC-V (64-bit)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1070"/>
+        <location filename="../src/app/releasemanager.cpp" line="1073"/>
         <source>System releases for 64-bit RISC-V (RVA20 or above) devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1071"/>
+        <location filename="../src/app/releasemanager.cpp" line="1074"/>
         <source>Loongson 3 (MIPS)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1071"/>
+        <location filename="../src/app/releasemanager.cpp" line="1074"/>
         <source>System releases for MIPS-based Loongson 3 devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1072"/>
+        <location filename="../src/app/releasemanager.cpp" line="1075"/>
         <source>x86 (32-bit)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="1072"/>
+        <location filename="../src/app/releasemanager.cpp" line="1075"/>
         <source>System releases for x86 (32-bit, Intel486 or above) devices</source>
         <translation type="unfinished"></translation>
     </message>
@@ -631,7 +631,7 @@
 <context>
     <name>ReleaseListModel</name>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="394"/>
+        <location filename="../src/app/releasemanager.cpp" line="397"/>
         <source>Custom image</source>
         <translation type="unfinished"></translation>
     </message>
@@ -639,18 +639,18 @@
 <context>
     <name>ReleaseVariant</name>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="925"/>
-        <location filename="../src/app/releasemanager.cpp" line="937"/>
+        <location filename="../src/app/releasemanager.cpp" line="928"/>
+        <location filename="../src/app/releasemanager.cpp" line="940"/>
         <source>The downloaded image is corrupted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="941"/>
+        <location filename="../src/app/releasemanager.cpp" line="944"/>
         <source>The downloaded file is not readable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="952"/>
+        <location filename="../src/app/releasemanager.cpp" line="955"/>
         <source>Unable to rename the temporary file.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -713,17 +713,17 @@
 <context>
     <name>ReleaseVersion</name>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="698"/>
+        <location filename="../src/app/releasemanager.cpp" line="701"/>
         <source>%1 Alpha</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="700"/>
+        <location filename="../src/app/releasemanager.cpp" line="703"/>
         <source>%1 Beta</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/app/releasemanager.cpp" line="702"/>
+        <location filename="../src/app/releasemanager.cpp" line="705"/>
         <source>%1 Release Candidate</source>
         <translation type="unfinished"></translation>
     </message>
