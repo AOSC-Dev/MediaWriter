@@ -24,10 +24,13 @@ pushd desktop-file
 for i in `ls mediawriter_*.po`; do
     echo $i
     LANGCODE=$(sed 's/mediawriter_\([^.]*\).po/\1/' <<< "$i")
-    mv "$i" "$LANGCODE.po"
+    LANGCODE="${LANGCODE//-/_}"
+    mv -v "$i" "$LANGCODE.po"
 done
 
-intltool-merge -d . ../../src/app/data/io.aosc.MediaWriter.desktop.in ../../src/app/data/io.aosc.MediaWriter.desktop
+intltool-merge \
+    -d . ../../src/app/data/io.aosc.MediaWriter.desktop.in \
+    ../../src/app/data/io.aosc.MediaWriter.desktop
 popd
 
 rm -rf desktop-file
