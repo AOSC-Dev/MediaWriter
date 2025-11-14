@@ -273,7 +273,7 @@ void ReleaseManager::onStringDownloaded(const QString &text)
         QString arch = obj["arch"].toString().toLower();
         QString url = obj["path"].toString();
         QString category = QString();
-        QString release = QStringLiteral("livekit");
+        QString release = QStringLiteral("installer");
         QString versionWithStatus = obj["date"].toString().toLower();
         QString sha256 = obj["sha256sum"].toString();
         QString type = "live";
@@ -281,6 +281,9 @@ void ReleaseManager::onStringDownloaded(const QString &text)
         int64_t size = obj["downloadSize"].toString().toLongLong();
         int version = versionWithStatus.toInt();
         QString status = QString();
+
+        if (!url.contains("installer/"))
+            continue;
 
         mDebug() << this->metaObject()->className() << "Adding" << release << versionWithStatus << arch;
 
