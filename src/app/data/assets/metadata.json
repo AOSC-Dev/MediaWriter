@@ -1,9 +1,9 @@
 [
     {
-        "subvariant": "livekit",
+        "subvariant": "installer",
         "category": "product",
-        "name": "AOSC OS LiveKit",
-        "summary": "AOSC OS LiveKit",
+        "name": "AOSC OS",
+        "summary": "AOSC OS",
         "icon": "qrc:/logos/server",
         "screenshots": ["https://aosc.io/assets/aosc-os/aosc-os.zh-cn.jpg"],
         "description": [" "]
