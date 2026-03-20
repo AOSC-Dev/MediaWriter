@@ -64,7 +64,6 @@ Page {
             running: true
             onTriggered: {
                 releases.selectedIndex = Units.Source.Product
-                console.log("beingUpdated =", releases.beingUpdated);
                 if (!releases.beingUpdated && isUpdated()) {
                     selectedPage = Units.Page.DrivePage
                 } else if (!releases.beingUpdated && !isUpdated()) {
@@ -78,7 +77,7 @@ Page {
 
 
     function isUpdated() {
-        return releases.size() > 1;
+        return releases.size() > 0;
     }
 
     onPreviousButtonClicked: selectedPage -= 1
